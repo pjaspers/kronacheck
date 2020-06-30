@@ -4,18 +4,20 @@ require "time"
 START_DATE = Time.parse("2020-06-01").to_date
 
 CITIES = [
+  "Aartselaar",
   "Leuven",
   "Hamont-Achel",
   "Kortrijk",
   "De Panne",
   "Herentals",
   "Antwerpen",
+  "Edegem",
+  "Kontich",
+  "Luik",
+  "Mortsel",
   "Balen",
   "Heist-op-den-Berg",
-  "Hasselt",
-  "Estaimpuis",
-  "Gent",
-  "Brussel"
+  "Pelt"
 ].freeze
 
   # "Luik",
