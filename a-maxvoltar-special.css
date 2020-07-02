@@ -130,6 +130,11 @@ table tr:not(:first-child):not(:last-child) td:last-child {
 table tr:not(:first-child):not(:last-child) td:not(:first-child) {
   -webkit-font-feature-settings: "tnum";
           font-feature-settings: "tnum";
+  background-color: rgba(255, 0, 0, 0.1);
+}
+
+table tr:not(:first-child):not(:last-child) td.no-cases {
+  background-color: rgba(0, 128, 0, 0.1);
 }
 
 table tr:last-child td {
@@ -156,3 +161,4 @@ table tr:last-child td:not(:first-child) {
   -webkit-font-feature-settings: "tnum";
           font-feature-settings: "tnum";
 }
+/*# sourceMappingURL=a-maxvoltar-special.css.map */
