@@ -36,6 +36,7 @@ table= ->(title, &block) do
   io.puts("# #{title}")
   io.puts("")
   block.call(io)
+  io.puts("")
   io.rewind
   puts io.read
 end
@@ -161,7 +162,7 @@ r = table.("Cities") do |io|
         cell.("*#{delta}*?", options)
       end
     end
-    fj = joiner.(fr)
+    fr = joiner.(fr)
     if city == TOTAL_KEY
       io.puts row_divider.(header.length)
       city = "Les Belges"
@@ -169,6 +170,7 @@ r = table.("Cities") do |io|
     io.puts row.(cell.(city, length: 20), fr, cell.(data.last[2], length: 6)) #.gsub("|", index.even? ? "|": " ")
   end
 end
+
 if @write_html
   basename = ["result"]
   basename << "all" unless @limit_cities
@@ -190,6 +192,7 @@ if @write_html
 </html>
 HTML
   File.open(filename, "w") {|f| f.puts html }
+  puts "Wrote #{filename}"
 end
 
 prs = provinces.inject({}) do |result, (province, value)|
@@ -205,25 +208,27 @@ prs = provinces.inject({}) do |result, (province, value)|
   result
 end
 
-puts ""
-puts ""
-
 fd = dates.collect {|d| cell.(d.strftime("%a %d"), length: 6)}
-header = "%20s |%s| %6s" % [ "Province", fd.join("|"), "Total"]
-puts header
-puts "-" * header.length
-prs.sort_by{|(pr,data)| data.last[2]}.reverse_each do |province, data|
-  fr = data.collect do |(date, delta, total)|
-    if delta > 0
-      "%6d" % delta
-    elsif delta == 0
-      "%6s" % ""
-    else
-      "%6s" % "*#{delta}*?"
+header = row.(hcell.("Province", length: 20), joiner.(fd), hcell.("Total", length: 6))
+r = table.("Provinces") do |io|
+  io.puts header
+  io.puts row_divider.(header.length)
+  prs.sort_by{|(pr,data)| data.last[2]}.reverse_each do |province, data|
+    fr = data.collect do |(date, delta, total)|
+      options = {length: 6}
+
+      if delta > 0
+        cell.(delta, options)
+      elsif delta == 0
+        cell.("", options)
+      else
+        cell.("*#{delta}*?", options)
+      end
     end
-  end.join("|")
-  name = province.gsub("Provincie ", "")
-  puts "%20s |%s| %6s" % [ name, fr, data.last[2]]
+    fr = joiner.(fr)
+    name = province.gsub("Provincie ", "")
+    io.puts row.(cell.(name, length: 20), fr, cell.(data.last[2], length: 6))
+  end
 end
 
 crs = citiesd.inject([]) do |result, (city, value)|
@@ -241,7 +246,7 @@ crs = citiesd.inject([]) do |result, (city, value)|
 
 end.sort_by{|(c,d,t)| d}.reverse
 
-crs.first(25).each.with_index(1) do |(c,(date,delta,total)), i|
+crs.first(10).each.with_index(1) do |(c,(date,delta,total)), i|
   s = "% 2d. %20s => % 3d" % [i,c,delta]
   puts s
 rescue
