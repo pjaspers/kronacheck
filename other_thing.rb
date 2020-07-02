@@ -40,23 +40,23 @@ table= ->(title, &block) do
   io.rewind
   puts io.read
 end
+list = ->(options = {}, &block) do
+  io = StringIO.new
+  io.puts("")
+  block.call(io)
+  io.puts("")
+  io.rewind
+  puts io.read
+end
+list_item = ->(s, options = {}) { s}
 cell = ->(s, options = {}) { "%#{options.fetch(:length, "")}s"  % s}
 hcell = ->(s, options = {}) { "%#{options.fetch(:length, "")}s" % s}
 row = ->(*cols) { cols.join("|") }
 joiner = ->(j) { j.join("|") }
 row_divider = ->(length) { row.("-" * length)}
 
-if true || ARGV.include?("--write-html")
+if ARGV.include?("--write-html")
   @write_html = true
-  table= ->(title, &block) do
-    io = StringIO.new
-    io.puts("<h2>#{title}</h2>")
-    io.puts("<table>")
-    block.call(io)
-    io.puts("</table>")
-    io.rewind
-    io.read
-  end
   tag = ->(name, content, options = {}) do
     name = String(name)
     start = name
@@ -68,6 +68,24 @@ if true || ARGV.include?("--write-html")
 </#{name}>
 HTML
   end
+  table= ->(title, &block) do
+    io = StringIO.new
+    io.puts("<h2>#{title}</h2>")
+    io.puts("<table>")
+    block.call(io)
+    io.puts("</table>")
+    io.rewind
+    io.read
+  end
+  list = ->(options = {}, &block) do
+    io = StringIO.new
+    io.puts "<ul>"
+    block.call(io)
+    io.puts("</ul>")
+    io.rewind
+    io.read
+  end
+  list_item = ->(s, options = {}) { tag.(:li, s, options)}
 
   cell = ->(s, options = {}) { tag.(:td, s, options) }
   hcell = ->(s, options = {}) { tag.(:th, s, options) }
@@ -246,10 +264,9 @@ crs = citiesd.inject([]) do |result, (city, value)|
 
 end.sort_by{|(c,d,t)| d}.reverse
 
-crs.first(10).each.with_index(1) do |(c,(date,delta,total)), i|
-  s = "% 2d. %20s => % 3d" % [i,c,delta]
-  puts s
-rescue
-  binding.irb
-  exit
+list.() do |io|
+  crs.first(10).each.with_index(1) do |(c,(date,delta,total)), i|
+    s = "% 2d. %20s => % 3d" % [i,c,delta]
+    io.puts list_item.(s)
+  end
 end
