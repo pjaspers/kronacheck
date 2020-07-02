@@ -11,6 +11,7 @@ CITIES = [
   "De Panne",
   "Herentals",
   "Antwerpen",
+  "Peer",
   "Edegem",
   "Kontich",
   "Luik",
