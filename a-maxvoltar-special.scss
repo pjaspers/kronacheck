@@ -16,7 +16,7 @@ $black: black;
   --c-background: #fff;
   --c-sec-background: #eee;
   --c-main: #333;
-  --c-secondary: #666;
+  --c-secondary: #555;
 
   --unit: 8px;
 
@@ -107,7 +107,6 @@ table {
       top: 0;
       left: 0;
       z-index: 2;
-      color: var(--c-main);
       background-color: var(--c-sec-background);
       box-shadow: 0 1px 0 transparentize($black, .95), 0 2px 0 transparentize($black, .95);
 
@@ -119,6 +118,7 @@ table {
         left: 0;
         z-index: 3;
         font-weight: 900;
+        color: var(--c-main);
         text-align: left;
       }
 
@@ -135,22 +135,28 @@ table {
     &:not(:last-child) {
       td {
         border-top: 1px solid var(--c-sec-background);
-        border-left: 1px solid var(--c-sec-background);
+        border-right: 1px solid var(--c-sec-background);
 
         &:first-child {
           position: sticky;
           left: 0;
-          color: var(--c-main);
           background-color: var(--c-sec-background);
           max-width: 33.33vw;
           overflow: hidden;
           text-overflow: ellipsis;
           text-align: left;
+          border-right: none;
+          box-shadow: 1px 0 0 transparentize($black, .95), 2px 0 0 transparentize($black, .95);
+
+          @include dark-mode() {
+            box-shadow: 1px 0 0 transparentize($black, .85), 2px 0 0 transparentize($black, .85);
+          }
         }
 
         &:last-child {
           font-weight: 900;
           color: var(--c-main);
+          border-right: none;
         }
 
         &:not(:first-child) {
@@ -177,7 +183,6 @@ table {
       position: sticky;
       bottom: 0;
       z-index: 2;
-      color: var(--c-main);
       background-color: var(--c-sec-background);
       box-shadow: 0 -1px 0 transparentize($black, .95), 0 -2px 0 transparentize($black, .95);
 
@@ -190,10 +195,12 @@ table {
         z-index: 3;
         font-weight: 900;
         text-align: left;
+        color: var(--c-main);
       }
 
       &:last-child {
         font-weight: 900;
+        color: var(--c-main);
         color: var(--c-main);
       }
 
