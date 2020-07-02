@@ -29,6 +29,42 @@ CITIES = [
   # "Anderlecht",
   # "Charleroi",
   # "Gent"
+@limit_cities = true
+table= ->(title, &block) do
+  io = StringIO.new
+  io.puts("# #{title}")
+  io.puts("")
+  block.call(io)
+  io.rewind
+  puts io.read
+end
+cell = ->(s, length) { length ? "%#{length}s" % s : "%s"}
+hcell = ->(s, length) { length ? "%#{length}s" % s : "%s"}
+row = ->(*cols) { cols.join("|") }
+joiner = ->(j) { j.join("|") }
+row_divider = ->(length) { row.("-" * length)}
+
+if ARGV.include?("--write-html")
+  @write_html = true
+  table= ->(title, &block) do
+    io = StringIO.new
+    io.puts("<h2>#{title}</h2>")
+    io.puts("<table>")
+    block.call(io)
+    io.puts("</table>")
+    io.rewind
+    io.read
+  end
+  cell = ->(s, length) { "<td>#{s}</td>" }
+  hcell = ->(s, length) { "<th>#{s}</th>" }
+  row = ->(*cols) { "<tr>%s</tr>" % cols.join(" ") }
+  row_divider = ->(length) { row.([]) }
+  joiner = ->(j) { j }
+end
+
+if ARGV.include?("--all")
+  @limit_cities = false
+end
 
 dates = START_DATE..Time.now.to_date
 dates.each do |date|
@@ -56,7 +92,7 @@ Dir.glob("COVID19BE_CASES_MUNI_CUM*.csv").sort.each do |name|
            nil
          end
 
-  CSV.foreach(name, headers: true, encoding: "ISO-8859-1:UTF-8") do |row|
+  CSV.foreach(name, headers: true, encoding: "UTF-8:UTF-8") do |row|
     city = row["TX_DESCR_NL"]
     cases = row["CASES"].to_i
     total_cases += cases
@@ -69,7 +105,7 @@ Dir.glob("COVID19BE_CASES_MUNI_CUM*.csv").sort.each do |name|
     citiesd[city] ||= {}
     citiesd[city][date] ||= 0
     citiesd[city][date] += cases
-    next unless cities.include? city
+    next unless (@limit_cities && cities.include?(city))
     data[city] ||= []
     data[city] << [date, row["CASES"]]
   end
@@ -79,7 +115,7 @@ rescue CSV::MalformedCSVError
   puts "#{name} kan het niet aan"
 end
 
-results = (CITIES + ["xTotal"]).inject({}) do |result, city|
+results = (data.keys + ["xTotal"]).inject({}) do |result, city|
   if arr = data[city]
     first, *rest = arr.sort_by(&:first).last(10)
     prev = first.last.to_i
@@ -93,39 +129,10 @@ results = (CITIES + ["xTotal"]).inject({}) do |result, city|
   result
 end
 
-table= ->(title, &block) do
-  io = StringIO.new
-  io.puts("# #{title}")
-  io.puts("")
-  block.call(io)
-  io.rewind
-  puts io.read
-end
-cell = ->(s, length) { length ? "%#{length}s" % s : "%s"}
-hcell = ->(s, length) { length ? "%#{length}s" % s : "%s"}
-row = ->(*cols) { cols.join("|") }
-joiner = ->(j) { j.join("|") }
-row_divider = ->(length) { row.("-" * length)}
-
-table= ->(title, &block) do
-  io = StringIO.new
-  io.puts("<h2>#{title}</h2>")
-  io.puts("<table>")
-  block.call(io)
-  io.puts("</table>")
-  io.rewind
-  puts io.read
-end
-cell = ->(s, length) { "<td>#{s}</td>" }
-hcell = ->(s, length) { "<th>#{s}</th>" }
-row = ->(*cols) { "<tr>%s</tr>" % cols.join(" ") }
-row_divider = ->(length) { row.([]) }
-joiner = ->(j) { j }
-
 dates = results[CITIES.first].collect(&:first)
 fd = dates.collect {|d| hcell.(d.strftime("%a %d"),6)}
 header = row.(hcell.("City", 20), joiner.(fd), hcell.("All Time",6))
-table.("Cities") do |io|
+r = table.("Cities") do |io|
   io.puts header
   io.puts row_divider.(header.length)
   results.sort_by{|(i,j)| i}.each.with_index do |(city, data), index|
@@ -145,6 +152,22 @@ table.("Cities") do |io|
     end
     io.puts row.(cell.(city, 20), fr, cell.(data.last[2],6)) #.gsub("|", index.even? ? "|": " ")
   end
+end
+if @write_html
+  css = File.read("a-maxvoltar-special.css")
+  html = <<~HTML
+<html>
+  <head>
+    <style>
+      #{css}
+    </style>
+  </head>
+  <body>
+    #{r}
+  </body>
+</html>
+HTML
+  File.open("result.html", "w") {|f| f.puts html }
 end
 
 prs = provinces.inject({}) do |result, (province, value)|
