@@ -3,6 +3,7 @@ use Rack::Static,
   :root => "public"
 
 
+use Rack::Static, :urls => { "/a-maxvoltar-special.css" => "a-maxvoltar-special.css" }
 use Rack::Static, :urls => {"/" => 'result-0702.html'}
 use Rack::Static, :urls => {"/all" => 'result-all-0702.html'}
 

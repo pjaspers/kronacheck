@@ -195,15 +195,12 @@ if @write_html
   basename << "all" unless @limit_cities
   basename << "%02d%02d" % [Date.today.month, Date.today.day]
   filename = "#{basename.join("-")}.html"
-  css = File.read("a-maxvoltar-special.css")
   html = <<~HTML
 <html>
   <head>
     <title>Krona on #{Date.today.strftime("%d-%m-%Y")}</title>
     <meta name="viewport" content="user-scalable=no, initial-scale=1">
-    <style>
-      #{css}
-    </style>
+    <link rel="stylesheet" href="a-maxvoltar-special.css">
   </head>
   <body>
     #{r}
