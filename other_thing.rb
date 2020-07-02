@@ -61,7 +61,7 @@ if ARGV.include?("--write-html")
     name = String(name)
     start = name
     css_classes = (Array(options[:class]) || []).compact
-    start = "#{tag} class='#{css_classes.join(" ")}'" if css_classes.any?
+    start = "#{name} class='#{css_classes.join(" ")}'" if css_classes.any?
     <<~HTML
 <#{start}>
   #{content}
@@ -175,6 +175,7 @@ r = table.("Cities") do |io|
       if delta > 0
         cell.(delta, options)
       elsif delta == 0
+        options[:class] = [options[:class], "no-cases"].compact.join(" ")
         cell.("", options)
       else
         cell.("*#{delta}*?", options)
