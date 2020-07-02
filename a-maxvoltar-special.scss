@@ -8,6 +8,10 @@
 
 // VARS
 
+$red: red;
+$green: green;
+$black: black;
+
 :root {
   --c-background: #fff;
   --c-sec-background: #eee;
@@ -19,8 +23,8 @@
   @include dark-mode() {
     --c-background: #333;
     --c-sec-background: #222;
-    --c-main: #ccc;
-    --c-secondary: #999;
+    --c-main: #eee;
+    --c-secondary: #ccc;
   }
 }
 
@@ -105,15 +109,21 @@ table {
       z-index: 2;
       color: var(--c-main);
       background-color: var(--c-sec-background);
+      box-shadow: 0 1px 0 transparentize($black, .95), 0 2px 0 transparentize($black, .95);
+
+      @include dark-mode() {
+        box-shadow: 0 1px 0 transparentize($black, .85), 0 2px 0 transparentize($black, .85);
+      }
 
       &:first-child {
         left: 0;
         z-index: 3;
-        font-weight: bold;
+        font-weight: 900;
+        text-align: left;
       }
 
       &:last-child {
-        font-weight: bold;
+        font-weight: 900;
         color: var(--c-main);
       }
     }
@@ -135,20 +145,26 @@ table {
           max-width: 33.33vw;
           overflow: hidden;
           text-overflow: ellipsis;
+          text-align: left;
         }
 
         &:last-child {
-          font-weight: bold;
+          font-weight: 900;
           color: var(--c-main);
         }
 
         &:not(:first-child) {
           font-feature-settings: "tnum";
-          background-color: transparentize(red, .9);
+          background-color: transparentize($red, .9);
+          color: $red;
+
+          @include dark-mode() {
+            color: lighten(red, 25%);
+          }
         }
 
         &.no-cases {
-          background-color: transparentize(green, .9);
+          background-color: transparentize($green, .9);
         }
       }
     }
@@ -163,15 +179,21 @@ table {
       z-index: 2;
       color: var(--c-main);
       background-color: var(--c-sec-background);
+      box-shadow: 0 -1px 0 transparentize($black, .95), 0 -2px 0 transparentize($black, .95);
+
+      @include dark-mode() {
+        box-shadow: 0 -1px 0 transparentize($black, .85), 0 -2px 0 transparentize($black, .85);
+      }
       
       &:first-child {
         left: 0;
         z-index: 3;
-        font-weight: bold;
+        font-weight: 900;
+        text-align: left;
       }
 
       &:last-child {
-        font-weight: bold;
+        font-weight: 900;
         color: var(--c-main);
       }
 

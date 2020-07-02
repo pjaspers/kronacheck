@@ -10,8 +10,8 @@
   :root {
     --c-background: #333;
     --c-sec-background: #222;
-    --c-main: #ccc;
-    --c-secondary: #999;
+    --c-main: #eee;
+    --c-secondary: #ccc;
   }
 }
 
@@ -93,16 +93,26 @@ table tr:first-child th {
   z-index: 2;
   color: var(--c-main);
   background-color: var(--c-sec-background);
+  -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05), 0 2px 0 rgba(0, 0, 0, 0.05);
+          box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05), 0 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+@media (prefers-color-scheme: dark) {
+  table tr:first-child th {
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15), 0 2px 0 rgba(0, 0, 0, 0.15);
+            box-shadow: 0 1px 0 rgba(0, 0, 0, 0.15), 0 2px 0 rgba(0, 0, 0, 0.15);
+  }
 }
 
 table tr:first-child th:first-child {
   left: 0;
   z-index: 3;
-  font-weight: bold;
+  font-weight: 900;
+  text-align: left;
 }
 
 table tr:first-child th:last-child {
-  font-weight: bold;
+  font-weight: 900;
   color: var(--c-main);
 }
 
@@ -120,10 +130,11 @@ table tr:not(:first-child):not(:last-child) td:first-child {
   max-width: 33.33vw;
   overflow: hidden;
   text-overflow: ellipsis;
+  text-align: left;
 }
 
 table tr:not(:first-child):not(:last-child) td:last-child {
-  font-weight: bold;
+  font-weight: 900;
   color: var(--c-main);
 }
 
@@ -131,6 +142,13 @@ table tr:not(:first-child):not(:last-child) td:not(:first-child) {
   -webkit-font-feature-settings: "tnum";
           font-feature-settings: "tnum";
   background-color: rgba(255, 0, 0, 0.1);
+  color: red;
+}
+
+@media (prefers-color-scheme: dark) {
+  table tr:not(:first-child):not(:last-child) td:not(:first-child) {
+    color: #ff8080;
+  }
 }
 
 table tr:not(:first-child):not(:last-child) td.no-cases {
@@ -144,16 +162,26 @@ table tr:last-child td {
   z-index: 2;
   color: var(--c-main);
   background-color: var(--c-sec-background);
+  -webkit-box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.05), 0 -2px 0 rgba(0, 0, 0, 0.05);
+          box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.05), 0 -2px 0 rgba(0, 0, 0, 0.05);
+}
+
+@media (prefers-color-scheme: dark) {
+  table tr:last-child td {
+    -webkit-box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15), 0 -2px 0 rgba(0, 0, 0, 0.15);
+            box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15), 0 -2px 0 rgba(0, 0, 0, 0.15);
+  }
 }
 
 table tr:last-child td:first-child {
   left: 0;
   z-index: 3;
-  font-weight: bold;
+  font-weight: 900;
+  text-align: left;
 }
 
 table tr:last-child td:last-child {
-  font-weight: bold;
+  font-weight: 900;
   color: var(--c-main);
 }
 
