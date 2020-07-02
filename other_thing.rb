@@ -19,7 +19,9 @@ CITIES = [
   "Balen",
   "Heist-op-den-Berg",
   "Pelt",
-  "Veurne"
+  "Veurne",
+  "Kampenhout",
+  "Olen"
 ].freeze
 
   # "Luik",
@@ -90,26 +92,59 @@ results = (CITIES + ["xTotal"]).inject({}) do |result, city|
   end
   result
 end
+
+table= ->(title, &block) do
+  io = StringIO.new
+  io.puts("# #{title}")
+  io.puts("")
+  block.call(io)
+  io.rewind
+  puts io.read
+end
+cell = ->(s, length) { length ? "%#{length}s" % s : "%s"}
+hcell = ->(s, length) { length ? "%#{length}s" % s : "%s"}
+row = ->(*cols) { cols.join("|") }
+joiner = ->(j) { j.join("|") }
+row_divider = ->(length) { row.("-" * length)}
+
+table= ->(title, &block) do
+  io = StringIO.new
+  io.puts("<h2>#{title}</h2>")
+  io.puts("<table>")
+  block.call(io)
+  io.puts("</table>")
+  io.rewind
+  puts io.read
+end
+cell = ->(s, length) { "<td>#{s}</td>" }
+hcell = ->(s, length) { "<th>#{s}</th>" }
+row = ->(*cols) { "<tr>%s</tr>" % cols.join(" ") }
+row_divider = ->(length) { row.([]) }
+joiner = ->(j) { j }
+
 dates = results[CITIES.first].collect(&:first)
-fd = dates.collect {|d| "%6s" % d.strftime("%a %d")}
-header = "%20s |%s| %6s" % [ "City", fd.join("|"), "All Time"]
-puts header
-puts "-" * header.length
-results.sort_by{|(i,j)| i}.each.with_index do |(city, data), index|
-  fr = data.collect do |(date, delta, total)|
-    if delta > 0
-      "%6d" % delta
-    elsif delta == 0
-      "%6s" % ""
-    else
-      "%6s" % "*#{delta}*?"
+fd = dates.collect {|d| hcell.(d.strftime("%a %d"),6)}
+header = row.(hcell.("City", 20), joiner.(fd), hcell.("All Time",6))
+table.("Cities") do |io|
+  io.puts header
+  io.puts row_divider.(header.length)
+  results.sort_by{|(i,j)| i}.each.with_index do |(city, data), index|
+    fr = data.collect do |(date, delta, total)|
+      if delta > 0
+        cell.(delta, 6)
+      elsif delta == 0
+        cell.("", 6)
+      else
+        cell.("*#{delta}*?",6)
+      end
     end
-  end.join("|")
-  if city == "xTotal"
-    puts "-" * header.length
-    city = "Les Belges"
+    fj = joiner.(fr)
+    if city == "xTotal"
+      io.puts row_divider.(header.length)
+      city = "Les Belges"
+    end
+    io.puts row.(cell.(city, 20), fr, cell.(data.last[2],6)) #.gsub("|", index.even? ? "|": " ")
   end
-  puts ("%20s |%s| %6s" % [ city, fr, data.last[2]]) #.gsub("|", index.even? ? "|": " ")
 end
 
 prs = provinces.inject({}) do |result, (province, value)|
@@ -128,7 +163,7 @@ end
 puts ""
 puts ""
 
-fd = dates.collect {|d| "%6s" % d.strftime("%a %d")}
+fd = dates.collect {|d| cell.(d.strftime("%a %d"),6)}
 header = "%20s |%s| %6s" % [ "Province", fd.join("|"), "Total"]
 puts header
 puts "-" * header.length
