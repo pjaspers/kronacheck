@@ -2,13 +2,17 @@ use Rack::Static,
   :urls => ["/images", "/js", "/css"],
   :root => "public"
 
+
+use Rack::Static, :urls => {"/" => 'result-0702.html'}
+use Rack::Static, :urls => {"/all" => 'result-all-0702.html'}
+
 run lambda { |env|
   [
-    200,
+    404,
     {
       'Content-Type'  => 'text/html',
       'Cache-Control' => 'public, max-age=86400'
     },
-    File.open('result-0702.html', File::RDONLY)
+    StringIO.new("<html>Bob Stinkt</html>")
   ]
 }
