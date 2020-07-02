@@ -18,7 +18,8 @@ CITIES = [
   "Mortsel",
   "Balen",
   "Heist-op-den-Berg",
-  "Pelt"
+  "Pelt",
+  "Veurne"
 ].freeze
 
   # "Luik",
@@ -70,13 +71,13 @@ Dir.glob("COVID19BE_CASES_MUNI_CUM*.csv").sort.each do |name|
     data[city] ||= []
     data[city] << [date, row["CASES"]]
   end
-  data["Total"] ||= []
-  data["Total"] << [date, total_cases]
+  data["xTotal"] ||= []
+  data["xTotal"] << [date, total_cases]
 rescue CSV::MalformedCSVError
   puts "#{name} kan het niet aan"
 end
 
-results = (CITIES + ["Total"]).inject({}) do |result, city|
+results = (CITIES + ["xTotal"]).inject({}) do |result, city|
   if arr = data[city]
     first, *rest = arr.sort_by(&:first).last(10)
     prev = first.last.to_i
@@ -104,7 +105,7 @@ results.sort_by{|(i,j)| i}.each.with_index do |(city, data), index|
       "%6s" % "*#{delta}*?"
     end
   end.join("|")
-  if city == "Total"
+  if city == "xTotal"
     puts "-" * header.length
     city = "Les Belges"
   end
