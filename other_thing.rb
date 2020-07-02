@@ -24,6 +24,8 @@ CITIES = [
   "Olen"
 ].freeze
 
+TOTAL_KEY= "’’’TOTAL"
+
   # "Luik",
   # "Brussel",
   # "Anderlecht",
@@ -105,17 +107,18 @@ Dir.glob("COVID19BE_CASES_MUNI_CUM*.csv").sort.each do |name|
     citiesd[city] ||= {}
     citiesd[city][date] ||= 0
     citiesd[city][date] += cases
-    next unless (@limit_cities && cities.include?(city))
+    should_skip = @limit_cities && !cities.include?(city)
+    next if should_skip
     data[city] ||= []
     data[city] << [date, row["CASES"]]
   end
-  data["xTotal"] ||= []
-  data["xTotal"] << [date, total_cases]
+  data[TOTAL_KEY] ||= []
+  data[TOTAL_KEY] << [date, total_cases]
 rescue CSV::MalformedCSVError
   puts "#{name} kan het niet aan"
 end
 
-results = (data.keys + ["xTotal"]).inject({}) do |result, city|
+results = (data.keys + [TOTAL_KEY]).inject({}) do |result, city|
   if arr = data[city]
     first, *rest = arr.sort_by(&:first).last(10)
     prev = first.last.to_i
@@ -146,7 +149,7 @@ r = table.("Cities") do |io|
       end
     end
     fj = joiner.(fr)
-    if city == "xTotal"
+    if city == TOTAL_KEY
       io.puts row_divider.(header.length)
       city = "Les Belges"
     end
@@ -154,10 +157,15 @@ r = table.("Cities") do |io|
   end
 end
 if @write_html
+  basename = ["result"]
+  basename << "all" unless @limit_cities
+  basename << "%02d%02d" % [Date.today.month, Date.today.day]
+  filename = "#{basename.join("-")}.html"
   css = File.read("a-maxvoltar-special.css")
   html = <<~HTML
 <html>
   <head>
+    <meta name="viewport" content="user-scalable=no, initial-scale=1">
     <style>
       #{css}
     </style>
@@ -167,7 +175,7 @@ if @write_html
   </body>
 </html>
 HTML
-  File.open("result.html", "w") {|f| f.puts html }
+  File.open(filename, "w") {|f| f.puts html }
 end
 
 prs = provinces.inject({}) do |result, (province, value)|
