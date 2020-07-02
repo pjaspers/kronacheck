@@ -1,0 +1,758 @@
+<html>
+  <head>
+    <meta name="viewport" content="user-scalable=no, initial-scale=1">
+    <style>
+      :root {
+  --c-background: #fff;
+  --c-sec-background: #eee;
+  --c-main: #333;
+  --c-secondary: #666;
+  --unit: 8px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --c-background: #333;
+    --c-sec-background: #222;
+    --c-main: #ccc;
+    --c-secondary: #999;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  outline: none;
+  font-size: 1em;
+  font-weight: normal;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  color: inherit;
+  text-align: left;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+[type=button],
+button {
+  all: revert;
+}
+
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -webkit-font-feature-settings: "liga" on;
+          font-feature-settings: "liga" on;
+  -moz-font-feature-settings: "liga" on;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  min-height: 100vh;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--c-sec-background);
+  color: var(--c-secondary);
+  position: relative;
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+}
+
+h2 {
+  display: none;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 100%;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+table th,
+table td {
+  padding: calc(var(--unit) * 1.5) calc(var(--unit) * 2);
+  background-color: var(--c-background);
+  vertical-align: top;
+  text-align: right;
+}
+
+table tr:first-child th {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  color: var(--c-main);
+  background-color: var(--c-sec-background);
+}
+
+table tr:first-child th:first-child {
+  left: 0;
+  z-index: 3;
+  font-weight: bold;
+}
+
+table tr:first-child th:last-child {
+  font-weight: bold;
+  color: var(--c-main);
+}
+
+table tr:not(:first-child):not(:last-child) td {
+  border-top: 1px solid var(--c-sec-background);
+  border-left: 1px solid var(--c-sec-background);
+}
+
+table tr:not(:first-child):not(:last-child) td:first-child {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  color: var(--c-main);
+  background-color: var(--c-sec-background);
+  max-width: 33.33vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+table tr:not(:first-child):not(:last-child) td:last-child {
+  font-weight: bold;
+  color: var(--c-main);
+}
+
+table tr:not(:first-child):not(:last-child) td:not(:first-child) {
+  -webkit-font-feature-settings: "tnum";
+          font-feature-settings: "tnum";
+}
+
+table tr:last-child td {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  z-index: 2;
+  color: var(--c-main);
+  background-color: var(--c-sec-background);
+}
+
+table tr:last-child td:first-child {
+  left: 0;
+  z-index: 3;
+  font-weight: bold;
+}
+
+table tr:last-child td:last-child {
+  font-weight: bold;
+  color: var(--c-main);
+}
+
+table tr:last-child td:not(:first-child) {
+  -webkit-font-feature-settings: "tnum";
+          font-feature-settings: "tnum";
+}
+
+    </style>
+  </head>
+  <body>
+    <h2>Cities</h2>
+<table>
+<tr><th>City</th> <th>Sat 20</th> <th>Tue 23</th> <th>Wed 24</th> <th>Thu 25</th> <th>Fri 26</th> <th>Sat 27</th> <th>Tue 30</th> <th>Wed 01</th> <th>Thu 02</th> <th>All Time</th></tr>
+<tr></tr>
+<tr><td>Aalst (Aalst)</td> <td></td> <td></td> <td></td> <td>1</td> <td>1</td> <td>1</td> <td>1</td> <td></td> <td>1</td> <td>534</td></tr>
+<tr><td>Aalter</td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td>114</td></tr>
+<tr><td>Aarlen</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td>89</td></tr>
+<tr><td>Aarschot</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td>154</td></tr>
+<tr><td>Aartselaar</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td>133</td></tr>
+<tr><td>Aat</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>119</td></tr>
+<tr><td>Affligem</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>56</td></tr>
+<tr><td>Aiseau-Presles</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>39</td></tr>
+<tr><td>Alken</td> <td></td> <td>2</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>214</td></tr>
+<tr><td>Alveringem</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>19</td></tr>
+<tr><td>Amay</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>51</td></tr>
+<tr><td>Amel</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>19</td></tr>
+<tr><td>Andenne</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td>1</td> <td>128</td></tr>
+<tr><td>Anderlecht</td> <td></td> <td>2</td> <td></td> <td>2</td> <td>2</td> <td>2</td> <td></td> <td>1</td> <td></td> <td>899</td></tr>
+<tr><td>Anderlues</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>43</td></tr>
+<tr><td>Anhée</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td>28</td></tr>
+<tr><td>Ans</td> <td></td> <td>2</td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td>146</td></tr>
+<tr><td>Anthisnes</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>23</td></tr>
+<tr><td>Antoing</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>17</td></tr>
+<tr><td>Antwerpen</td> <td>5</td> <td>26</td> <td>5</td> <td>15</td> <td>4</td> <td>10</td> <td>25</td> <td>1</td> <td>8</td> <td>2680</td></tr>
+<tr><td>Anzegem</td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>97</td></tr>
+<tr><td>Ardooie</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>36</td></tr>
+<tr><td>Arendonk</td> <td>1</td> <td>4</td> <td></td> <td></td> <td>1</td> <td>1</td> <td>1</td> <td></td> <td></td> <td>48</td></tr>
+<tr><td>As</td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>68</td></tr>
+<tr><td>Asse</td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td>168</td></tr>
+<tr><td>Assenede</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>87</td></tr>
+<tr><td>Assesse</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>32</td></tr>
+<tr><td>Attert</td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>13</td></tr>
+<tr><td>Aubange</td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td>2</td> <td></td> <td>57</td></tr>
+<tr><td>Aubel</td> <td></td> <td></td> <td></td> <td>2</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>41</td></tr>
+<tr><td>Avelgem</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>62</td></tr>
+<tr><td>Awans</td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>89</td></tr>
+<tr><td>Aywaille</td> <td></td> <td></td> <td></td> <td>2</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>67</td></tr>
+<tr><td>Baarle-Hertog</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>13</td></tr>
+<tr><td>Baelen</td> <td></td> <td></td> <td></td> <td>*-1*?</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>22</td></tr>
+<tr><td>Balen</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td>53</td></tr>
+<tr><td>Bastenaken</td> <td></td> <td>2</td> <td>1</td> <td></td> <td>1</td> <td></td> <td>2</td> <td></td> <td></td> <td>74</td></tr>
+<tr><td>Beaumont</td> <td></td> <td></td> <td></td> <td>1</td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td>28</td></tr>
+<tr><td>Beauraing</td> <td>1</td> <td>3</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>31</td></tr>
+<tr><td>Beernem</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>124</td></tr>
+<tr><td>Beerse</td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td>1</td> <td></td> <td></td> <td>58</td></tr>
+<tr><td>Beersel</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td>99</td></tr>
+<tr><td>Begijnendijk</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>58</td></tr>
+<tr><td>Bekkevoort</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>41</td></tr>
+<tr><td>Beloeil</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td>1</td> <td>43</td></tr>
+<tr><td>Bergen</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td>1</td> <td></td> <td>1</td> <td>792</td></tr>
+<tr><td>Beringen</td> <td></td> <td>1</td> <td></td> <td>*-4*?</td> <td></td> <td>1</td> <td></td> <td>1</td> <td></td> <td>264</td></tr>
+<tr><td>Berlaar</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td>47</td></tr>
+<tr><td>Berlare</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>2</td> <td></td> <td></td> <td>60</td></tr>
+<tr><td>Berloz</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>11</td></tr>
+<tr><td>Bernissart</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>44</td></tr>
+<tr><td>Bertem</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>35</td></tr>
+<tr><td>Bertogne</td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>10</td></tr>
+<tr><td>Bertrix</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>59</td></tr>
+<tr><td>Bevekom</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>11</td></tr>
+<tr><td>Bever</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>0</td></tr>
+<tr><td>Beveren (Sint-Niklaas)</td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td>1</td> <td>1</td> <td></td> <td></td> <td>152</td></tr>
+<tr><td>Beyne-Heusay</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td>94</td></tr>
+<tr><td>Bierbeek</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>17</td></tr>
+<tr><td>Bilzen</td> <td>1</td> <td>1</td> <td></td> <td>*-3*?</td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td>228</td></tr>
+<tr><td>Binche</td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>232</td></tr>
+<tr><td>Bitsingen</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>85</td></tr>
+<tr><td>Bièvre</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>12</td></tr>
+<tr><td>Blankenberge</td> <td></td> <td>1</td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td>56</td></tr>
+<tr><td>Blegny</td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>126</td></tr>
+<tr><td>Bocholt</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>60</td></tr>
+<tr><td>Boechout</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>43</td></tr>
+<tr><td>Bonheiden</td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td>3</td> <td>1</td> <td></td> <td>36</td></tr>
+<tr><td>Boom</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>96</td></tr>
+<tr><td>Boortmeerbeek</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>45</td></tr>
+<tr><td>Borgloon</td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>119</td></tr>
+<tr><td>Borgworm</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td>57</td></tr>
+<tr><td>Bornem</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>95</td></tr>
+<tr><td>Borsbeek</td> <td>1</td> <td>1</td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>97</td></tr>
+<tr><td>Bouillon</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>98</td></tr>
+<tr><td>Boussu</td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td>1</td> <td>121</td></tr>
+<tr><td>Boutersem</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>62</td></tr>
+<tr><td>Braives</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>15</td></tr>
+<tr><td>Brakel</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>40</td></tr>
+<tr><td>Brasschaat</td> <td></td> <td>1</td> <td></td> <td>1</td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td>196</td></tr>
+<tr><td>Brecht</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>116</td></tr>
+<tr><td>Bredene</td> <td>1</td> <td></td> <td></td> <td>3</td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td>68</td></tr>
+<tr><td>Bree</td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td>142</td></tr>
+<tr><td>Brugelette</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>17</td></tr>
+<tr><td>Brugge</td> <td>3</td> <td>6</td> <td>1</td> <td></td> <td>4</td> <td>2</td> <td>4</td> <td>2</td> <td>2</td> <td>771</td></tr>
+<tr><td>Brunehaut</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td>44</td></tr>
+<tr><td>Brussel</td> <td>2</td> <td>9</td> <td></td> <td></td> <td>6</td> <td>2</td> <td>5</td> <td>3</td> <td>2</td> <td>934</td></tr>
+<tr><td>Buggenhout</td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td>100</td></tr>
+<tr><td>Burdinne</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>11</td></tr>
+<tr><td>Burg-Reuland</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>12</td></tr>
+<tr><td>Büllingen</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>38</td></tr>
+<tr><td>Bütgenbach</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>41</td></tr>
+<tr><td>Celles (Doornik)</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>14</td></tr>
+<tr><td>Cerfontaine</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>13</td></tr>
+<tr><td>Chapelle-lez-Herlaimont</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>104</td></tr>
+<tr><td>Charleroi</td> <td>1</td> <td></td> <td>1</td> <td>1</td> <td>2</td> <td>2</td> <td>2</td> <td>1</td> <td></td> <td>870</td></tr>
+<tr><td>Chastre</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>15</td></tr>
+<tr><td>Chaudfontaine</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>142</td></tr>
+<tr><td>Chaumont-Gistoux</td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>31</td></tr>
+<tr><td>Chimay</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>26</td></tr>
+<tr><td>Chiny</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>7</td></tr>
+<tr><td>Chièvres</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>19</td></tr>
+<tr><td>Châtelet</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>148</td></tr>
+<tr><td>Ciney</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>86</td></tr>
+<tr><td>Clavier</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>16</td></tr>
+<tr><td>Colfontaine</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>129</td></tr>
+<tr><td>Comblain-au-Pont</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td>68</td></tr>
+<tr><td>Courcelles</td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td>94</td></tr>
+<tr><td>Court-Saint-Etienne</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>27</td></tr>
+<tr><td>Couvin</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>69</td></tr>
+<tr><td>Crisnée</td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>32</td></tr>
+<tr><td>Dalhem</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>39</td></tr>
+<tr><td>Damme</td> <td></td> <td>1</td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td>81</td></tr>
+<tr><td>Daverdisse</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>8</td></tr>
+<tr><td>De Haan</td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>69</td></tr>
+<tr><td>De Panne</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>35</td></tr>
+<tr><td>De Pinte</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>25</td></tr>
+<tr><td>Deerlijk</td> <td></td> <td>1</td> <td>1</td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td>79</td></tr>
+<tr><td>Deinze</td> <td>1</td> <td>2</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>109</td></tr>
+<tr><td>Denderleeuw</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>105</td></tr>
+<tr><td>Dendermonde</td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td>2</td> <td>1</td> <td></td> <td>247</td></tr>
+<tr><td>Dentergem</td> <td></td> <td>2</td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>44</td></tr>
+<tr><td>Dessel</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>23</td></tr>
+<tr><td>Destelbergen</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>71</td></tr>
+<tr><td>Diepenbeek</td> <td></td> <td>1</td> <td></td> <td>*-2*?</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>168</td></tr>
+<tr><td>Diest</td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td>133</td></tr>
+<tr><td>Diksmuide</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>2</td> <td></td> <td>53</td></tr>
+<tr><td>Dilbeek</td> <td>1</td> <td>1</td> <td></td> <td></td> <td>3</td> <td></td> <td></td> <td></td> <td></td> <td>247</td></tr>
+<tr><td>Dilsen-Stokkem</td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td>166</td></tr>
+<tr><td>Dinant</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td>38</td></tr>
+<tr><td>Dison</td> <td></td> <td></td> <td></td> <td>5</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>95</td></tr>
+<tr><td>Doische</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>6</td></tr>
+<tr><td>Donceel</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>12</td></tr>
+<tr><td>Doornik</td> <td></td> <td>1</td> <td></td> <td>1</td> <td>1</td> <td></td> <td>4</td> <td></td> <td>2</td> <td>241</td></tr>
+<tr><td>Dour</td> <td></td> <td></td> <td></td> <td>1</td> <td>1</td> <td>1</td> <td></td> <td></td> <td></td> <td>151</td></tr>
+<tr><td>Drogenbos</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td>40</td></tr>
+<tr><td>Duffel</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>86</td></tr>
+<tr><td>Durbuy</td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>67</td></tr>
+<tr><td>Ecaussinnes</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>42</td></tr>
+<tr><td>Edegem</td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>79</td></tr>
+<tr><td>Edingen</td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td>62</td></tr>
+<tr><td>Eeklo</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>83</td></tr>
+<tr><td>Eghezée</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>102</td></tr>
+<tr><td>Eigenbrakel</td> <td></td> <td></td> <td>1</td> <td>1</td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td>174</td></tr>
+<tr><td>Elsene</td> <td>2</td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td>1</td> <td></td> <td>2</td> <td>410</td></tr>
+<tr><td>Elzele</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>20</td></tr>
+<tr><td>Engis</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>39</td></tr>
+<tr><td>Erezée</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>24</td></tr>
+<tr><td>Erpe-Mere</td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td>137</td></tr>
+<tr><td>Erquelinnes</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>42</td></tr>
+<tr><td>Esneux</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>116</td></tr>
+<tr><td>Essen</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td>99</td></tr>
+<tr><td>Estaimpuis</td> <td></td> <td>2</td> <td>1</td> <td></td> <td></td> <td>16</td> <td></td> <td></td> <td></td> <td>46</td></tr>
+<tr><td>Estinnes</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>33</td></tr>
+<tr><td>Etalle</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>12</td></tr>
+<tr><td>Etterbeek</td> <td></td> <td>2</td> <td></td> <td></td> <td>2</td> <td>1</td> <td></td> <td>1</td> <td></td> <td>190</td></tr>
+<tr><td>Eupen</td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td>1</td> <td></td> <td></td> <td>89</td></tr>
+<tr><td>Evere</td> <td></td> <td></td> <td>1</td> <td>1</td> <td>1</td> <td>1</td> <td>3</td> <td>1</td> <td>3</td> <td>244</td></tr>
+<tr><td>Evergem</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>2</td> <td>2</td> <td></td> <td>222</td></tr>
+<tr><td>Faimes</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>13</td></tr>
+<tr><td>Farciennes</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td>40</td></tr>
+<tr><td>Fauvillers</td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td>12</td></tr>
+<tr><td>Fernelmont</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>27</td></tr>
+<tr><td>Ferrières</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>27</td></tr>
+<tr><td>Fexhe-le-Haut-Clocher</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>15</td></tr>
+<tr><td>Fleurus</td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td>126</td></tr>
+<tr><td>Floreffe</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>28</td></tr>
+<tr><td>Florennes</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>32</td></tr>
+<tr><td>Florenville</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>15</td></tr>
+<tr><td>Flémalle</td> <td></td> <td>2</td> <td></td> <td></td> <td></td> <td>2</td> <td>2</td> <td></td> <td></td> <td>204</td></tr>
+<tr><td>Fléron</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td>1</td> <td></td> <td>4</td> <td>158</td></tr>
+<tr><td>Fontaine-l’Evêque</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td>49</td></tr>
+<tr><td>Fosses-la-Ville</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>43</td></tr>
+<tr><td>Frameries</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td>200</td></tr>
+<tr><td>Frasnes-lez-Anvaing</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>39</td></tr>
+<tr><td>Froidchapelle</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>5</td></tr>
+<tr><td>Galmaarden</td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td>24</td></tr>
+<tr><td>Ganshoren</td> <td></td> <td>2</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td>140</td></tr>
+<tr><td>Gavere</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>47</td></tr>
+<tr><td>Gedinne</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>0</td></tr>
+<tr><td>Geel</td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>169</td></tr>
+<tr><td>Geer</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>14</td></tr>
+<tr><td>Geetbets</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>87</td></tr>
+<tr><td>Geldenaken</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>64</td></tr>
+<tr><td>Gembloux</td> <td>1</td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td>143</td></tr>
+<tr><td>Genepiën</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>79</td></tr>
+<tr><td>Genk</td> <td></td> <td>6</td> <td></td> <td>3</td> <td></td> <td></td> <td>5</td> <td></td> <td></td> <td>560</td></tr>
+<tr><td>Gent</td> <td></td> <td>3</td> <td>2</td> <td>2</td> <td>1</td> <td></td> <td>1</td> <td>1</td> <td></td> <td>793</td></tr>
+<tr><td>Geraardsbergen</td> <td></td> <td></td> <td></td> <td>1</td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td>111</td></tr>
+<tr><td>Gerpinnes</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>48</td></tr>
+<tr><td>Gesves</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>38</td></tr>
+<tr><td>Gingelom</td> <td>1</td> <td>1</td> <td>1</td> <td>*-1*?</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>141</td></tr>
+<tr><td>Gistel</td> <td></td> <td>2</td> <td>1</td> <td>1</td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td>50</td></tr>
+<tr><td>Glabbeek</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>29</td></tr>
+<tr><td>Gooik</td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>30</td></tr>
+<tr><td>Gouvy</td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td>41</td></tr>
+<tr><td>Graven</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>39</td></tr>
+<tr><td>Grimbergen</td> <td></td> <td>3</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>237</td></tr>
+<tr><td>Grobbendonk</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>58</td></tr>
+<tr><td>Grâce-Hollogne</td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td>136</td></tr>
+<tr><td>Haacht</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>30</td></tr>
+<tr><td>Haaltert</td> <td></td> <td>2</td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>177</td></tr>
+<tr><td>Habay</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>18</td></tr>
+<tr><td>Halen</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td>1</td> <td></td> <td></td> <td>80</td></tr>
+<tr><td>Halle (Halle-Vilvoorde)</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>197</td></tr>
+<tr><td>Ham</td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td>61</td></tr>
+<tr><td>Ham-sur-Heure-Nalinnes</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>36</td></tr>
+<tr><td>Hamme (Dendermonde)</td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>170</td></tr>
+<tr><td>Hamoir</td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td>11</td></tr>
+<tr><td>Hamois</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>35</td></tr>
+<tr><td>Hamont-Achel</td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>62</td></tr>
+<tr><td>Hannuit</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>48</td></tr>
+<tr><td>Harelbeke</td> <td>1</td> <td>3</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>4</td> <td></td> <td>275</td></tr>
+<tr><td>Hasselt</td> <td></td> <td></td> <td></td> <td>*-8*?</td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td>627</td></tr>
+<tr><td>Hastière</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>15</td></tr>
+<tr><td>Havelange</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>28</td></tr>
+<tr><td>Hechtel-Eksel</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>33</td></tr>
+<tr><td>Heers</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>43</td></tr>
+<tr><td>Heist-op-den-Berg</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>205</td></tr>
+<tr><td>Hemiksem</td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>57</td></tr>
+<tr><td>Hensies</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>53</td></tr>
+<tr><td>Herbeumont</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>0</td></tr>
+<tr><td>Herent</td> <td>1</td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td>159</td></tr>
+<tr><td>Herentals</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td>110</td></tr>
+<tr><td>Herenthout</td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>23</td></tr>
+<tr><td>Herk-de-Stad</td> <td></td> <td>1</td> <td></td> <td>*-2*?</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>97</td></tr>
+<tr><td>Herne</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>16</td></tr>
+<tr><td>Herselt</td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>97</td></tr>
+<tr><td>Herstal</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>366</td></tr>
+<tr><td>Herstappe</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>0</td></tr>
+<tr><td>Herve</td> <td></td> <td></td> <td></td> <td>4</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>149</td></tr>
+<tr><td>Herzele</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>77</td></tr>
+<tr><td>Heusden-Zolder</td> <td>1</td> <td>1</td> <td></td> <td>*-2*?</td> <td></td> <td></td> <td>3</td> <td></td> <td></td> <td>224</td></tr>
+<tr><td>Heuvelland</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>22</td></tr>
+<tr><td>Hoegaarden</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td>26</td></tr>
+<tr><td>Hoei</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>163</td></tr>
+<tr><td>Hoeilaart</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td>30</td></tr>
+<tr><td>Hoeselt</td> <td></td> <td></td> <td></td> <td>*-1*?</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>80</td></tr>
+<tr><td>Holsbeek</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>43</td></tr>
+<tr><td>Honnelles</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>30</td></tr>
+<tr><td>Hooglede</td> <td></td> <td></td> <td>2</td> <td></td> <td>1</td> <td></td> <td>1</td> <td></td> <td></td> <td>48</td></tr>
+<tr><td>Hoogstraten</td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>52</td></tr>
+<tr><td>Horebeke</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>20</td></tr>
+<tr><td>Hotton</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td>47</td></tr>
+<tr><td>Houffalize</td> <td></td> <td>3</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>30</td></tr>
+<tr><td>Houthalen-Helchteren</td> <td>2</td> <td>6</td> <td>1</td> <td>1</td> <td>1</td> <td></td> <td>2</td> <td></td> <td>3</td> <td>226</td></tr>
+<tr><td>Houthulst</td> <td>1</td> <td>1</td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>62</td></tr>
+<tr><td>Houyet</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>10</td></tr>
+<tr><td>Hove (Antwerpen)</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>58</td></tr>
+<tr><td>Huldenberg</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>36</td></tr>
+<tr><td>Hulshout</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>35</td></tr>
+<tr><td>Hélécine</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>18</td></tr>
+<tr><td>Héron</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td>18</td></tr>
+<tr><td>Ichtegem</td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>68</td></tr>
+<tr><td>Ieper</td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td>277</td></tr>
+<tr><td>Incourt</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td>19</td></tr>
+<tr><td>Ingelmunster</td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>70</td></tr>
+<tr><td>Itter</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td>37</td></tr>
+<tr><td>Izegem</td> <td></td> <td>2</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td>1</td> <td>157</td></tr>
+<tr><td>Jabbeke</td> <td>1</td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>53</td></tr>
+<tr><td>Jalhay</td> <td></td> <td>1</td> <td></td> <td>4</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>56</td></tr>
+<tr><td>Jemeppe-sur-Sambre</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>85</td></tr>
+<tr><td>Jette</td> <td></td> <td>3</td> <td></td> <td></td> <td></td> <td></td> <td>3</td> <td></td> <td></td> <td>305</td></tr>
+<tr><td>Juprelle</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>48</td></tr>
+<tr><td>Jurbeke</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>44</td></tr>
+<tr><td>Kalmthout</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td>113</td></tr>
+<tr><td>Kampenhout</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>53</td></tr>
+<tr><td>Kapelle-op-den-Bos</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>139</td></tr>
+<tr><td>Kapellen (Antwerpen)</td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td>1</td> <td>1</td> <td></td> <td></td> <td>160</td></tr>
+<tr><td>Kaprijke</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>38</td></tr>
+<tr><td>Kasteelbrakel</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>26</td></tr>
+<tr><td>Kasterlee</td> <td>6</td> <td>1</td> <td></td> <td>1</td> <td>1</td> <td></td> <td></td> <td></td> <td>2</td> <td>73</td></tr>
+<tr><td>Keerbergen</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>53</td></tr>
+<tr><td>Kelmis</td> <td></td> <td>1</td> <td>1</td> <td>1</td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td>38</td></tr>
+<tr><td>Kinrooi</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>44</td></tr>
+<tr><td>Kluisbergen</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>26</td></tr>
+<tr><td>Knokke-Heist</td> <td>1</td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>170</td></tr>
+<tr><td>Koekelare</td> <td></td> <td></td> <td></td> <td>2</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>24</td></tr>
+<tr><td>Koekelberg</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>2</td> <td>105</td></tr>
+<tr><td>Koksijde</td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>86</td></tr>
+<tr><td>Komen-Waasten</td> <td></td> <td>1</td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>99</td></tr>
+<tr><td>Kontich</td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>57</td></tr>
+<tr><td>Kortemark</td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td>1</td> <td>1</td> <td></td> <td>40</td></tr>
+<tr><td>Kortenaken</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>90</td></tr>
+<tr><td>Kortenberg</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>62</td></tr>
+<tr><td>Kortessem</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>40</td></tr>
+<tr><td>Kortrijk</td> <td></td> <td>3</td> <td>1</td> <td>2</td> <td></td> <td></td> <td></td> <td>2</td> <td></td> <td>562</td></tr>
+<tr><td>Kraainem</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>78</td></tr>
+<tr><td>Kruibeke</td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td>1</td> <td></td> <td></td> <td>58</td></tr>
+<tr><td>Kruisem</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>39</td></tr>
+<tr><td>Kuurne</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>2</td> <td></td> <td>89</td></tr>
+<tr><td>La Bruyère</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td>35</td></tr>
+<tr><td>La Louvière</td> <td>1</td> <td>3</td> <td>1</td> <td>1</td> <td>2</td> <td>1</td> <td>2</td> <td></td> <td></td> <td>513</td></tr>
+<tr><td>La Roche-en-Ardenne</td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td>1</td> <td></td> <td></td> <td>13</td></tr>
+<tr><td>Laakdal</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>75</td></tr>
+<tr><td>Laarne</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>31</td></tr>
+<tr><td>Lanaken</td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td>2</td> <td>230</td></tr>
+<tr><td>Landen</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>166</td></tr>
+<tr><td>Langemark-Poelkapelle</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td>36</td></tr>
+<tr><td>Lasne</td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>43</td></tr>
+<tr><td>Le Roeulx</td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>76</td></tr>
+<tr><td>Lebbeke</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>90</td></tr>
+<tr><td>Lede</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>77</td></tr>
+<tr><td>Ledegem</td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td>54</td></tr>
+<tr><td>Lendelede</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td>34</td></tr>
+<tr><td>Lennik</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>31</td></tr>
+<tr><td>Lens</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>16</td></tr>
+<tr><td>Leopoldsburg</td> <td></td> <td></td> <td></td> <td>*-1*?</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>62</td></tr>
+<tr><td>Les Bons Villers</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>94</td></tr>
+<tr><td>Lessen</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td>61</td></tr>
+<tr><td>Leuven</td> <td>1</td> <td>1</td> <td>2</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td>458</td></tr>
+<tr><td>Leuze-en-Hainaut</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td>50</td></tr>
+<tr><td>Libin</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>14</td></tr>
+<tr><td>Libramont-Chevigny</td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td>82</td></tr>
+<tr><td>Lichtervelde</td> <td></td> <td>1</td> <td></td> <td></td> <td>1</td> <td>1</td> <td></td> <td>1</td> <td></td> <td>42</td></tr>
+<tr><td>Liedekerke</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>46</td></tr>
+<tr><td>Lier</td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td>113</td></tr>
+<tr><td>Lierde</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>13</td></tr>
+<tr><td>Lierneux</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>34</td></tr>
+<tr><td>Lievegem</td> <td></td> <td>2</td> <td></td> <td></td> <td></td> <td>1</td> <td>1</td> <td></td> <td></td> <td>165</td></tr>
+<tr><td>Lijsem</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td>28</td></tr>
+<tr><td>Lille</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>121</td></tr>
+<tr><td>Limburg</td> <td></td> <td></td> <td></td> <td>2</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>47</td></tr>
+<tr><td>Linkebeek</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>24</td></tr>
+<tr><td>Lint</td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>22</td></tr>
+<tr><td>Linter</td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>35</td></tr>
+<tr><td>Lo-Reninge</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>17</td></tr>
+<tr><td>Lobbes</td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td>26</td></tr>
+<tr><td>Lochristi</td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>85</td></tr>
+<tr><td>Lokeren</td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>295</td></tr>
+<tr><td>Lommel</td> <td>1</td> <td></td> <td></td> <td>*-2*?</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>118</td></tr>
+<tr><td>Londerzeel</td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>94</td></tr>
+<tr><td>Lontzen</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>9</td></tr>
+<tr><td>Lubbeek</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>113</td></tr>
+<tr><td>Luik</td> <td></td> <td>7</td> <td>4</td> <td>3</td> <td>1</td> <td></td> <td>5</td> <td></td> <td></td> <td>1288</td></tr>
+<tr><td>Lummen</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td>79</td></tr>
+<tr><td>Léglise</td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td>20</td></tr>
+<tr><td>Maarkedal</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>42</td></tr>
+<tr><td>Maaseik</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>158</td></tr>
+<tr><td>Maasmechelen</td> <td>1</td> <td>2</td> <td></td> <td>1</td> <td>3</td> <td>4</td> <td>3</td> <td></td> <td></td> <td>254</td></tr>
+<tr><td>Machelen (Halle-Vilvoorde)</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>2</td> <td></td> <td></td> <td>67</td></tr>
+<tr><td>Maldegem</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>72</td></tr>
+<tr><td>Malle</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td>1</td> <td>49</td></tr>
+<tr><td>Malmedy</td> <td></td> <td>1</td> <td></td> <td>2</td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td>174</td></tr>
+<tr><td>Manage</td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td>1</td> <td></td> <td></td> <td></td> <td>83</td></tr>
+<tr><td>Manhay</td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>19</td></tr>
+<tr><td>Marche-en-Famenne</td> <td></td> <td>1</td> <td></td> <td></td> <td>2</td> <td></td> <td></td> <td></td> <td></td> <td>107</td></tr>
+<tr><td>Marchin</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>30</td></tr>
+<tr><td>Martelange</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>0</td></tr>
+<tr><td>Mechelen</td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td>1</td> <td>1</td> <td>1</td> <td></td> <td>330</td></tr>
+<tr><td>Meerhout</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>49</td></tr>
+<tr><td>Meise</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td>1</td> <td></td> <td>68</td></tr>
+<tr><td>Meix-devant-Virton</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>0</td></tr>
+<tr><td>Melle</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>36</td></tr>
+<tr><td>Menen</td> <td>1</td> <td>2</td> <td>4</td> <td>1</td> <td></td> <td></td> <td>2</td> <td>2</td> <td>1</td> <td>282</td></tr>
+<tr><td>Merbes-le-Château</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>14</td></tr>
+<tr><td>Merchtem</td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td>63</td></tr>
+<tr><td>Merelbeke</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>81</td></tr>
+<tr><td>Merksplas</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>51</td></tr>
+<tr><td>Mesen</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>7</td></tr>
+<tr><td>Messancy</td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td>84</td></tr>
+<tr><td>Mettet</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>58</td></tr>
+<tr><td>Meulebeke</td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>37</td></tr>
+<tr><td>Middelkerke</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>63</td></tr>
+<tr><td>Modave</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>13</td></tr>
+<tr><td>Moerbeke (Gent)</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>24</td></tr>
+<tr><td>Moeskroen</td> <td>2</td> <td>17</td> <td>9</td> <td></td> <td></td> <td>3</td> <td>14</td> <td></td> <td></td> <td>468</td></tr>
+<tr><td>Mol</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>82</td></tr>
+<tr><td>Momignies</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>11</td></tr>
+<tr><td>Mont-Saint-Guibert</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td>24</td></tr>
+<tr><td>Mont-de-l’Enclus</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>10</td></tr>
+<tr><td>Montigny-le-Tilleul</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>43</td></tr>
+<tr><td>Moorslede</td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>74</td></tr>
+<tr><td>Morlanwelz</td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td>133</td></tr>
+<tr><td>Mortsel</td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td>2</td> <td></td> <td>1</td> <td>113</td></tr>
+<tr><td>Musson</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>14</td></tr>
+<tr><td>NA</td> <td>1</td> <td>6</td> <td>1</td> <td>6</td> <td>7</td> <td>4</td> <td>9</td> <td>3</td> <td>3</td> <td>1413</td></tr>
+<tr><td>Namen</td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td>684</td></tr>
+<tr><td>Nandrin</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>38</td></tr>
+<tr><td>Nassogne</td> <td></td> <td>1</td> <td></td> <td></td> <td>1</td> <td></td> <td>1</td> <td>1</td> <td></td> <td>24</td></tr>
+<tr><td>Nazareth</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>21</td></tr>
+<tr><td>Neufchâteau (Neufchâteau)</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>73</td></tr>
+<tr><td>Neupré</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>82</td></tr>
+<tr><td>Niel</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>42</td></tr>
+<tr><td>Nieuwerkerken (Hasselt)</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>117</td></tr>
+<tr><td>Nieuwpoort</td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>41</td></tr>
+<tr><td>Nijlen</td> <td>1</td> <td></td> <td></td> <td>1</td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td>122</td></tr>
+<tr><td>Nijvel</td> <td></td> <td>2</td> <td>1</td> <td></td> <td>1</td> <td></td> <td>1</td> <td></td> <td>1</td> <td>125</td></tr>
+<tr><td>Ninove</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td>199</td></tr>
+<tr><td>Oerle</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>15</td></tr>
+<tr><td>Ohey</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>16</td></tr>
+<tr><td>Olen</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>55</td></tr>
+<tr><td>Olne</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>16</td></tr>
+<tr><td>Onhaye</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>22</td></tr>
+<tr><td>Oostende</td> <td>1</td> <td>1</td> <td>1</td> <td></td> <td>1</td> <td>1</td> <td>1</td> <td></td> <td></td> <td>371</td></tr>
+<tr><td>Oosterzele</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>31</td></tr>
+<tr><td>Oostkamp</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>172</td></tr>
+<tr><td>Oostrozebeke</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>35</td></tr>
+<tr><td>Opwijk</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td>55</td></tr>
+<tr><td>Opzullik</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>24</td></tr>
+<tr><td>Orp-Jauche</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>18</td></tr>
+<tr><td>Ottignies-Louvain-la-Neuve</td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>2</td> <td></td> <td></td> <td>104</td></tr>
+<tr><td>Oud-Heverlee</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>35</td></tr>
+<tr><td>Oud-Turnhout</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td>122</td></tr>
+<tr><td>Oudenaarde</td> <td>1</td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td>187</td></tr>
+<tr><td>Oudenburg</td> <td></td> <td>1</td> <td></td> <td></td> <td>1</td> <td></td> <td>1</td> <td></td> <td></td> <td>39</td></tr>
+<tr><td>Oudergem</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td>1</td> <td>2</td> <td>148</td></tr>
+<tr><td>Oudsbergen</td> <td>1</td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td>3</td> <td>2</td> <td></td> <td>117</td></tr>
+<tr><td>Ouffet</td> <td></td> <td>2</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>11</td></tr>
+<tr><td>Oupeye</td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>151</td></tr>
+<tr><td>Overijse</td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>117</td></tr>
+<tr><td>Paliseul</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>32</td></tr>
+<tr><td>Pecq</td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>21</td></tr>
+<tr><td>Peer</td> <td>2</td> <td>1</td> <td></td> <td>*-1*?</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>76</td></tr>
+<tr><td>Pelt</td> <td></td> <td></td> <td></td> <td>*-1*?</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>111</td></tr>
+<tr><td>Pepingen</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>24</td></tr>
+<tr><td>Pepinster</td> <td></td> <td></td> <td></td> <td>2</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>49</td></tr>
+<tr><td>Perwijs (Nijvel)</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>16</td></tr>
+<tr><td>Philippeville</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>16</td></tr>
+<tr><td>Pittem</td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>31</td></tr>
+<tr><td>Plombières</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>56</td></tr>
+<tr><td>Pont-à-Celles</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>66</td></tr>
+<tr><td>Poperinge</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>90</td></tr>
+<tr><td>Profondeville</td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>58</td></tr>
+<tr><td>Putte</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td>35</td></tr>
+<tr><td>Puurs-Sint-Amands</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>2</td> <td></td> <td>173</td></tr>
+<tr><td>Péruwelz</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>72</td></tr>
+<tr><td>Quaregnon</td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td>132</td></tr>
+<tr><td>Quiévrain</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td>39</td></tr>
+<tr><td>Quévy</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>63</td></tr>
+<tr><td>Raeren</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>21</td></tr>
+<tr><td>Ramillies</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>8</td></tr>
+<tr><td>Ranst</td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>49</td></tr>
+<tr><td>Ravels</td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td>147</td></tr>
+<tr><td>Rebecq</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td>71</td></tr>
+<tr><td>Remicourt</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>48</td></tr>
+<tr><td>Rendeux</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>17</td></tr>
+<tr><td>Retie</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>33</td></tr>
+<tr><td>Riemst</td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td>1</td> <td></td> <td>167</td></tr>
+<tr><td>Rijkevorsel</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>38</td></tr>
+<tr><td>Rixensart</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>93</td></tr>
+<tr><td>Rochefort</td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>45</td></tr>
+<tr><td>Roeselare</td> <td></td> <td>2</td> <td>7</td> <td>3</td> <td></td> <td></td> <td>4</td> <td></td> <td></td> <td>377</td></tr>
+<tr><td>Ronse</td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>239</td></tr>
+<tr><td>Roosdaal</td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td>37</td></tr>
+<tr><td>Rotselaar</td> <td></td> <td>1</td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td>2</td> <td>39</td></tr>
+<tr><td>Rouvroy</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>26</td></tr>
+<tr><td>Ruiselede</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>31</td></tr>
+<tr><td>Rumes</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>14</td></tr>
+<tr><td>Rumst</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>71</td></tr>
+<tr><td>Saint-Georges-sur-Meuse</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>18</td></tr>
+<tr><td>Saint-Ghislain</td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td>138</td></tr>
+<tr><td>Saint-Hubert</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>21</td></tr>
+<tr><td>Saint-Léger (Virton)</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>7</td></tr>
+<tr><td>Saint-Nicolas (Luik)</td> <td></td> <td>2</td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td>180</td></tr>
+<tr><td>Sainte-Ode</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>8</td></tr>
+<tr><td>Sambreville</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>189</td></tr>
+<tr><td>Sankt Vith</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>46</td></tr>
+<tr><td>Schaarbeek</td> <td></td> <td>5</td> <td></td> <td>2</td> <td>3</td> <td>1</td> <td>1</td> <td>1</td> <td>2</td> <td>551</td></tr>
+<tr><td>Schelle</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>33</td></tr>
+<tr><td>Scherpenheuvel-Zichem</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td>104</td></tr>
+<tr><td>Schilde</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>112</td></tr>
+<tr><td>Schoten</td> <td></td> <td>2</td> <td>2</td> <td>1</td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td>130</td></tr>
+<tr><td>Seneffe</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>45</td></tr>
+<tr><td>Seraing</td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>443</td></tr>
+<tr><td>Sint-Agatha-Berchem</td> <td></td> <td>1</td> <td></td> <td></td> <td>1</td> <td>1</td> <td></td> <td></td> <td>1</td> <td>186</td></tr>
+<tr><td>Sint-Genesius-Rode</td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>70</td></tr>
+<tr><td>Sint-Gillis</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td>252</td></tr>
+<tr><td>Sint-Gillis-Waas</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>117</td></tr>
+<tr><td>Sint-Jans-Molenbeek</td> <td>2</td> <td>5</td> <td>1</td> <td>2</td> <td>2</td> <td></td> <td>4</td> <td>2</td> <td>2</td> <td>596</td></tr>
+<tr><td>Sint-Joost-ten-Node</td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td>1</td> <td>1</td> <td>102</td></tr>
+<tr><td>Sint-Katelijne-Waver</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td>148</td></tr>
+<tr><td>Sint-Lambrechts-Woluwe</td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td>270</td></tr>
+<tr><td>Sint-Laureins</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>19</td></tr>
+<tr><td>Sint-Lievens-Houtem</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>28</td></tr>
+<tr><td>Sint-Martens-Latem</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>49</td></tr>
+<tr><td>Sint-Niklaas (Sint-Niklaas)</td> <td></td> <td>2</td> <td></td> <td>1</td> <td></td> <td>1</td> <td>1</td> <td>5</td> <td>1</td> <td>314</td></tr>
+<tr><td>Sint-Pieters-Leeuw</td> <td>1</td> <td>2</td> <td></td> <td></td> <td></td> <td>1</td> <td>2</td> <td></td> <td></td> <td>129</td></tr>
+<tr><td>Sint-Pieters-Woluwe</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>174</td></tr>
+<tr><td>Sint-Truiden</td> <td></td> <td>2</td> <td></td> <td>*-1*?</td> <td></td> <td></td> <td>2</td> <td></td> <td></td> <td>707</td></tr>
+<tr><td>Sivry-Rance</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>11</td></tr>
+<tr><td>Sombreffe</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td>30</td></tr>
+<tr><td>Somme-Leuze</td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>17</td></tr>
+<tr><td>Soumagne</td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>121</td></tr>
+<tr><td>Spa</td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td>130</td></tr>
+<tr><td>Spiere-Helkijn</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>9</td></tr>
+<tr><td>Sprimont</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>2</td> <td></td> <td></td> <td>93</td></tr>
+<tr><td>Stabroek</td> <td>2</td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td>104</td></tr>
+<tr><td>Staden</td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td>3</td> <td>1</td> <td></td> <td></td> <td>36</td></tr>
+<tr><td>Stavelot</td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>29</td></tr>
+<tr><td>Steenokkerzeel</td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td>58</td></tr>
+<tr><td>Stekene</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td>66</td></tr>
+<tr><td>Stoumont</td> <td></td> <td>1</td> <td></td> <td></td> <td>1</td> <td></td> <td>1</td> <td></td> <td></td> <td>16</td></tr>
+<tr><td>Tellin</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>0</td></tr>
+<tr><td>Temse</td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>214</td></tr>
+<tr><td>Tenneville</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>7</td></tr>
+<tr><td>Terhulpen</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>30</td></tr>
+<tr><td>Ternat</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>46</td></tr>
+<tr><td>Tervuren</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>109</td></tr>
+<tr><td>Tessenderlo</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td>64</td></tr>
+<tr><td>Theux</td> <td></td> <td></td> <td>1</td> <td>4</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>112</td></tr>
+<tr><td>Thimister-Clermont</td> <td></td> <td></td> <td></td> <td>2</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>33</td></tr>
+<tr><td>Thuin</td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td>1</td> <td>1</td> <td></td> <td></td> <td>42</td></tr>
+<tr><td>Tielt (Tielt)</td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>102</td></tr>
+<tr><td>Tielt-Winge</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>33</td></tr>
+<tr><td>Tienen</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>241</td></tr>
+<tr><td>Tinlot</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>11</td></tr>
+<tr><td>Tintigny</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>14</td></tr>
+<tr><td>Tongeren</td> <td></td> <td></td> <td></td> <td>*-5*?</td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td>234</td></tr>
+<tr><td>Torhout</td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td>3</td> <td></td> <td></td> <td>128</td></tr>
+<tr><td>Tremelo</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>42</td></tr>
+<tr><td>Trois-Ponts</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>5</td></tr>
+<tr><td>Trooz</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>39</td></tr>
+<tr><td>Tubeke</td> <td>1</td> <td></td> <td>2</td> <td>1</td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td>163</td></tr>
+<tr><td>Turnhout</td> <td>2</td> <td>4</td> <td></td> <td>1</td> <td>1</td> <td></td> <td>2</td> <td></td> <td></td> <td>188</td></tr>
+<tr><td>Ukkel</td> <td></td> <td></td> <td>1</td> <td></td> <td>2</td> <td></td> <td>3</td> <td>1</td> <td></td> <td>404</td></tr>
+<tr><td>Vaux-sur-Sûre</td> <td></td> <td>1</td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td>27</td></tr>
+<tr><td>Verlaine</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>10</td></tr>
+<tr><td>Verviers</td> <td></td> <td>4</td> <td></td> <td>17</td> <td></td> <td></td> <td>1</td> <td>1</td> <td>1</td> <td>326</td></tr>
+<tr><td>Veurne</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>39</td></tr>
+<tr><td>Vielsalm</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>107</td></tr>
+<tr><td>Villers-Le-Bouillet</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>19</td></tr>
+<tr><td>Villers-la-Ville</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>26</td></tr>
+<tr><td>Vilvoorde</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>3</td> <td>1</td> <td>1</td> <td>1</td> <td>220</td></tr>
+<tr><td>Viroinval</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>15</td></tr>
+<tr><td>Virton</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>38</td></tr>
+<tr><td>Vleteren</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>6</td></tr>
+<tr><td>Vloesberg</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>29</td></tr>
+<tr><td>Voeren</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>31</td></tr>
+<tr><td>Vorselaar</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td>41</td></tr>
+<tr><td>Vorst (Brussel-Hoofdstad)</td> <td></td> <td>2</td> <td></td> <td></td> <td></td> <td></td> <td>4</td> <td></td> <td></td> <td>302</td></tr>
+<tr><td>Vosselaar</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>49</td></tr>
+<tr><td>Vresse-sur-Semois</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>11</td></tr>
+<tr><td>Waasmunster</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>64</td></tr>
+<tr><td>Wachtebeke</td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td>96</td></tr>
+<tr><td>Walcourt</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>65</td></tr>
+<tr><td>Walhain</td> <td></td> <td>1</td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td>20</td></tr>
+<tr><td>Wanze</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>63</td></tr>
+<tr><td>Waregem</td> <td></td> <td></td> <td>2</td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>356</td></tr>
+<tr><td>Wasseiges</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>5</td></tr>
+<tr><td>Waterloo</td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>113</td></tr>
+<tr><td>Watermaal-Bosvoorde</td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>110</td></tr>
+<tr><td>Waver</td> <td>1</td> <td>1</td> <td></td> <td></td> <td>2</td> <td></td> <td></td> <td>1</td> <td></td> <td>132</td></tr>
+<tr><td>Weismes</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>54</td></tr>
+<tr><td>Welkenraedt</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>56</td></tr>
+<tr><td>Wellen</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td>60</td></tr>
+<tr><td>Wellin</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>13</td></tr>
+<tr><td>Wemmel</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>39</td></tr>
+<tr><td>Wervik</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>139</td></tr>
+<tr><td>Westerlo</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td>101</td></tr>
+<tr><td>Wetteren</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>139</td></tr>
+<tr><td>Wevelgem</td> <td>1</td> <td></td> <td>3</td> <td>3</td> <td></td> <td>4</td> <td>1</td> <td>4</td> <td>5</td> <td>189</td></tr>
+<tr><td>Wezembeek-Oppem</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td>62</td></tr>
+<tr><td>Wezet</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td>101</td></tr>
+<tr><td>Wichelen</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>100</td></tr>
+<tr><td>Wielsbeke</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td>40</td></tr>
+<tr><td>Wijnegem</td> <td></td> <td>3</td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td>25</td></tr>
+<tr><td>Willebroek</td> <td></td> <td>1</td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>111</td></tr>
+<tr><td>Wingene</td> <td></td> <td></td> <td>1</td> <td>1</td> <td></td> <td></td> <td></td> <td>2</td> <td></td> <td>134</td></tr>
+<tr><td>Wommelgem</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>47</td></tr>
+<tr><td>Wortegem-Petegem</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>33</td></tr>
+<tr><td>Wuustwezel</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>81</td></tr>
+<tr><td>Yvoir</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td>56</td></tr>
+<tr><td>Zandhoven</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>88</td></tr>
+<tr><td>Zaventem</td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td>155</td></tr>
+<tr><td>Zedelgem</td> <td>1</td> <td></td> <td>1</td> <td></td> <td></td> <td>1</td> <td>3</td> <td>2</td> <td></td> <td>118</td></tr>
+<tr><td>Zele</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td>130</td></tr>
+<tr><td>Zelzate</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td>1</td> <td></td> <td></td> <td>26</td></tr>
+<tr><td>Zemst</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>78</td></tr>
+<tr><td>Zinnik</td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td>1</td> <td></td> <td>194</td></tr>
+<tr><td>Zoersel</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td>1</td> <td>75</td></tr>
+<tr><td>Zonhoven</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>2</td> <td></td> <td>1</td> <td>206</td></tr>
+<tr><td>Zonnebeke</td> <td></td> <td>1</td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>50</td></tr>
+<tr><td>Zottegem</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>76</td></tr>
+<tr><td>Zoutleeuw</td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td>87</td></tr>
+<tr><td>Zuienkerke</td> <td></td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>9</td></tr>
+<tr><td>Zulte</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td></td> <td>56</td></tr>
+<tr><td>Zutendaal</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>62</td></tr>
+<tr><td>Zwalm</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>16</td></tr>
+<tr><td>Zwevegem</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td>137</td></tr>
+<tr><td>Zwijndrecht</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>1</td> <td></td> <td>85</td></tr>
+<tr><td>’s Gravenbrakel</td> <td>1</td> <td>1</td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td></td> <td>66</td></tr>
+<tr></tr>
+<tr><td>Les Belges</td> <td>74</td> <td>260</td> <td>88</td> <td>109</td> <td>99</td> <td>103</td> <td>218</td> <td>82</td> <td>89</td> <td>61577</td></tr>
+</table>
+
+  </body>
+</html>

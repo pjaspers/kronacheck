@@ -1,0 +1,863 @@
+<html>
+  <head>
+    <title>Krona on 02-07-2020</title>
+    <meta name="viewport" content="user-scalable=no, initial-scale=1">
+    <style>
+      :root {
+  --c-background: #fff;
+  --c-sec-background: #eee;
+  --c-main: #333;
+  --c-secondary: #666;
+  --unit: 8px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --c-background: #333;
+    --c-sec-background: #222;
+    --c-main: #ccc;
+    --c-secondary: #999;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  outline: none;
+  font-size: 1em;
+  font-weight: normal;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none;
+  color: inherit;
+  text-align: left;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+[type=button],
+button {
+  all: revert;
+}
+
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -webkit-font-feature-settings: "liga" on;
+          font-feature-settings: "liga" on;
+  -moz-font-feature-settings: "liga" on;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  min-height: 100vh;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--c-sec-background);
+  color: var(--c-secondary);
+  position: relative;
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+}
+
+h2 {
+  display: none;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 100%;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+table th,
+table td {
+  padding: calc(var(--unit) * 1.5) calc(var(--unit) * 2);
+  background-color: var(--c-background);
+  vertical-align: top;
+  text-align: right;
+}
+
+table tr:first-child th {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  color: var(--c-main);
+  background-color: var(--c-sec-background);
+}
+
+table tr:first-child th:first-child {
+  left: 0;
+  z-index: 3;
+  font-weight: bold;
+}
+
+table tr:first-child th:last-child {
+  font-weight: bold;
+  color: var(--c-main);
+}
+
+table tr:not(:first-child):not(:last-child) td {
+  border-top: 1px solid var(--c-sec-background);
+  border-left: 1px solid var(--c-sec-background);
+}
+
+table tr:not(:first-child):not(:last-child) td:first-child {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  color: var(--c-main);
+  background-color: var(--c-sec-background);
+  max-width: 33.33vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+table tr:not(:first-child):not(:last-child) td:last-child {
+  font-weight: bold;
+  color: var(--c-main);
+}
+
+table tr:not(:first-child):not(:last-child) td:not(:first-child) {
+  -webkit-font-feature-settings: "tnum";
+          font-feature-settings: "tnum";
+}
+
+table tr:last-child td {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  z-index: 2;
+  color: var(--c-main);
+  background-color: var(--c-sec-background);
+}
+
+table tr:last-child td:first-child {
+  left: 0;
+  z-index: 3;
+  font-weight: bold;
+}
+
+table tr:last-child td:last-child {
+  font-weight: bold;
+  color: var(--c-main);
+}
+
+table tr:last-child td:not(:first-child) {
+  -webkit-font-feature-settings: "tnum";
+          font-feature-settings: "tnum";
+}
+
+    </style>
+  </head>
+  <body>
+    <h2>Cities</h2>
+<table>
+<tr>
+  <th>
+  City
+</th>
+ <th>
+  Sat 20
+</th>
+ <th>
+  Tue 23
+</th>
+ <th>
+  Wed 24
+</th>
+ <th>
+  Thu 25
+</th>
+ <th>
+  Fri 26
+</th>
+ <th>
+  Sat 27
+</th>
+ <th>
+  Tue 30
+</th>
+ <th>
+  Wed 01
+</th>
+ <th>
+  Thu 02
+</th>
+ <th>
+  All Time
+</th>
+
+</tr>
+<tr>
+  
+</tr>
+<tr>
+  <td>
+  Aartselaar
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  1
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  133
+</td>
+
+</tr>
+<tr>
+  <td>
+  Antwerpen
+</td>
+ <td>
+  5
+</td>
+ <td>
+  26
+</td>
+ <td>
+  5
+</td>
+ <td>
+  15
+</td>
+ <td>
+  4
+</td>
+ <td>
+  10
+</td>
+ <td>
+  25
+</td>
+ <td>
+  1
+</td>
+ <td>
+  8
+</td>
+ <td>
+  2680
+</td>
+
+</tr>
+<tr>
+  <td>
+  Balen
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  1
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  53
+</td>
+
+</tr>
+<tr>
+  <td>
+  De Panne
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  35
+</td>
+
+</tr>
+<tr>
+  <td>
+  Edegem
+</td>
+ <td>
+  
+</td>
+ <td>
+  1
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  79
+</td>
+
+</tr>
+<tr>
+  <td>
+  Hamont-Achel
+</td>
+ <td>
+  1
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  62
+</td>
+
+</tr>
+<tr>
+  <td>
+  Heist-op-den-Berg
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  205
+</td>
+
+</tr>
+<tr>
+  <td>
+  Herentals
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  1
+</td>
+ <td>
+  110
+</td>
+
+</tr>
+<tr>
+  <td>
+  Kampenhout
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  53
+</td>
+
+</tr>
+<tr>
+  <td>
+  Kontich
+</td>
+ <td>
+  1
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  57
+</td>
+
+</tr>
+<tr>
+  <td>
+  Kortrijk
+</td>
+ <td>
+  
+</td>
+ <td>
+  3
+</td>
+ <td>
+  1
+</td>
+ <td>
+  2
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  2
+</td>
+ <td>
+  
+</td>
+ <td>
+  562
+</td>
+
+</tr>
+<tr>
+  <td>
+  Leuven
+</td>
+ <td>
+  1
+</td>
+ <td>
+  1
+</td>
+ <td>
+  2
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  1
+</td>
+ <td>
+  458
+</td>
+
+</tr>
+<tr>
+  <td>
+  Mortsel
+</td>
+ <td>
+  
+</td>
+ <td>
+  1
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  2
+</td>
+ <td>
+  
+</td>
+ <td>
+  1
+</td>
+ <td>
+  113
+</td>
+
+</tr>
+<tr>
+  <td>
+  Olen
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  55
+</td>
+
+</tr>
+<tr>
+  <td>
+  Peer
+</td>
+ <td>
+  2
+</td>
+ <td>
+  1
+</td>
+ <td>
+  
+</td>
+ <td>
+  *-1*?
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  76
+</td>
+
+</tr>
+<tr>
+  <td>
+  Pelt
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  *-1*?
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  111
+</td>
+
+</tr>
+<tr>
+  <td>
+  Veurne
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  
+</td>
+ <td>
+  39
+</td>
+
+</tr>
+<tr>
+  
+</tr>
+<tr>
+  <td>
+  Les Belges
+</td>
+ <td>
+  74
+</td>
+ <td>
+  260
+</td>
+ <td>
+  88
+</td>
+ <td>
+  109
+</td>
+ <td>
+  99
+</td>
+ <td>
+  103
+</td>
+ <td>
+  218
+</td>
+ <td>
+  82
+</td>
+ <td>
+  89
+</td>
+ <td>
+  61577
+</td>
+
+</tr>
+</table>
+
+  </body>
+</html>
