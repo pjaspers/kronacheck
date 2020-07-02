@@ -14,7 +14,6 @@ CITIES = [
   "Peer",
   "Edegem",
   "Kontich",
-  "Luik",
   "Mortsel",
   "Balen",
   "Heist-op-den-Berg",
@@ -40,13 +39,13 @@ table= ->(title, &block) do
   io.rewind
   puts io.read
 end
-cell = ->(s, length) { length ? "%#{length}s" % s : "%s"}
-hcell = ->(s, length) { length ? "%#{length}s" % s : "%s"}
+cell = ->(s, options = {}) { "%#{options.fetch(:length, "")}s"  % s}
+hcell = ->(s, options = {}) { "%#{options.fetch(:length, "")}s" % s}
 row = ->(*cols) { cols.join("|") }
 joiner = ->(j) { j.join("|") }
 row_divider = ->(length) { row.("-" * length)}
 
-if ARGV.include?("--write-html")
+if true || ARGV.include?("--write-html")
   @write_html = true
   table= ->(title, &block) do
     io = StringIO.new
@@ -57,9 +56,21 @@ if ARGV.include?("--write-html")
     io.rewind
     io.read
   end
-  cell = ->(s, length) { "<td>#{s}</td>" }
-  hcell = ->(s, length) { "<th>#{s}</th>" }
-  row = ->(*cols) { "<tr>%s</tr>" % cols.join(" ") }
+  tag = ->(name, content, options = {}) do
+    name = String(name)
+    start = name
+    css_classes = (Array(options[:class]) || []).compact
+    start = "#{tag} class='#{css_classes.join(" ")}'" if css_classes.any?
+    <<~HTML
+<#{start}>
+  #{content}
+</#{name}>
+HTML
+  end
+
+  cell = ->(s, options = {}) { tag.(:td, s, options) }
+  hcell = ->(s, options = {}) { tag.(:th, s, options) }
+  row = ->(*cols) { tag.(:tr, cols.join(" ")) }
   row_divider = ->(length) { row.([]) }
   joiner = ->(j) { j }
 end
@@ -133,19 +144,21 @@ results = (data.keys + [TOTAL_KEY]).inject({}) do |result, city|
 end
 
 dates = results[CITIES.first].collect(&:first)
-fd = dates.collect {|d| hcell.(d.strftime("%a %d"),6)}
-header = row.(hcell.("City", 20), joiner.(fd), hcell.("All Time",6))
+fd = dates.collect {|d| hcell.(d.strftime("%a %d"), length: 6)}
+header = row.(hcell.("City", length: 20), joiner.(fd), hcell.("All Time", length: 6))
 r = table.("Cities") do |io|
   io.puts header
   io.puts row_divider.(header.length)
   results.sort_by{|(i,j)| i}.each.with_index do |(city, data), index|
     fr = data.collect do |(date, delta, total)|
+      options = {length: 6}
+      options.merge!(class: "today") if date == Date.today
       if delta > 0
-        cell.(delta, 6)
+        cell.(delta, options)
       elsif delta == 0
-        cell.("", 6)
+        cell.("", options)
       else
-        cell.("*#{delta}*?",6)
+        cell.("*#{delta}*?", options)
       end
     end
     fj = joiner.(fr)
@@ -153,7 +166,7 @@ r = table.("Cities") do |io|
       io.puts row_divider.(header.length)
       city = "Les Belges"
     end
-    io.puts row.(cell.(city, 20), fr, cell.(data.last[2],6)) #.gsub("|", index.even? ? "|": " ")
+    io.puts row.(cell.(city, length: 20), fr, cell.(data.last[2], length: 6)) #.gsub("|", index.even? ? "|": " ")
   end
 end
 if @write_html
@@ -165,6 +178,7 @@ if @write_html
   html = <<~HTML
 <html>
   <head>
+    <title>Krona on #{Date.today.strftime("%d-%m-%Y")}</title>
     <meta name="viewport" content="user-scalable=no, initial-scale=1">
     <style>
       #{css}
@@ -194,7 +208,7 @@ end
 puts ""
 puts ""
 
-fd = dates.collect {|d| cell.(d.strftime("%a %d"),6)}
+fd = dates.collect {|d| cell.(d.strftime("%a %d"), length: 6)}
 header = "%20s |%s| %6s" % [ "Province", fd.join("|"), "Total"]
 puts header
 puts "-" * header.length
