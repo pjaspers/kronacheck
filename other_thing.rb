@@ -101,11 +101,11 @@ end
 dates = START_DATE..Time.now.to_date
 dates.each do |date|
   suffix = "%02d%02d" % [date.month, date.day]
-  next if File.exist?("COVID19BE_CASES_MUNI_CUM_2020#{suffix}.csv")
+  next if File.exist?("data/COVID19BE_CASES_MUNI_CUM_2020#{suffix}.csv")
 
   puts "-> Downloading #{suffix}"
   command = <<~SHELL
-    curl -O "https://epistat.sciensano.be/Data/2020#{suffix}/COVID19BE_CASES_MUNI_CUM_2020#{suffix}.csv"
+    curl -o "data/COVID19BE_CASES_MUNI_CUM_2020#{suffix}.csv" "https://epistat.sciensano.be/Data/2020#{suffix}/COVID19BE_CASES_MUNI_CUM_2020#{suffix}.csv"
 SHELL
 `#{command}`
 end
@@ -115,7 +115,7 @@ provinces = {}
 citiesd = {}
 
 cities = CITIES
-Dir.glob("COVID19BE_CASES_MUNI_CUM*.csv").sort.each do |name|
+Dir.glob("data/COVID19BE_CASES_MUNI_CUM*.csv").sort.each do |name|
   total_cases = 0
   date_part = name.split("_").last.split(".").first
   date = begin
