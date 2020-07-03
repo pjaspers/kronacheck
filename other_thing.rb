@@ -199,8 +199,8 @@ if @write_html
 <html>
   <head>
     <title>Krona on #{Date.today.strftime("%d-%m-%Y")}</title>
-    <meta name="viewport" content="user-scalable=no, initial-scale=1">
-    <link rel="stylesheet" href="a-maxvoltar-special.css">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, width=device-width">
+     <link rel="stylesheet" href="a-maxvoltar-special.css">
   </head>
   <body>
     #{r}
