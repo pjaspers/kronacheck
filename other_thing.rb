@@ -122,7 +122,7 @@ Dir.glob("data/COVID19BE_CASES_MUNI_CUM*.csv").sort.each do |name|
            Time.parse(date_part)
          rescue ArgumentError
            nil
-         end
+         end.to_date
 
   CSV.foreach(name, headers: true, encoding: "UTF-8:UTF-8") do |row|
     city = row["TX_DESCR_NL"]
@@ -190,15 +190,42 @@ r = table.("Cities") do |io|
   end
 end
 
+bad_ones = results.map do |(city, data)|
+  next if city == TOTAL_KEY
+  _, delta, _ = data.detect {|(d,delta,_)| d == Date.today && delta > 0}
+  [city, delta] if delta
+end.compact.sort_by(&:last).reverse
+
+yesterday, today = results[TOTAL_KEY].sort_by{|(i,j)| i}[-2..-1].map{|_,dt,_| dt}
+puts "Yesterday: #{yesterday} Today: #{today}"
+description = if bad_ones.any?
+                offenders = bad_ones.map{|c,dt| "#{c} (#{dt})"}.join(", ")
+                "Fucking #{offenders}"
+              else
+                "None! Good job everyone!"
+              end
+
 if @write_html
   basename = ["result"]
   basename << "all" unless @limit_cities
   basename << "%02d%02d" % [Date.today.month, Date.today.day]
   filename = "#{basename.join("-")}.html"
+  title = "Krona on #{Date.today.strftime("%d-%m-%Y")}"
+  twitter_card = {
+    domain: "kronacheck.herokuapp.com",
+    title: "#{title}",
+    description: description,
+    label1: "Yesterday",
+    data1: yesterday,
+    label2: "Today",
+    data2: today
+  }.map {|key, val| "<meta name='twitter:#{key}' value='#{val}' />" }.join("\n")
+
   html = <<~HTML
 <html>
   <head>
-    <title>Krona on #{Date.today.strftime("%d-%m-%Y")}</title>
+    <title>#{title}</title>
+    #{twitter_card}
     <meta name="viewport" content="user-scalable=no, initial-scale=1, width=device-width">
      <link rel="stylesheet" href="a-maxvoltar-special.css">
   </head>
