@@ -199,12 +199,18 @@ end.compact.sort_by(&:last).reverse
 yesterday, today = results[TOTAL_KEY].sort_by{|(i,j)| i}[-2..-1].map{|_,dt,_| dt}
 puts "Yesterday: #{yesterday} Today: #{today}"
 description = if bad_ones.any?
-                offenders = bad_ones.map{|c,dt| "#{c} (#{dt})"}.join(", ")
-                "Fucking #{offenders}"
+                formatted = bad_ones.map{|c,dt| "*#{c}* (#{dt})"}
+                if bad_ones.count > 1
+                  last = formatted.pop
+                  offenders = formatted.join(", ")
+                  "Fucking #{[offenders, last].join(" and ")}"
+                else
+                  "Fucking #{formatted.first}"
+                end
               else
                 "None! Good job everyone!"
               end
-
+puts description
 if @write_html
   basename = ["result"]
   basename << "all" unless @limit_cities
