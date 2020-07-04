@@ -4,8 +4,8 @@ use Rack::Static,
 
 
 use Rack::Static, :urls => { "/a-maxvoltar-special.css" => "a-maxvoltar-special.css" }
-use Rack::Static, :urls => {"/" => 'result-0703.html'}
-use Rack::Static, :urls => {"/all" => 'result-all-0703.html'}
+use Rack::Static, :urls => {"/" => 'result-0704.html'}
+use Rack::Static, :urls => {"/all" => 'result-all-0704.html'}
 
 run lambda { |env|
   [
