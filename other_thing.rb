@@ -233,7 +233,8 @@ if @write_html
     <title>#{title}</title>
     #{twitter_card}
     <meta name="viewport" content="user-scalable=no, initial-scale=1, width=device-width">
-     <link rel="stylesheet" href="a-maxvoltar-special.css">
+    <link rel="stylesheet" href="a-maxvoltar-special.css">
+    <!-- Generated on #{Time.now.to_s} -->
   </head>
   <body>
     #{r}
