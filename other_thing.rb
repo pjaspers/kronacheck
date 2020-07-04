@@ -243,6 +243,13 @@ if @write_html
 HTML
   File.open(File.join("results", filename), "w") {|f| f.puts html }
   puts "Wrote #{filename}"
+  if File.exist?(File.join("results", filename))
+    require "fileutils"
+    basename = ["today"]
+    basename << "all" unless @limit_cities
+    new_filename = "#{basename.join("-")}.html"
+    FileUtils.cp(File.join("results", filename), new_filename)
+  end
 end
 
 prs = provinces.inject({}) do |result, (province, value)|
