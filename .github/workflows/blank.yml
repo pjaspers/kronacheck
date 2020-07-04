@@ -28,4 +28,7 @@ jobs:
 
     # Runs a single command using the runners shell
     - name: Run a one-line script
-      run: script/test
+      run: |
+        gem install bundler
+        bundle install --jobs 4 --retry 3
+        script/test
