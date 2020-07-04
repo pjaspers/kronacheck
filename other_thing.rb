@@ -241,7 +241,7 @@ if @write_html
   </body>
 </html>
 HTML
-  File.open(filename, "w") {|f| f.puts html }
+  File.open(File.join("results", filename), "w") {|f| f.puts html }
   puts "Wrote #{filename}"
 end
 
