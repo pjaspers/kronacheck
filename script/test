@@ -1,0 +1,33 @@
+#! /usr/bin/env ruby
+require "bundler/setup"
+ENV["RACK_ENV"] = "test"
+require "minitest"
+require "minitest/autorun"
+require "rack/test"
+
+LE_APP = Rack::Builder.parse_file("config.ru").first
+
+class TestApp < MiniTest::Test
+  include Rack::Test::Methods
+
+  def app
+    LE_APP
+  end
+
+  {
+    root: "/",
+    all: "/all",
+    style: "a-maxvoltar-special.css"
+  }.each do |name, endpoint|
+    define_method("test_#{name}") do
+      get endpoint
+      assert last_response.ok?
+    end
+
+    define_method("test_#{name}_has_some_length") do
+      get endpoint
+      assert last_response.body.length > 100
+    end
+  end
+
+end
