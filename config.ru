@@ -1,11 +1,8 @@
-use Rack::Static,
-  :urls => ["/images", "/js", "/css"],
-  :root => "public"
-
 
 use Rack::Static, :urls => { "/a-maxvoltar-special.css" => "a-maxvoltar-special.css" }
-use Rack::Static, :urls => {"/" => 'result-0704.html'}
-use Rack::Static, :urls => {"/all" => 'result-all-0704.html'}
+use Rack::Static, :urls => { "/a-maxvoltar-special.css.map" => "a-maxvoltar-special.css.map" }
+use Rack::Static, :urls => {"/" => 'today.html'}
+use Rack::Static, :urls => {"/all" => 'today-all.html'}
 
 run lambda { |env|
   [
