@@ -20,7 +20,8 @@ CITIES = [
   "Pelt",
   "Veurne",
   "Kampenhout",
-  "Olen"
+  "Olen",
+  "Boom"
 ].freeze
 
 TOTAL_KEY= "’’’TOTAL"
