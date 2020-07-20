@@ -4,6 +4,8 @@ ruby '2.7.1'
 source "https://rubygems.org"
 
 gem "rack", "~> 2.2.3"
+gem "charlock_holmes", "~> 0.7.7"
+
 group :test do
   gem "rack-test", "~> 1.1.0"
   gem "minitest", "~> 5.14.1"

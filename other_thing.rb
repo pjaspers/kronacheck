@@ -1,5 +1,10 @@
 require "csv"
 require "time"
+
+# Yes, an external dependency, I know, I feel you. But that name, who
+# could resist using this? Not me.
+require "charlock_holmes"
+
 # Earliest date I can find on Sciensano site
 START_DATE = Time.parse("2020-03-25").to_date
 
@@ -125,7 +130,9 @@ Dir.glob("data/COVID19BE_CASES_MUNI_CUM*.csv").sort.each do |name|
            nil
          end.to_date
 
-  CSV.foreach(name, headers: true, encoding: "UTF-8:UTF-8") do |row|
+  detection = CharlockHolmes::EncodingDetector.detect(File.read(name))
+
+  CSV.foreach(name, headers: true, encoding: "#{detection[:encoding]}:UTF-8") do |row|
     city = row["TX_DESCR_NL"]
     cases = row["CASES"].to_i
     total_cases += cases
