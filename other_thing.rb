@@ -106,7 +106,7 @@ dates.each do |date|
 
   puts "-> Downloading #{suffix}"
   command = <<~SHELL
-    curl -o "data/COVID19BE_CASES_MUNI_CUM_2020#{suffix}.csv" "https://epistat.sciensano.be/Data/2020#{suffix}/COVID19BE_CASES_MUNI_CUM_2020#{suffix}.csv"
+    curl --fail -o "data/COVID19BE_CASES_MUNI_CUM_2020#{suffix}.csv" "https://epistat.sciensano.be/Data/2020#{suffix}/COVID19BE_CASES_MUNI_CUM_2020#{suffix}.csv"
 SHELL
 `#{command}`
 end
