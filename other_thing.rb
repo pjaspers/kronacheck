@@ -1,7 +1,7 @@
 require "csv"
 require "time"
-
-START_DATE = Time.parse("2020-06-01").to_date
+# Earliest date I can find on Sciensano site
+START_DATE = Time.parse("2020-03-25").to_date
 
 CITIES = [
   "Aartselaar",
