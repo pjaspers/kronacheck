@@ -198,6 +198,16 @@ r = table.("Cities") do |io|
   end
 end
 
+CSV.open("results.csv", "wb") do |csv|
+  csv << %w(city date delta total)
+  results.each do |city, data|
+    next if city == TOTAL_KEY
+    data.each do |(date, delta, total)|
+      csv << [city, date.to_s, delta, total]
+    end
+  end
+end
+
 bad_ones = results.map do |(city, data)|
   next if city == TOTAL_KEY
   _, delta, _ = data.detect {|(d,delta,_)| d == Date.today && delta > 0}
