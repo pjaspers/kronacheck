@@ -8,6 +8,8 @@ require "charlock_holmes"
 # Earliest date I can find on Sciensano site
 START_DATE = Time.parse("2020-03-25").to_date
 
+SHOW_LAST_N = ENV.fetch("LAST_N", 10)
+
 CITIES = [
   "Aartselaar",
   "Leuven",
@@ -158,7 +160,7 @@ end
 
 results = (data.keys + [TOTAL_KEY]).inject({}) do |result, city|
   if arr = data[city]
-    first, *rest = arr.sort_by(&:first).last(10)
+    first, *rest = arr.sort_by(&:first).last(SHOW_LAST_N)
     prev = first.last.to_i
     result[city] = rest.collect do |date, cases|
       cases = cases.to_i
