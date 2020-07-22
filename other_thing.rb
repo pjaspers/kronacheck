@@ -8,7 +8,7 @@ require "charlock_holmes"
 # Earliest date I can find on Sciensano site
 START_DATE = Time.parse("2020-03-25").to_date
 
-SHOW_LAST_N = ENV.fetch("LAST_N", 10)
+SHOW_LAST_N = ENV.fetch("LAST_N", 10).to_i
 
 CITIES = [
   "Aartselaar",
