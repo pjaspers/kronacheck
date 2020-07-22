@@ -6,6 +6,12 @@
   }
 }
 
+@mixin mobile {
+  @media (max-width: 640px) {
+    @content
+  }
+}
+
 // VARS
 
 $red: red;
@@ -201,12 +207,31 @@ table {
       &:last-child {
         font-weight: 900;
         color: var(--c-main);
-        color: var(--c-main);
       }
 
       &:not(:first-child) {
         font-feature-settings: "tnum";
       }
     }
+  }
+}
+
+// ABOUT
+
+.about {
+  .styled {
+    display: none;
+  }
+
+  input:checked ~ .styled {
+    display: block;
+  }
+}
+
+// STYLED
+
+.styled {
+  p {
+    margin-bottom: 16px;
   }
 }

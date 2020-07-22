@@ -2,18 +2,32 @@
   <head>
     <title>Krona on 22-07-2020</title>
     <meta name='twitter:domain' value='kronacheck.herokuapp.com' />
-<meta name='twitter:title' value='Krona on 22-07-2020' />
-<meta name='twitter:description' value='Fucking *Antwerpen* (43), *Balen* (2), *Edegem* (2), *Peer* (1), *Herentals* (1), *Kontich* (1) and *Boom* (1)' />
-<meta name='twitter:label1' value='Yesterday' />
-<meta name='twitter:data1' value='201' />
-<meta name='twitter:label2' value='Today' />
-<meta name='twitter:data2' value='164' />
+    <meta name='twitter:title' value='Krona on 22-07-2020' />
+    <meta name='twitter:description' value='Fucking *Antwerpen* (43), *Balen* (2), *Edegem* (2), *Peer* (1), *Herentals* (1), *Kontich* (1) and *Boom* (1)' />
+    <meta name='twitter:label1' value='Yesterday' />
+    <meta name='twitter:data1' value='201' />
+    <meta name='twitter:label2' value='Today' />
+    <meta name='twitter:data2' value='164' />
     <meta name="viewport" content="user-scalable=no, initial-scale=1, width=device-width">
     <link rel="stylesheet" href="a-maxvoltar-special.css">
     <!-- Generated on 2020-07-22 09:02:26 +0200 -->
   </head>
   <body>
-    <h2>Cities</h2>
+    <h1>kronacheck</h1>
+    <div class="about">
+      <input type="checkbox" id="about">
+      <label for="about"></label>
+      <div class="styled">
+        <h2>Where is this data coming from?</h2>
+        <p>Each day I pull down the files from <a href="https://epistat.wiv-isp.be/covid/">https://epistat.wiv-isp.be/covid/</a>, to be more specific, I pull down the
+        <code>COVID19BE_CASES_MUNI_CUM</code> file.</p>
+        <p>Which contain for each municipality the</p>
+        <blockquote>
+          <p>Cumulative number of confirmed cases (combinations with zero cases are not shown</p>
+        </blockquote>
+        <p>I then run some code to count what the actual delta is from the day before, and that gets filled out in the data.</p>
+      </div>
+    </div>
 <table>
 <tr>
   <th>

@@ -193,11 +193,22 @@ table tr:last-child td:first-child {
 table tr:last-child td:last-child {
   font-weight: 900;
   color: var(--c-main);
-  color: var(--c-main);
 }
 
 table tr:last-child td:not(:first-child) {
   -webkit-font-feature-settings: "tnum";
           font-feature-settings: "tnum";
+}
+
+.about .styled {
+  display: none;
+}
+
+.about input:checked ~ .styled {
+  display: block;
+}
+
+.styled p {
+  margin-bottom: 16px;
 }
 /*# sourceMappingURL=a-maxvoltar-special.css.map */
