@@ -29,7 +29,8 @@ jobs:
       run: |
         gem install bundler
         bundle install --jobs 4 --retry 3
-        bin/krona check && (make && git add . && git commit -m "Building results ${GITHUB_RUN_NUMBER}" && git push -u origin) || echo "Nothing new"
+        make
+        bin/krona check && (git add . && git commit -m "Building results ${GITHUB_RUN_NUMBER}" && git push -u origin) || echo "Nothing new"
       env:
         GIT_AUTHOR_NAME: Github Bot
         GIT_COMMITTER_NAME: Github Bot
