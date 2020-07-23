@@ -5,7 +5,7 @@ module Krona
     end
 
     def dates
-      start_date..Time.now.to_date
+      @start_date..Time.now.to_date
     end
 
     def call

@@ -1,0 +1,71 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "optionparser"
+require_relative "../krona"
+
+CITIES = [
+  "Aartselaar",
+  "Leuven",
+  "Hamont-Achel",
+  "Kortrijk",
+  "De Panne",
+  "Herentals",
+  "Antwerpen",
+  "Peer",
+  "Edegem",
+  "Kontich",
+  "Mortsel",
+  "Balen",
+  "Heist-op-den-Berg",
+  "Pelt",
+  "Veurne",
+  "Kampenhout",
+  "Olen",
+  "Boom"
+]
+
+options = {}
+opts = OptionParser.new do |opts|
+  opts.banner = "Usage: "
+
+  opts.on("-o", "--output [SHELL]", "Shell or HTML") do |output|
+    options[:output] = output
+  end
+end
+opts.parse!(ARGV)
+
+action = ARGV.pop
+
+parser = Krona::Parser.new(directory: "data")
+
+case action
+when "cities"
+  if options[:output] == "html"
+    puts Krona::HTMLPrinter.new(parser.cities, title: "Cities").html
+  else
+    Krona::ShellPrinter.new(parser.cities, title: "Cities").overview
+  end
+when "provinces"
+  if options[:output] == "html"
+    puts Krona::HTMLPrinter.new(parser.provinces, title: "Provinces").html
+  else
+    Krona::ShellPrinter.new(parser.provinces, title: "Provinces").overview
+  end
+when "twitterpp"
+  if options[:output] == "html"
+    puts Krona::HTMLPrinter.new(parser.cities, limit_to: CITIES, title: "Cities").html
+  else
+    Krona::ShellPrinter.new(parser.cities, limit_to: CITIES, title: "Cities").overview
+  end
+when "csv"
+  puts Krona::CSVPrinter.new(parser.cities, title: "Cities").csv
+when "fetch"
+  Krona::Fetcher.new(Krona::START_DATE).call
+end
+  # parser = Krona::Parser.new(directory: "data")
+  # puts Krona::ShellPrinter.new(parser.cities, title: "Cities", limit_to: CITIES).overview
+  # puts Krona::ShellPrinter.new(parser.provinces, title: "Provinces").overview
+  # puts Krona::HTMLPrinter.new(parser.cities, title: "Cities", limit_to: CITIES).html
+  # puts Krona::CSVPrinter.new(parser.cities, title: "Cities", limit_to: CITIES).csv
+  # puts Krona::ShellPrinter.new(parser.cities, title: "Provinces").worst_ones
