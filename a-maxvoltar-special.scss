@@ -17,6 +17,7 @@
 $red: red;
 $green: green;
 $black: black;
+$blue: blue;
 
 :root {
   --c-background: #fff;
@@ -73,6 +74,7 @@ body {
   font-feature-settings: "liga" on;
   -moz-font-feature-settings: "liga" on;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: calc(var(--unit) * 2.5);
   min-height: 100vh;
   scroll-behavior: smooth;
 }
@@ -86,8 +88,36 @@ body {
   padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
 }
 
-h2 {
-  display: none;
+h1 {
+  padding: calc(var(--unit) * 1.5) calc(var(--unit) * 2) 0;
+  text-transform: uppercase;
+  color: var(--c-main);
+  
+  span {
+    font-style: italic;
+    font-weight: 800;
+    background: linear-gradient(to right, $green, $red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-right: 2px;
+    
+    @include dark-mode() {
+      background: linear-gradient(to right, lighten($green, 10%), lighten($red, 10%));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 10;
+  background-color: var(--c-sec-background);
 }
 
 table { 
@@ -110,7 +140,7 @@ table {
   tr:first-child {
     th {
       position: sticky;
-      top: 0;
+      top: calc(var(--unit) * 4);
       left: 0;
       z-index: 2;
       background-color: var(--c-sec-background);
@@ -219,19 +249,130 @@ table {
 // ABOUT
 
 .about {
-  .styled {
+  .about-content {
+    display: none;
+    position: fixed;
+    overflow-y: auto;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    background: var(--c-background);
+    height: 100vh;
+
+    .styled {
+      background: var(--c-background);
+      max-width: calc(var(--unit) * 80);
+      padding: calc(var(--unit) * 3) calc(var(--unit) * 4);
+      margin: 0 auto;
+    }
+  }
+
+  .close {
+    position: fixed;
+    top: calc(var(--unit) * 2.5);
+    right: calc(var(--unit) * 2.5);
+    width: calc(var(--unit) * 3.5);
+    height: calc(var(--unit) * 3.5);
+    border-radius: 50%;
+    line-height: calc(var(--unit) * 3);
+    font-size: calc(var(--unit) * 3);
+    text-align: center;
+    color: var(--c-background);
+    display: inline-block;
+    background: var(--c-secondary);
+    cursor: pointer;
+
+    &:hover,
+    &:focus {
+      background: var(--c-main);
+    }
+  }
+
+  input:checked ~ .about-content {
+    display: flex;
+  }
+  
+  input {
     display: none;
   }
 
-  input:checked ~ .styled {
+  .open {
+    cursor: pointer;
     display: block;
+    padding: calc(var(--unit) * 1.5) calc(var(--unit) * 2) 0;
+
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+
+      &::before {
+        background: var(--c-main);
+      }
+    }
+
+    &:active {
+      color: var(--c-main);
+    }
+
+    &::before {
+      content: "i";
+      width: calc(var(--unit) * 2.5);
+      height: calc(var(--unit) * 2.5);
+      border-radius: 50%;
+      text-align: center;
+      font-style: italic;
+      color: var(--c-background);
+      display: inline-block;
+      background: var(--c-secondary);
+      margin-right: 8px;
+    }
   }
 }
 
 // STYLED
 
 .styled {
-  p {
-    margin-bottom: 16px;
+  p,
+  h2,
+  h3 {
+    margin-bottom: calc(var(--unit) * 2);
+  }
+
+  h2 {
+    font-size: calc(var(--unit) * 3);
+    line-height: calc(var(--unit) * 4);
+    color: var(--c-main);
+    font-weight: 800;
+  }
+
+  h3 {
+    font-size: calc(var(--unit) * 2.5);
+    line-height: calc(var(--unit) * 3.5);
+    color: var(--c-main);
+    font-weight: 600;
+  }
+
+  blockquote {
+    border-left: calc(var(--unit) / 2) solid var(--c-sec-background);
+    padding-left: calc(var(--unit) * 2);
+    color: var(--c-main);
+
+    * {
+      font-style: italic;
+    }
+  }
+
+  a {
+    color: $blue;
+    text-decoration: underline;
+
+    @include dark-mode() {
+      color: lighten($blue, 25%);
+    }
+  }
+
+  > :last-child {
+    margin-bottom: 0;
   }
 }
