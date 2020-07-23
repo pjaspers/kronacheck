@@ -1,9 +1,13 @@
 # Checks the krona
 
-There's a cronjob that runs the following every hour:
+Driving force is: `bin/krona`
 
-`ruby other_thing.rb --write-html && ruby other_thing.rb --write-html --all`
+`bin/krona fetch` => Will fetch new data and stored it in the `data` directory
 
-This will pull in new CSV's, and spit out new HTML into the results directory and update the today.html, which is served by Rack.
+`bin/krona cities` => Prints results for all cities
+
+`bin/krona twitterpp` => Prints results for cities I'm interested in
+
+`bin/krona csv` => Prints out a csv with all the data
 
 It's very stupid, but it works.
