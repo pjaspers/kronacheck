@@ -85,7 +85,7 @@ body {
   background-color: var(--c-sec-background);
   color: var(--c-secondary);
   position: relative;
-  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+  padding-top: calc(var(--unit) * 4);
 }
 
 h1 {
