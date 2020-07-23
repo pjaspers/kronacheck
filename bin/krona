@@ -80,6 +80,14 @@ when "csv"
   output_or_save(csv, options[:file_name])
 when "fetch"
   Krona::Fetcher.new(Krona::START_DATE).call
+when "check"
+  if Krona::Fetcher.new(Krona::START_DATE).new_data?
+    puts "New data!"
+    exit 1
+  else
+    puts "Nothing new"
+    exit 0
+  end
 else
   puts "Unknown action. Should be one of: cities, provinces, twitterpp or csv"
 end
