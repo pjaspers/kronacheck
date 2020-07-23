@@ -16,7 +16,7 @@ class TestApp < MiniTest::Test
 
   {
     root: "/",
-    all: "/all",
+    all: "/tpp",
     style: "a-maxvoltar-special.css"
   }.each do |name, endpoint|
     define_method("test_#{name}") do
