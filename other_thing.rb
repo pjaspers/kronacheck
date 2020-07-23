@@ -78,7 +78,6 @@ HTML
   end
   table= ->(title, &block) do
     io = StringIO.new
-    io.puts("<h2>#{title}</h2>")
     io.puts("<table>")
     block.call(io)
     io.puts("</table>")
@@ -253,10 +252,47 @@ if @write_html
     <title>#{title}</title>
     #{twitter_card}
     <meta name="viewport" content="user-scalable=no, initial-scale=1, width=device-width">
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="a-maxvoltar-special.css">
     <!-- Generated on #{Time.now.to_s} -->
   </head>
   <body>
+    <header>
+      <h1>🦠 <span>kronacheck</span></h1>
+      <div class="about">
+        <input type="checkbox" id="about">
+        <label class="open" for="about">About</label>
+        <div class="about-content">
+          <div class="styled">
+            <label class="close" for="about">&times;</label>
+            <h2>About</h2>
+            <h3>Where is this data coming from?</h3>
+            <p>Each day I (<a href="https://twitter.com/pjaspers">@pjaspers</a>) pull down the files from <a
+                href="https://epistat.wiv-isp.be/covid/">https://epistat.wiv-isp.be/covid/</a>, to be more specific, I pull down the <code>COVID19BE_CASES_MUNI_CUM</code> file.</p>
+            <p>Which contain for each municipality the</p>
+            <blockquote>
+              <p>Cumulative number of confirmed cases (combinations with zero cases are not shown</p>
+            </blockquote>
+            <p>I then run some code to count what the actual delta is from the day before, and that gets filled out in the data.
+            </p>
+            <h3>Is this data trustworthy?</h3>
+            <p>I'm not making anything up, just downloading the CSV's and findin out the delta, it's only showing the confirmed cases as reported by Sciensano. These numbers sometimes get retroactively updated (you'll see a <em>-8?</em> in the table).</p>
+            <h3>Why?</h3>
+            <p>I was not a fan of the Sciensano dashboard, I wanted to get a quick view of how each city was doing, to get a bit of perspective on what's happening.</p>
+            <h3>Why is the code so horrible?</h3>
+            <p>I prefer the term 'Brutalist software'</p>
+            <h3>Is 'Brutalist software' a term you made up?</h3>
+            <p>Yes</p>
+            <h3>Is 'Brutalist software' a fad?</h3>
+            <p>I developed this in a very agile manner, where each sprint was about 5 minutes, and so the horrible shellscript expanded into a horrible website, and since it's doing almost nothing I threw away all best practices and went for stupid code that does stupid stuff in a stupid way, it's refreshing!</p>
+            <h3>Why don't you have any tests?</h3>
+            <p>Like the orange one said: "The more you test, the more cases/errors you'll find"</p>
+            <h3>Why does it look so pretty?</h3>
+            <p>That's all <a href="https://twitter.com/maxvoltar">@maxvoltar</a></p>
+          </div>
+        </div>
+      </div>
+    </header>
     #{r}
   </body>
 </html>
