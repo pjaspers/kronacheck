@@ -32,40 +32,54 @@ opts = OptionParser.new do |opts|
   opts.on("-o", "--output [SHELL]", "Shell or HTML") do |output|
     options[:output] = output
   end
+
+  opts.on("-f", "--filename [NAME]", "Filename to save to") do |name|
+    options[:file_name] = name
+  end
 end
+
 opts.parse!(ARGV)
 
 action = ARGV.pop
 
 parser = Krona::Parser.new(directory: "data")
 
+def output_or_save(content, filename)
+  if filename
+    File.open(filename, "w") {|f| f.puts content }
+    puts "  -> Saved to #{filename}"
+  else
+    puts content
+  end
+end
+
 case action
 when "cities"
   if options[:output] == "html"
-    puts Krona::HTMLPrinter.new(parser.cities, title: "Cities").html
+    html = Krona::HTMLPrinter.new(parser.cities, title: "Cities").html
+    output_or_save(html, options[:file_name])
   else
     Krona::ShellPrinter.new(parser.cities, title: "Cities").overview
   end
 when "provinces"
   if options[:output] == "html"
-    puts Krona::HTMLPrinter.new(parser.provinces, title: "Provinces").html
+    html = Krona::HTMLPrinter.new(parser.provinces, title: "Provinces").html
+    output_or_save(html, options[:file_name])
   else
     Krona::ShellPrinter.new(parser.provinces, title: "Provinces").overview
   end
 when "twitterpp"
   if options[:output] == "html"
-    puts Krona::HTMLPrinter.new(parser.cities, limit_to: CITIES, title: "Cities").html
+    html = Krona::HTMLPrinter.new(parser.cities, limit_to: CITIES, title: "Kronacheck").html
+    output_or_save(html, options[:file_name])
   else
     Krona::ShellPrinter.new(parser.cities, limit_to: CITIES, title: "Cities").overview
   end
 when "csv"
-  puts Krona::CSVPrinter.new(parser.cities, title: "Cities").csv
+  csv =  Krona::CSVPrinter.new(parser.cities(last_n_days: 1000), title: "Cities").csv
+  output_or_save(csv, options[:file_name])
 when "fetch"
   Krona::Fetcher.new(Krona::START_DATE).call
+else
+  puts "Unknown action. Should be one of: cities, provinces, twitterpp or csv"
 end
-  # parser = Krona::Parser.new(directory: "data")
-  # puts Krona::ShellPrinter.new(parser.cities, title: "Cities", limit_to: CITIES).overview
-  # puts Krona::ShellPrinter.new(parser.provinces, title: "Provinces").overview
-  # puts Krona::HTMLPrinter.new(parser.cities, title: "Cities", limit_to: CITIES).html
-  # puts Krona::CSVPrinter.new(parser.cities, title: "Cities", limit_to: CITIES).csv
-  # puts Krona::ShellPrinter.new(parser.cities, title: "Provinces").worst_ones

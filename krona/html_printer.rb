@@ -3,9 +3,6 @@ require 'erb'
 module Krona
   class HTMLPrinter
 
-    # Added so I can use `html_escape` or `h` for short in my template.
-    include ERB::Util
-
     attr_accessor :data
     def initialize(data, title:, limit_to: [])
       @data = data
@@ -28,6 +25,7 @@ module Krona
 
     def bad_ones
       bad_ones = data.collect do |(item, data)|
+        next if should_skip?(item)
         next if item == Parser::TOTAL_KEY
         _, delta, _ = data.detect {|(d,delta,_)| d == Date.today && delta > 0}
         [item, delta] if delta
@@ -42,7 +40,7 @@ module Krona
         description: description,
       }
       card.merge!(label1: "Yesterday", data1: yesterday) if yesterday
-      card.merge!(label1: "Today", data1: today) if today
+      card.merge!(label2: "Today", data2: today) if today
       card
     end
 
@@ -63,7 +61,7 @@ module Krona
     end
 
     def headers
-      [@title, *dates.collect {|d| d.strftime("%a %d") }, "All Time"].flatten
+      ["City", *dates.collect {|d| d.strftime("%a %d") }, "All Time"].flatten
     end
 
     def rows

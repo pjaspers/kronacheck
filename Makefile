@@ -1,8 +1,10 @@
-build: today-limited today-all full-json
+build: fetch today-twitterpp today-all full-csv
 
-today-limited:
-	bundle exec ruby other_thing.rb --write-html
+fetch:
+	bin/krona fetch
+today-twitterpp:
+	bin/krona --output html --filename today-twitterpp.html twitterpp
 today-all:
-	bundle exec ruby other_thing.rb --write-html --all
-full-json:
-	(LAST_N=1000 bundle exec ruby other_thing.rb --all)
+	bin/krona --output html --filename today-all.html cities
+full-csv:
+	bin/krona  --filename all-results.csv csv
