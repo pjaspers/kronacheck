@@ -83,10 +83,10 @@ when "fetch"
 when "check"
   if Krona::Fetcher.new(Krona::START_DATE).new_data?
     puts "New data!"
-    exit 1
+    exit 0
   else
     puts "Nothing new"
-    exit 0
+    exit 1
   end
 else
   puts "Unknown action. Should be one of: cities, provinces, twitterpp or csv"
