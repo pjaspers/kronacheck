@@ -145,6 +145,38 @@ table {
       z-index: 2;
       background-color: var(--c-sec-background);
       box-shadow: 0 1px 0 transparentize($black, .95), 0 2px 0 transparentize($black, .95);
+      cursor: pointer;
+
+      &:hover,
+      &:focus {
+        color: var(--c-main);
+      }
+      
+      &::after {
+        content: "";
+        display: inline-block;
+        width: 0; 
+        height: 0; 
+        border-left: 4px solid transparent;
+        border-right: 4px solid transparent;
+        border-bottom: 6px solid var(--c-secondary);
+        margin-left: 4px;
+        transform: translateY(-2px);
+        opacity: 0;
+      }
+
+      &.sort {
+        &::after {
+          opacity: 1;
+        }
+
+        &.sort--desc {
+          &::after {
+            border-bottom: none;
+            border-top: 6px solid var(--c-secondary);
+          }
+        }
+      }
 
       @include dark-mode() {
         box-shadow: 0 1px 0 transparentize($black, .85), 0 2px 0 transparentize($black, .85);
