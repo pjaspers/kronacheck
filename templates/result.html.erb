@@ -80,5 +80,29 @@
         </tr>
       <% end %>
     </table>
+    <script type="text/javascript">
+     const cellValue = (tr, index) => tr.children[index].innerText || tr.children[index].textContent;
+
+     const comparer = (index, asc) => (a, b) => ((v1, v2) => {
+       if (v1 !== '' && v2 !== '' && !isNaN(v1) && !isNaN(v2)) {
+         return v1 - v2;
+       } else {
+         return v1.toString().localeCompare(v2);
+       }
+     })(cellValue(asc ? a : b, index), cellValue(asc ? b : a, index));
+
+     document.querySelectorAll('th').forEach(th => th.addEventListener('click', (() => {
+       const table = th.closest('table');
+       const lastRow = table.querySelector("tr:last-child");
+       const trParent = lastRow.parentNode;
+       Array.from(th.parentNode.querySelectorAll("th")).map(e => e.classList.remove("sort", "sort--asc", "sort--desc"))
+       th.classList.add("sort", "sort", !!!this.asc ? "sort--asc" : "sort--desc")
+       trParent.removeChild(lastRow)
+       Array.from(table.querySelectorAll("tr:nth-child(n+2):not(last-child)"))
+            .sort(comparer(Array.from(th.parentNode.children).indexOf(th), this.asc = !this.asc))
+            .forEach(tr => trParent.appendChild(tr));
+       trParent.appendChild(lastRow)
+     })));
+    </script>
   </body>
 </html>
