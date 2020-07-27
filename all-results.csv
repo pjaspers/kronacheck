@@ -107,6 +107,7 @@ Aartselaar,2020-07-23,1,140
 Aartselaar,2020-07-24,0,140
 Aartselaar,2020-07-25,3,143
 Aartselaar,2020-07-26,2,145
+Aartselaar,2020-07-27,0,145
 Antwerpen,2020-04-01,52,530
 Antwerpen,2020-04-02,62,592
 Antwerpen,2020-04-03,31,623
@@ -215,6 +216,7 @@ Antwerpen,2020-07-23,106,3316
 Antwerpen,2020-07-24,35,3351
 Antwerpen,2020-07-25,72,3423
 Antwerpen,2020-07-26,202,3625
+Antwerpen,2020-07-27,102,3727
 Boechout,2020-04-01,0,14
 Boechout,2020-04-02,0,14
 Boechout,2020-04-03,2,16
@@ -323,6 +325,7 @@ Boechout,2020-07-23,0,44
 Boechout,2020-07-24,0,44
 Boechout,2020-07-25,0,44
 Boechout,2020-07-26,4,48
+Boechout,2020-07-27,0,48
 Boom,2020-04-01,1,23
 Boom,2020-04-02,3,26
 Boom,2020-04-03,3,29
@@ -431,6 +434,7 @@ Boom,2020-07-23,1,113
 Boom,2020-07-24,3,116
 Boom,2020-07-25,4,120
 Boom,2020-07-26,4,124
+Boom,2020-07-27,4,128
 Borsbeek,2020-04-01,0,6
 Borsbeek,2020-04-02,1,7
 Borsbeek,2020-04-03,0,7
@@ -539,6 +543,7 @@ Borsbeek,2020-07-23,1,102
 Borsbeek,2020-07-24,0,102
 Borsbeek,2020-07-25,2,104
 Borsbeek,2020-07-26,7,111
+Borsbeek,2020-07-27,0,111
 Brasschaat,2020-04-01,15,36
 Brasschaat,2020-04-02,1,37
 Brasschaat,2020-04-03,1,38
@@ -647,6 +652,7 @@ Brasschaat,2020-07-23,1,211
 Brasschaat,2020-07-24,0,211
 Brasschaat,2020-07-25,0,211
 Brasschaat,2020-07-26,3,214
+Brasschaat,2020-07-27,0,214
 Brecht,2020-04-01,4,18
 Brecht,2020-04-02,1,19
 Brecht,2020-04-03,10,29
@@ -755,6 +761,7 @@ Brecht,2020-07-23,0,121
 Brecht,2020-07-24,0,121
 Brecht,2020-07-25,0,121
 Brecht,2020-07-26,2,123
+Brecht,2020-07-27,0,123
 Edegem,2020-04-01,4,30
 Edegem,2020-04-02,1,31
 Edegem,2020-04-03,2,33
@@ -863,6 +870,7 @@ Edegem,2020-07-23,0,91
 Edegem,2020-07-24,0,91
 Edegem,2020-07-25,1,92
 Edegem,2020-07-26,6,98
+Edegem,2020-07-27,2,100
 Essen,2020-04-01,2,17
 Essen,2020-04-02,0,17
 Essen,2020-04-03,0,17
@@ -971,6 +979,7 @@ Essen,2020-07-23,1,106
 Essen,2020-07-24,0,106
 Essen,2020-07-25,1,107
 Essen,2020-07-26,2,109
+Essen,2020-07-27,0,109
 Hemiksem,2020-04-01,0,16
 Hemiksem,2020-04-02,2,18
 Hemiksem,2020-04-03,1,19
@@ -1079,6 +1088,7 @@ Hemiksem,2020-07-23,1,62
 Hemiksem,2020-07-24,0,62
 Hemiksem,2020-07-25,0,62
 Hemiksem,2020-07-26,2,64
+Hemiksem,2020-07-27,0,64
 Hove (Antwerpen),2020-04-01,1,12
 Hove (Antwerpen),2020-04-02,0,12
 Hove (Antwerpen),2020-04-03,2,14
@@ -1187,6 +1197,7 @@ Hove (Antwerpen),2020-07-23,0,61
 Hove (Antwerpen),2020-07-24,0,61
 Hove (Antwerpen),2020-07-25,0,61
 Hove (Antwerpen),2020-07-26,0,61
+Hove (Antwerpen),2020-07-27,0,61
 Kalmthout,2020-04-01,0,12
 Kalmthout,2020-04-02,0,12
 Kalmthout,2020-04-03,2,14
@@ -1295,6 +1306,7 @@ Kalmthout,2020-07-23,2,120
 Kalmthout,2020-07-24,0,120
 Kalmthout,2020-07-25,0,120
 Kalmthout,2020-07-26,3,123
+Kalmthout,2020-07-27,0,123
 Kapellen (Antwerpen),2020-04-01,1,19
 Kapellen (Antwerpen),2020-04-02,0,19
 Kapellen (Antwerpen),2020-04-03,4,23
@@ -1403,6 +1415,7 @@ Kapellen (Antwerpen),2020-07-23,0,166
 Kapellen (Antwerpen),2020-07-24,1,167
 Kapellen (Antwerpen),2020-07-25,0,167
 Kapellen (Antwerpen),2020-07-26,1,168
+Kapellen (Antwerpen),2020-07-27,0,168
 Kontich,2020-04-01,0,19
 Kontich,2020-04-02,0,19
 Kontich,2020-04-03,1,20
@@ -1511,6 +1524,7 @@ Kontich,2020-07-23,1,76
 Kontich,2020-07-24,1,77
 Kontich,2020-07-25,1,78
 Kontich,2020-07-26,4,82
+Kontich,2020-07-27,0,82
 Lint,2020-04-01,0,7
 Lint,2020-04-02,1,8
 Lint,2020-04-03,1,9
@@ -1619,6 +1633,7 @@ Lint,2020-07-23,0,33
 Lint,2020-07-24,0,33
 Lint,2020-07-25,1,34
 Lint,2020-07-26,2,36
+Lint,2020-07-27,0,36
 Mortsel,2020-04-01,1,28
 Mortsel,2020-04-02,1,29
 Mortsel,2020-04-03,3,32
@@ -1727,6 +1742,7 @@ Mortsel,2020-07-23,0,125
 Mortsel,2020-07-24,1,126
 Mortsel,2020-07-25,0,126
 Mortsel,2020-07-26,11,137
+Mortsel,2020-07-27,1,138
 Niel,2020-04-01,5,5
 Niel,2020-04-02,0,5
 Niel,2020-04-03,3,8
@@ -1835,6 +1851,7 @@ Niel,2020-07-23,0,45
 Niel,2020-07-24,0,45
 Niel,2020-07-25,0,45
 Niel,2020-07-26,4,49
+Niel,2020-07-27,2,51
 Ranst,2020-04-01,2,17
 Ranst,2020-04-02,1,18
 Ranst,2020-04-03,2,20
@@ -1943,6 +1960,7 @@ Ranst,2020-07-23,3,62
 Ranst,2020-07-24,1,63
 Ranst,2020-07-25,2,65
 Ranst,2020-07-26,5,70
+Ranst,2020-07-27,3,73
 Rumst,2020-04-01,1,18
 Rumst,2020-04-02,0,18
 Rumst,2020-04-03,1,19
@@ -2051,6 +2069,7 @@ Rumst,2020-07-23,1,72
 Rumst,2020-07-24,1,73
 Rumst,2020-07-25,1,74
 Rumst,2020-07-26,2,76
+Rumst,2020-07-27,0,76
 Schelle,2020-04-01,0,10
 Schelle,2020-04-02,2,12
 Schelle,2020-04-03,0,12
@@ -2159,6 +2178,7 @@ Schelle,2020-07-23,1,39
 Schelle,2020-07-24,0,39
 Schelle,2020-07-25,0,39
 Schelle,2020-07-26,0,39
+Schelle,2020-07-27,2,41
 Schilde,2020-04-01,1,17
 Schilde,2020-04-02,3,20
 Schilde,2020-04-03,6,26
@@ -2267,6 +2287,7 @@ Schilde,2020-07-23,0,114
 Schilde,2020-07-24,0,114
 Schilde,2020-07-25,5,119
 Schilde,2020-07-26,1,120
+Schilde,2020-07-27,2,122
 Schoten,2020-04-01,6,33
 Schoten,2020-04-02,5,38
 Schoten,2020-04-03,1,39
@@ -2375,6 +2396,7 @@ Schoten,2020-07-23,1,143
 Schoten,2020-07-24,0,143
 Schoten,2020-07-25,0,143
 Schoten,2020-07-26,2,145
+Schoten,2020-07-27,2,147
 Stabroek,2020-04-01,4,19
 Stabroek,2020-04-02,0,19
 Stabroek,2020-04-03,1,20
@@ -2483,6 +2505,7 @@ Stabroek,2020-07-23,1,114
 Stabroek,2020-07-24,0,114
 Stabroek,2020-07-25,2,116
 Stabroek,2020-07-26,6,122
+Stabroek,2020-07-27,0,122
 Wijnegem,2020-04-01,0,0
 Wijnegem,2020-04-02,0,0
 Wijnegem,2020-04-03,5,5
@@ -2591,6 +2614,7 @@ Wijnegem,2020-07-23,2,27
 Wijnegem,2020-07-24,0,27
 Wijnegem,2020-07-25,0,27
 Wijnegem,2020-07-26,2,29
+Wijnegem,2020-07-27,2,31
 Wommelgem,2020-04-01,1,14
 Wommelgem,2020-04-02,2,16
 Wommelgem,2020-04-03,0,16
@@ -2699,6 +2723,7 @@ Wommelgem,2020-07-23,1,59
 Wommelgem,2020-07-24,0,59
 Wommelgem,2020-07-25,2,61
 Wommelgem,2020-07-26,1,62
+Wommelgem,2020-07-27,0,62
 Wuustwezel,2020-04-01,2,15
 Wuustwezel,2020-04-02,0,15
 Wuustwezel,2020-04-03,1,16
@@ -2807,6 +2832,7 @@ Wuustwezel,2020-07-23,0,84
 Wuustwezel,2020-07-24,0,84
 Wuustwezel,2020-07-25,0,84
 Wuustwezel,2020-07-26,1,85
+Wuustwezel,2020-07-27,0,85
 Zandhoven,2020-04-01,0,11
 Zandhoven,2020-04-02,5,16
 Zandhoven,2020-04-03,1,17
@@ -2915,6 +2941,7 @@ Zandhoven,2020-07-23,4,93
 Zandhoven,2020-07-24,0,93
 Zandhoven,2020-07-25,0,93
 Zandhoven,2020-07-26,1,94
+Zandhoven,2020-07-27,0,94
 Zoersel,2020-04-01,1,12
 Zoersel,2020-04-02,2,14
 Zoersel,2020-04-03,6,20
@@ -3023,6 +3050,7 @@ Zoersel,2020-07-23,2,87
 Zoersel,2020-07-24,0,87
 Zoersel,2020-07-25,0,87
 Zoersel,2020-07-26,0,87
+Zoersel,2020-07-27,0,87
 Zwijndrecht,2020-04-01,0,10
 Zwijndrecht,2020-04-02,3,13
 Zwijndrecht,2020-04-03,5,18
@@ -3131,6 +3159,7 @@ Zwijndrecht,2020-07-23,1,94
 Zwijndrecht,2020-07-24,0,94
 Zwijndrecht,2020-07-25,2,96
 Zwijndrecht,2020-07-26,3,99
+Zwijndrecht,2020-07-27,1,100
 Malle,2020-04-01,2,11
 Malle,2020-04-02,0,11
 Malle,2020-04-03,7,18
@@ -3239,6 +3268,7 @@ Malle,2020-07-23,3,54
 Malle,2020-07-24,0,54
 Malle,2020-07-25,0,54
 Malle,2020-07-26,2,56
+Malle,2020-07-27,0,56
 Berlaar,2020-04-01,3,21
 Berlaar,2020-04-02,1,22
 Berlaar,2020-04-03,0,22
@@ -3347,6 +3377,7 @@ Berlaar,2020-07-23,0,49
 Berlaar,2020-07-24,0,49
 Berlaar,2020-07-25,0,49
 Berlaar,2020-07-26,0,49
+Berlaar,2020-07-27,0,49
 Bonheiden,2020-04-01,1,17
 Bonheiden,2020-04-02,0,17
 Bonheiden,2020-04-03,0,17
@@ -3455,6 +3486,7 @@ Bonheiden,2020-07-23,0,37
 Bonheiden,2020-07-24,0,37
 Bonheiden,2020-07-25,0,37
 Bonheiden,2020-07-26,0,37
+Bonheiden,2020-07-27,0,37
 Bornem,2020-04-01,8,33
 Bornem,2020-04-02,1,34
 Bornem,2020-04-03,5,39
@@ -3563,6 +3595,7 @@ Bornem,2020-07-23,0,95
 Bornem,2020-07-24,1,96
 Bornem,2020-07-25,0,96
 Bornem,2020-07-26,1,97
+Bornem,2020-07-27,1,98
 Duffel,2020-04-01,3,20
 Duffel,2020-04-02,2,22
 Duffel,2020-04-03,1,23
@@ -3671,6 +3704,7 @@ Duffel,2020-07-23,1,88
 Duffel,2020-07-24,0,88
 Duffel,2020-07-25,4,92
 Duffel,2020-07-26,1,93
+Duffel,2020-07-27,3,96
 Heist-op-den-Berg,2020-04-01,0,51
 Heist-op-den-Berg,2020-04-02,4,55
 Heist-op-den-Berg,2020-04-03,5,60
@@ -3779,6 +3813,7 @@ Heist-op-den-Berg,2020-07-23,0,210
 Heist-op-den-Berg,2020-07-24,0,210
 Heist-op-den-Berg,2020-07-25,2,212
 Heist-op-den-Berg,2020-07-26,1,213
+Heist-op-den-Berg,2020-07-27,1,214
 Lier,2020-04-01,3,28
 Lier,2020-04-02,7,35
 Lier,2020-04-03,2,37
@@ -3887,6 +3922,7 @@ Lier,2020-07-23,3,123
 Lier,2020-07-24,2,125
 Lier,2020-07-25,1,126
 Lier,2020-07-26,0,126
+Lier,2020-07-27,4,130
 Mechelen,2020-04-01,3,71
 Mechelen,2020-04-02,14,85
 Mechelen,2020-04-03,16,101
@@ -3995,6 +4031,7 @@ Mechelen,2020-07-23,5,350
 Mechelen,2020-07-24,1,351
 Mechelen,2020-07-25,1,352
 Mechelen,2020-07-26,3,355
+Mechelen,2020-07-27,3,358
 Nijlen,2020-04-01,2,17
 Nijlen,2020-04-02,3,20
 Nijlen,2020-04-03,2,22
@@ -4103,6 +4140,7 @@ Nijlen,2020-07-23,0,127
 Nijlen,2020-07-24,0,127
 Nijlen,2020-07-25,0,127
 Nijlen,2020-07-26,1,128
+Nijlen,2020-07-27,0,128
 Putte,2020-04-01,1,9
 Putte,2020-04-02,2,11
 Putte,2020-04-03,0,11
@@ -4211,6 +4249,7 @@ Putte,2020-07-23,0,35
 Putte,2020-07-24,0,35
 Putte,2020-07-25,2,37
 Putte,2020-07-26,0,37
+Putte,2020-07-27,0,37
 Sint-Katelijne-Waver,2020-04-01,3,39
 Sint-Katelijne-Waver,2020-04-02,5,44
 Sint-Katelijne-Waver,2020-04-03,2,46
@@ -4319,6 +4358,7 @@ Sint-Katelijne-Waver,2020-07-23,0,149
 Sint-Katelijne-Waver,2020-07-24,0,149
 Sint-Katelijne-Waver,2020-07-25,0,149
 Sint-Katelijne-Waver,2020-07-26,0,149
+Sint-Katelijne-Waver,2020-07-27,0,149
 Willebroek,2020-04-01,1,26
 Willebroek,2020-04-02,2,28
 Willebroek,2020-04-03,11,39
@@ -4427,6 +4467,7 @@ Willebroek,2020-07-23,0,116
 Willebroek,2020-07-24,1,117
 Willebroek,2020-07-25,1,118
 Willebroek,2020-07-26,5,123
+Willebroek,2020-07-27,0,123
 Puurs-Sint-Amands,2020-04-01,6,44
 Puurs-Sint-Amands,2020-04-02,2,46
 Puurs-Sint-Amands,2020-04-03,9,55
@@ -4535,6 +4576,7 @@ Puurs-Sint-Amands,2020-07-23,0,177
 Puurs-Sint-Amands,2020-07-24,1,178
 Puurs-Sint-Amands,2020-07-25,0,178
 Puurs-Sint-Amands,2020-07-26,0,178
+Puurs-Sint-Amands,2020-07-27,0,178
 Arendonk,2020-04-01,0,7
 Arendonk,2020-04-02,0,7
 Arendonk,2020-04-03,1,8
@@ -4643,6 +4685,7 @@ Arendonk,2020-07-23,0,51
 Arendonk,2020-07-24,0,51
 Arendonk,2020-07-25,0,51
 Arendonk,2020-07-26,3,54
+Arendonk,2020-07-27,0,54
 Baarle-Hertog,2020-04-01,0,0
 Baarle-Hertog,2020-04-02,0,0
 Baarle-Hertog,2020-04-03,0,0
@@ -4751,6 +4794,7 @@ Baarle-Hertog,2020-07-23,0,13
 Baarle-Hertog,2020-07-24,0,13
 Baarle-Hertog,2020-07-25,0,13
 Baarle-Hertog,2020-07-26,1,14
+Baarle-Hertog,2020-07-27,0,14
 Balen,2020-04-01,0,20
 Balen,2020-04-02,2,22
 Balen,2020-04-03,1,23
@@ -4859,6 +4903,7 @@ Balen,2020-07-23,0,57
 Balen,2020-07-24,1,58
 Balen,2020-07-25,2,60
 Balen,2020-07-26,0,60
+Balen,2020-07-27,1,61
 Beerse,2020-04-01,2,14
 Beerse,2020-04-02,2,16
 Beerse,2020-04-03,1,17
@@ -4967,6 +5012,7 @@ Beerse,2020-07-23,1,62
 Beerse,2020-07-24,0,62
 Beerse,2020-07-25,0,62
 Beerse,2020-07-26,0,62
+Beerse,2020-07-27,0,62
 Dessel,2020-04-01,0,0
 Dessel,2020-04-02,0,0
 Dessel,2020-04-03,5,5
@@ -5075,6 +5121,7 @@ Dessel,2020-07-23,1,24
 Dessel,2020-07-24,0,24
 Dessel,2020-07-25,0,24
 Dessel,2020-07-26,0,24
+Dessel,2020-07-27,0,24
 Geel,2020-04-01,3,57
 Geel,2020-04-02,5,62
 Geel,2020-04-03,4,66
@@ -5183,6 +5230,7 @@ Geel,2020-07-23,0,174
 Geel,2020-07-24,0,174
 Geel,2020-07-25,2,176
 Geel,2020-07-26,0,176
+Geel,2020-07-27,1,177
 Grobbendonk,2020-04-01,1,19
 Grobbendonk,2020-04-02,2,21
 Grobbendonk,2020-04-03,3,24
@@ -5291,6 +5339,7 @@ Grobbendonk,2020-07-23,1,59
 Grobbendonk,2020-07-24,0,59
 Grobbendonk,2020-07-25,0,59
 Grobbendonk,2020-07-26,0,59
+Grobbendonk,2020-07-27,0,59
 Herentals,2020-04-01,5,23
 Herentals,2020-04-02,5,28
 Herentals,2020-04-03,6,34
@@ -5399,6 +5448,7 @@ Herentals,2020-07-23,0,113
 Herentals,2020-07-24,0,113
 Herentals,2020-07-25,0,113
 Herentals,2020-07-26,3,116
+Herentals,2020-07-27,2,118
 Herenthout,2020-04-01,1,6
 Herenthout,2020-04-02,1,7
 Herenthout,2020-04-03,1,8
@@ -5507,6 +5557,7 @@ Herenthout,2020-07-23,0,23
 Herenthout,2020-07-24,1,24
 Herenthout,2020-07-25,0,24
 Herenthout,2020-07-26,0,24
+Herenthout,2020-07-27,0,24
 Herselt,2020-04-01,3,31
 Herselt,2020-04-02,8,39
 Herselt,2020-04-03,4,43
@@ -5615,6 +5666,7 @@ Herselt,2020-07-23,0,98
 Herselt,2020-07-24,0,98
 Herselt,2020-07-25,0,98
 Herselt,2020-07-26,0,98
+Herselt,2020-07-27,0,98
 Hoogstraten,2020-04-01,0,14
 Hoogstraten,2020-04-02,1,15
 Hoogstraten,2020-04-03,1,16
@@ -5723,6 +5775,7 @@ Hoogstraten,2020-07-23,1,57
 Hoogstraten,2020-07-24,0,57
 Hoogstraten,2020-07-25,1,58
 Hoogstraten,2020-07-26,5,63
+Hoogstraten,2020-07-27,0,63
 Hulshout,2020-04-01,0,14
 Hulshout,2020-04-02,1,15
 Hulshout,2020-04-03,0,15
@@ -5831,6 +5884,7 @@ Hulshout,2020-07-23,0,36
 Hulshout,2020-07-24,0,36
 Hulshout,2020-07-25,0,36
 Hulshout,2020-07-26,0,36
+Hulshout,2020-07-27,0,36
 Kasterlee,2020-04-01,0,13
 Kasterlee,2020-04-02,2,15
 Kasterlee,2020-04-03,0,15
@@ -5939,6 +5993,7 @@ Kasterlee,2020-07-23,0,78
 Kasterlee,2020-07-24,0,78
 Kasterlee,2020-07-25,0,78
 Kasterlee,2020-07-26,0,78
+Kasterlee,2020-07-27,2,80
 Lille,2020-04-01,3,20
 Lille,2020-04-02,0,20
 Lille,2020-04-03,2,22
@@ -6047,6 +6102,7 @@ Lille,2020-07-23,0,125
 Lille,2020-07-24,0,125
 Lille,2020-07-25,0,125
 Lille,2020-07-26,0,125
+Lille,2020-07-27,0,125
 Meerhout,2020-04-01,0,16
 Meerhout,2020-04-02,2,18
 Meerhout,2020-04-03,1,19
@@ -6155,6 +6211,7 @@ Meerhout,2020-07-23,0,50
 Meerhout,2020-07-24,1,51
 Meerhout,2020-07-25,0,51
 Meerhout,2020-07-26,0,51
+Meerhout,2020-07-27,0,51
 Merksplas,2020-04-01,5,5
 Merksplas,2020-04-02,2,7
 Merksplas,2020-04-03,0,7
@@ -6263,6 +6320,7 @@ Merksplas,2020-07-23,0,52
 Merksplas,2020-07-24,0,52
 Merksplas,2020-07-25,0,52
 Merksplas,2020-07-26,0,52
+Merksplas,2020-07-27,0,52
 Mol,2020-04-01,1,23
 Mol,2020-04-02,6,29
 Mol,2020-04-03,0,29
@@ -6371,6 +6429,7 @@ Mol,2020-07-23,2,89
 Mol,2020-07-24,0,89
 Mol,2020-07-25,1,90
 Mol,2020-07-26,1,91
+Mol,2020-07-27,0,91
 Olen,2020-04-01,2,14
 Olen,2020-04-02,1,15
 Olen,2020-04-03,2,17
@@ -6479,6 +6538,7 @@ Olen,2020-07-23,0,55
 Olen,2020-07-24,0,55
 Olen,2020-07-25,1,56
 Olen,2020-07-26,0,56
+Olen,2020-07-27,1,57
 Oud-Turnhout,2020-04-01,1,15
 Oud-Turnhout,2020-04-02,1,16
 Oud-Turnhout,2020-04-03,1,17
@@ -6587,6 +6647,7 @@ Oud-Turnhout,2020-07-23,0,122
 Oud-Turnhout,2020-07-24,0,122
 Oud-Turnhout,2020-07-25,0,122
 Oud-Turnhout,2020-07-26,0,122
+Oud-Turnhout,2020-07-27,0,122
 Ravels,2020-04-01,1,15
 Ravels,2020-04-02,5,20
 Ravels,2020-04-03,3,23
@@ -6695,6 +6756,7 @@ Ravels,2020-07-23,0,147
 Ravels,2020-07-24,1,148
 Ravels,2020-07-25,0,148
 Ravels,2020-07-26,0,148
+Ravels,2020-07-27,0,148
 Retie,2020-04-01,0,14
 Retie,2020-04-02,2,16
 Retie,2020-04-03,1,17
@@ -6803,6 +6865,7 @@ Retie,2020-07-23,0,33
 Retie,2020-07-24,0,33
 Retie,2020-07-25,0,33
 Retie,2020-07-26,0,33
+Retie,2020-07-27,0,33
 Rijkevorsel,2020-04-01,0,8
 Rijkevorsel,2020-04-02,0,8
 Rijkevorsel,2020-04-03,4,12
@@ -6911,6 +6974,7 @@ Rijkevorsel,2020-07-23,1,39
 Rijkevorsel,2020-07-24,0,39
 Rijkevorsel,2020-07-25,0,39
 Rijkevorsel,2020-07-26,0,39
+Rijkevorsel,2020-07-27,0,39
 Turnhout,2020-04-01,3,32
 Turnhout,2020-04-02,2,34
 Turnhout,2020-04-03,2,36
@@ -7019,6 +7083,7 @@ Turnhout,2020-07-23,5,200
 Turnhout,2020-07-24,0,200
 Turnhout,2020-07-25,3,203
 Turnhout,2020-07-26,1,204
+Turnhout,2020-07-27,0,204
 Vorselaar,2020-04-01,0,7
 Vorselaar,2020-04-02,0,7
 Vorselaar,2020-04-03,0,7
@@ -7127,6 +7192,7 @@ Vorselaar,2020-07-23,0,41
 Vorselaar,2020-07-24,0,41
 Vorselaar,2020-07-25,0,41
 Vorselaar,2020-07-26,1,42
+Vorselaar,2020-07-27,1,43
 Vosselaar,2020-04-01,1,13
 Vosselaar,2020-04-02,0,13
 Vosselaar,2020-04-03,0,13
@@ -7235,6 +7301,7 @@ Vosselaar,2020-07-23,0,52
 Vosselaar,2020-07-24,0,52
 Vosselaar,2020-07-25,0,52
 Vosselaar,2020-07-26,0,52
+Vosselaar,2020-07-27,0,52
 Westerlo,2020-04-01,0,31
 Westerlo,2020-04-02,8,39
 Westerlo,2020-04-03,1,40
@@ -7343,6 +7410,7 @@ Westerlo,2020-07-23,1,103
 Westerlo,2020-07-24,0,103
 Westerlo,2020-07-25,2,105
 Westerlo,2020-07-26,0,105
+Westerlo,2020-07-27,0,105
 Laakdal,2020-04-01,2,33
 Laakdal,2020-04-02,6,39
 Laakdal,2020-04-03,1,40
@@ -7451,6 +7519,7 @@ Laakdal,2020-07-23,0,81
 Laakdal,2020-07-24,0,81
 Laakdal,2020-07-25,2,83
 Laakdal,2020-07-26,1,84
+Laakdal,2020-07-27,0,84
 Anderlecht,2020-04-01,14,169
 Anderlecht,2020-04-02,34,203
 Anderlecht,2020-04-03,25,228
@@ -7559,6 +7628,7 @@ Anderlecht,2020-07-23,1,932
 Anderlecht,2020-07-24,3,935
 Anderlecht,2020-07-25,4,939
 Anderlecht,2020-07-26,2,941
+Anderlecht,2020-07-27,2,943
 Oudergem,2020-04-01,4,41
 Oudergem,2020-04-02,3,44
 Oudergem,2020-04-03,2,46
@@ -7667,6 +7737,7 @@ Oudergem,2020-07-23,0,151
 Oudergem,2020-07-24,2,153
 Oudergem,2020-07-25,1,154
 Oudergem,2020-07-26,1,155
+Oudergem,2020-07-27,1,156
 Sint-Agatha-Berchem,2020-04-01,3,57
 Sint-Agatha-Berchem,2020-04-02,5,62
 Sint-Agatha-Berchem,2020-04-03,5,67
@@ -7775,6 +7846,7 @@ Sint-Agatha-Berchem,2020-07-23,1,190
 Sint-Agatha-Berchem,2020-07-24,1,191
 Sint-Agatha-Berchem,2020-07-25,2,193
 Sint-Agatha-Berchem,2020-07-26,1,194
+Sint-Agatha-Berchem,2020-07-27,1,195
 Brussel,2020-04-01,11,195
 Brussel,2020-04-02,25,220
 Brussel,2020-04-03,24,244
@@ -7883,6 +7955,7 @@ Brussel,2020-07-23,4,992
 Brussel,2020-07-24,5,997
 Brussel,2020-07-25,4,1001
 Brussel,2020-07-26,8,1009
+Brussel,2020-07-27,2,1011
 Etterbeek,2020-04-01,9,68
 Etterbeek,2020-04-02,1,69
 Etterbeek,2020-04-03,4,73
@@ -7991,6 +8064,7 @@ Etterbeek,2020-07-23,1,203
 Etterbeek,2020-07-24,0,203
 Etterbeek,2020-07-25,2,205
 Etterbeek,2020-07-26,0,205
+Etterbeek,2020-07-27,2,207
 Evere,2020-04-01,8,63
 Evere,2020-04-02,7,70
 Evere,2020-04-03,4,74
@@ -8099,6 +8173,7 @@ Evere,2020-07-23,1,274
 Evere,2020-07-24,1,275
 Evere,2020-07-25,1,276
 Evere,2020-07-26,1,277
+Evere,2020-07-27,0,277
 Vorst (Brussel-Hoofdstad),2020-04-01,11,71
 Vorst (Brussel-Hoofdstad),2020-04-02,7,78
 Vorst (Brussel-Hoofdstad),2020-04-03,9,87
@@ -8207,6 +8282,7 @@ Vorst (Brussel-Hoofdstad),2020-07-23,0,310
 Vorst (Brussel-Hoofdstad),2020-07-24,2,312
 Vorst (Brussel-Hoofdstad),2020-07-25,0,312
 Vorst (Brussel-Hoofdstad),2020-07-26,1,313
+Vorst (Brussel-Hoofdstad),2020-07-27,1,314
 Ganshoren,2020-04-01,4,26
 Ganshoren,2020-04-02,1,27
 Ganshoren,2020-04-03,4,31
@@ -8315,6 +8391,7 @@ Ganshoren,2020-07-23,0,145
 Ganshoren,2020-07-24,0,145
 Ganshoren,2020-07-25,3,148
 Ganshoren,2020-07-26,4,152
+Ganshoren,2020-07-27,2,154
 Elsene,2020-04-01,12,108
 Elsene,2020-04-02,5,113
 Elsene,2020-04-03,9,122
@@ -8423,6 +8500,7 @@ Elsene,2020-07-23,1,417
 Elsene,2020-07-24,0,417
 Elsene,2020-07-25,3,420
 Elsene,2020-07-26,2,422
+Elsene,2020-07-27,1,423
 Jette,2020-04-01,5,49
 Jette,2020-04-02,7,56
 Jette,2020-04-03,8,64
@@ -8531,6 +8609,7 @@ Jette,2020-07-23,1,334
 Jette,2020-07-24,0,334
 Jette,2020-07-25,0,334
 Jette,2020-07-26,7,341
+Jette,2020-07-27,0,341
 Koekelberg,2020-04-01,3,30
 Koekelberg,2020-04-02,2,32
 Koekelberg,2020-04-03,4,36
@@ -8639,6 +8718,7 @@ Koekelberg,2020-07-23,0,118
 Koekelberg,2020-07-24,0,118
 Koekelberg,2020-07-25,0,118
 Koekelberg,2020-07-26,2,120
+Koekelberg,2020-07-27,1,121
 Sint-Jans-Molenbeek,2020-04-01,9,162
 Sint-Jans-Molenbeek,2020-04-02,10,172
 Sint-Jans-Molenbeek,2020-04-03,19,191
@@ -8747,6 +8827,7 @@ Sint-Jans-Molenbeek,2020-07-23,3,628
 Sint-Jans-Molenbeek,2020-07-24,1,629
 Sint-Jans-Molenbeek,2020-07-25,1,630
 Sint-Jans-Molenbeek,2020-07-26,4,634
+Sint-Jans-Molenbeek,2020-07-27,2,636
 Sint-Gillis,2020-04-01,5,69
 Sint-Gillis,2020-04-02,6,75
 Sint-Gillis,2020-04-03,11,86
@@ -8855,6 +8936,7 @@ Sint-Gillis,2020-07-23,1,265
 Sint-Gillis,2020-07-24,4,269
 Sint-Gillis,2020-07-25,2,271
 Sint-Gillis,2020-07-26,4,275
+Sint-Gillis,2020-07-27,1,276
 Sint-Joost-ten-Node,2020-04-01,4,22
 Sint-Joost-ten-Node,2020-04-02,2,24
 Sint-Joost-ten-Node,2020-04-03,3,27
@@ -8963,6 +9045,7 @@ Sint-Joost-ten-Node,2020-07-23,0,109
 Sint-Joost-ten-Node,2020-07-24,1,110
 Sint-Joost-ten-Node,2020-07-25,1,111
 Sint-Joost-ten-Node,2020-07-26,1,112
+Sint-Joost-ten-Node,2020-07-27,0,112
 Schaarbeek,2020-04-01,8,145
 Schaarbeek,2020-04-02,10,155
 Schaarbeek,2020-04-03,19,174
@@ -9071,6 +9154,7 @@ Schaarbeek,2020-07-23,3,606
 Schaarbeek,2020-07-24,1,607
 Schaarbeek,2020-07-25,4,611
 Schaarbeek,2020-07-26,4,615
+Schaarbeek,2020-07-27,3,618
 Ukkel,2020-04-01,8,118
 Ukkel,2020-04-02,6,124
 Ukkel,2020-04-03,7,131
@@ -9179,6 +9263,7 @@ Ukkel,2020-07-23,3,423
 Ukkel,2020-07-24,1,424
 Ukkel,2020-07-25,2,426
 Ukkel,2020-07-26,1,427
+Ukkel,2020-07-27,1,428
 Watermaal-Bosvoorde,2020-04-01,2,43
 Watermaal-Bosvoorde,2020-04-02,3,46
 Watermaal-Bosvoorde,2020-04-03,3,49
@@ -9287,6 +9372,7 @@ Watermaal-Bosvoorde,2020-07-23,0,123
 Watermaal-Bosvoorde,2020-07-24,0,123
 Watermaal-Bosvoorde,2020-07-25,0,123
 Watermaal-Bosvoorde,2020-07-26,1,124
+Watermaal-Bosvoorde,2020-07-27,3,127
 Sint-Lambrechts-Woluwe,2020-04-01,4,91
 Sint-Lambrechts-Woluwe,2020-04-02,2,93
 Sint-Lambrechts-Woluwe,2020-04-03,2,95
@@ -9395,6 +9481,7 @@ Sint-Lambrechts-Woluwe,2020-07-23,0,279
 Sint-Lambrechts-Woluwe,2020-07-24,1,280
 Sint-Lambrechts-Woluwe,2020-07-25,0,280
 Sint-Lambrechts-Woluwe,2020-07-26,2,282
+Sint-Lambrechts-Woluwe,2020-07-27,3,285
 Sint-Pieters-Woluwe,2020-04-01,4,53
 Sint-Pieters-Woluwe,2020-04-02,1,54
 Sint-Pieters-Woluwe,2020-04-03,5,59
@@ -9503,6 +9590,7 @@ Sint-Pieters-Woluwe,2020-07-23,0,176
 Sint-Pieters-Woluwe,2020-07-24,0,176
 Sint-Pieters-Woluwe,2020-07-25,0,176
 Sint-Pieters-Woluwe,2020-07-26,0,176
+Sint-Pieters-Woluwe,2020-07-27,0,176
 Asse,2020-04-01,2,48
 Asse,2020-04-02,5,53
 Asse,2020-04-03,9,62
@@ -9611,6 +9699,7 @@ Asse,2020-07-23,0,174
 Asse,2020-07-24,0,174
 Asse,2020-07-25,1,175
 Asse,2020-07-26,1,176
+Asse,2020-07-27,0,176
 Beersel,2020-04-01,2,49
 Beersel,2020-04-02,2,51
 Beersel,2020-04-03,1,52
@@ -9719,6 +9808,7 @@ Beersel,2020-07-23,0,103
 Beersel,2020-07-24,0,103
 Beersel,2020-07-25,1,104
 Beersel,2020-07-26,1,105
+Beersel,2020-07-27,0,105
 Dilbeek,2020-04-01,1,55
 Dilbeek,2020-04-02,4,59
 Dilbeek,2020-04-03,6,65
@@ -9827,6 +9917,7 @@ Dilbeek,2020-07-23,0,255
 Dilbeek,2020-07-24,0,255
 Dilbeek,2020-07-25,0,255
 Dilbeek,2020-07-26,0,255
+Dilbeek,2020-07-27,1,256
 Galmaarden,2020-04-01,0,9
 Galmaarden,2020-04-02,2,11
 Galmaarden,2020-04-03,0,11
@@ -9935,6 +10026,7 @@ Galmaarden,2020-07-23,0,24
 Galmaarden,2020-07-24,0,24
 Galmaarden,2020-07-25,0,24
 Galmaarden,2020-07-26,1,25
+Galmaarden,2020-07-27,0,25
 Gooik,2020-04-01,0,0
 Gooik,2020-04-02,0,0
 Gooik,2020-04-03,0,0
@@ -10043,6 +10135,7 @@ Gooik,2020-07-23,0,31
 Gooik,2020-07-24,0,31
 Gooik,2020-07-25,0,31
 Gooik,2020-07-26,0,31
+Gooik,2020-07-27,0,31
 Grimbergen,2020-04-01,1,43
 Grimbergen,2020-04-02,3,46
 Grimbergen,2020-04-03,3,49
@@ -10151,6 +10244,7 @@ Grimbergen,2020-07-23,0,257
 Grimbergen,2020-07-24,0,257
 Grimbergen,2020-07-25,1,258
 Grimbergen,2020-07-26,1,259
+Grimbergen,2020-07-27,0,259
 Halle (Halle-Vilvoorde),2020-04-01,2,51
 Halle (Halle-Vilvoorde),2020-04-02,8,59
 Halle (Halle-Vilvoorde),2020-04-03,7,66
@@ -10259,6 +10353,7 @@ Halle (Halle-Vilvoorde),2020-07-23,0,205
 Halle (Halle-Vilvoorde),2020-07-24,0,205
 Halle (Halle-Vilvoorde),2020-07-25,0,205
 Halle (Halle-Vilvoorde),2020-07-26,2,207
+Halle (Halle-Vilvoorde),2020-07-27,0,207
 Herne,2020-04-01,0,0
 Herne,2020-04-02,0,0
 Herne,2020-04-03,0,0
@@ -10367,6 +10462,7 @@ Herne,2020-07-23,0,16
 Herne,2020-07-24,0,16
 Herne,2020-07-25,0,16
 Herne,2020-07-26,0,16
+Herne,2020-07-27,0,16
 Hoeilaart,2020-04-01,0,14
 Hoeilaart,2020-04-02,1,15
 Hoeilaart,2020-04-03,0,15
@@ -10475,6 +10571,7 @@ Hoeilaart,2020-07-23,0,30
 Hoeilaart,2020-07-24,0,30
 Hoeilaart,2020-07-25,1,31
 Hoeilaart,2020-07-26,0,31
+Hoeilaart,2020-07-27,0,31
 Kampenhout,2020-04-01,2,20
 Kampenhout,2020-04-02,1,21
 Kampenhout,2020-04-03,2,23
@@ -10583,6 +10680,7 @@ Kampenhout,2020-07-23,0,53
 Kampenhout,2020-07-24,0,53
 Kampenhout,2020-07-25,1,54
 Kampenhout,2020-07-26,0,54
+Kampenhout,2020-07-27,0,54
 Kapelle-op-den-Bos,2020-04-01,1,24
 Kapelle-op-den-Bos,2020-04-02,1,25
 Kapelle-op-den-Bos,2020-04-03,4,29
@@ -10691,6 +10789,7 @@ Kapelle-op-den-Bos,2020-07-23,0,139
 Kapelle-op-den-Bos,2020-07-24,0,139
 Kapelle-op-den-Bos,2020-07-25,0,139
 Kapelle-op-den-Bos,2020-07-26,0,139
+Kapelle-op-den-Bos,2020-07-27,0,139
 Liedekerke,2020-04-01,0,16
 Liedekerke,2020-04-02,0,16
 Liedekerke,2020-04-03,2,18
@@ -10799,6 +10898,7 @@ Liedekerke,2020-07-23,0,48
 Liedekerke,2020-07-24,0,48
 Liedekerke,2020-07-25,1,49
 Liedekerke,2020-07-26,0,49
+Liedekerke,2020-07-27,0,49
 Londerzeel,2020-04-01,1,13
 Londerzeel,2020-04-02,0,13
 Londerzeel,2020-04-03,0,13
@@ -10907,6 +11007,7 @@ Londerzeel,2020-07-23,0,97
 Londerzeel,2020-07-24,0,97
 Londerzeel,2020-07-25,0,97
 Londerzeel,2020-07-26,0,97
+Londerzeel,2020-07-27,0,97
 Machelen (Halle-Vilvoorde),2020-04-01,1,13
 Machelen (Halle-Vilvoorde),2020-04-02,1,14
 Machelen (Halle-Vilvoorde),2020-04-03,3,17
@@ -11015,6 +11116,7 @@ Machelen (Halle-Vilvoorde),2020-07-23,0,76
 Machelen (Halle-Vilvoorde),2020-07-24,0,76
 Machelen (Halle-Vilvoorde),2020-07-25,0,76
 Machelen (Halle-Vilvoorde),2020-07-26,0,76
+Machelen (Halle-Vilvoorde),2020-07-27,0,76
 Meise,2020-04-01,0,13
 Meise,2020-04-02,1,14
 Meise,2020-04-03,5,19
@@ -11123,6 +11225,7 @@ Meise,2020-07-23,2,74
 Meise,2020-07-24,3,77
 Meise,2020-07-25,0,77
 Meise,2020-07-26,0,77
+Meise,2020-07-27,0,77
 Merchtem,2020-04-01,1,18
 Merchtem,2020-04-02,3,21
 Merchtem,2020-04-03,5,26
@@ -11231,6 +11334,7 @@ Merchtem,2020-07-23,0,64
 Merchtem,2020-07-24,0,64
 Merchtem,2020-07-25,0,64
 Merchtem,2020-07-26,1,65
+Merchtem,2020-07-27,0,65
 Opwijk,2020-04-01,1,12
 Opwijk,2020-04-02,1,13
 Opwijk,2020-04-03,2,15
@@ -11339,6 +11443,7 @@ Opwijk,2020-07-23,0,66
 Opwijk,2020-07-24,0,66
 Opwijk,2020-07-25,0,66
 Opwijk,2020-07-26,2,68
+Opwijk,2020-07-27,0,68
 Overijse,2020-04-01,3,33
 Overijse,2020-04-02,1,34
 Overijse,2020-04-03,1,35
@@ -11447,6 +11552,7 @@ Overijse,2020-07-23,0,122
 Overijse,2020-07-24,0,122
 Overijse,2020-07-25,0,122
 Overijse,2020-07-26,1,123
+Overijse,2020-07-27,0,123
 Pepingen,2020-04-01,0,6
 Pepingen,2020-04-02,0,6
 Pepingen,2020-04-03,0,6
@@ -11555,6 +11661,7 @@ Pepingen,2020-07-23,0,24
 Pepingen,2020-07-24,0,24
 Pepingen,2020-07-25,0,24
 Pepingen,2020-07-26,0,24
+Pepingen,2020-07-27,0,24
 Sint-Pieters-Leeuw,2020-04-01,2,37
 Sint-Pieters-Leeuw,2020-04-02,5,42
 Sint-Pieters-Leeuw,2020-04-03,3,45
@@ -11663,6 +11770,7 @@ Sint-Pieters-Leeuw,2020-07-23,1,138
 Sint-Pieters-Leeuw,2020-07-24,1,139
 Sint-Pieters-Leeuw,2020-07-25,1,140
 Sint-Pieters-Leeuw,2020-07-26,1,141
+Sint-Pieters-Leeuw,2020-07-27,1,142
 Steenokkerzeel,2020-04-01,2,17
 Steenokkerzeel,2020-04-02,5,22
 Steenokkerzeel,2020-04-03,0,22
@@ -11771,6 +11879,7 @@ Steenokkerzeel,2020-07-23,1,63
 Steenokkerzeel,2020-07-24,0,63
 Steenokkerzeel,2020-07-25,0,63
 Steenokkerzeel,2020-07-26,0,63
+Steenokkerzeel,2020-07-27,0,63
 Ternat,2020-04-01,2,21
 Ternat,2020-04-02,0,21
 Ternat,2020-04-03,1,22
@@ -11879,6 +11988,7 @@ Ternat,2020-07-23,1,48
 Ternat,2020-07-24,0,48
 Ternat,2020-07-25,1,49
 Ternat,2020-07-26,0,49
+Ternat,2020-07-27,0,49
 Vilvoorde,2020-04-01,3,52
 Vilvoorde,2020-04-02,8,60
 Vilvoorde,2020-04-03,9,69
@@ -11987,6 +12097,7 @@ Vilvoorde,2020-07-23,0,227
 Vilvoorde,2020-07-24,0,227
 Vilvoorde,2020-07-25,0,227
 Vilvoorde,2020-07-26,0,227
+Vilvoorde,2020-07-27,1,228
 Zaventem,2020-04-01,4,31
 Zaventem,2020-04-02,1,32
 Zaventem,2020-04-03,4,36
@@ -12095,6 +12206,7 @@ Zaventem,2020-07-23,0,158
 Zaventem,2020-07-24,0,158
 Zaventem,2020-07-25,0,158
 Zaventem,2020-07-26,0,158
+Zaventem,2020-07-27,0,158
 Zemst,2020-04-01,4,33
 Zemst,2020-04-02,3,36
 Zemst,2020-04-03,2,38
@@ -12203,6 +12315,7 @@ Zemst,2020-07-23,1,80
 Zemst,2020-07-24,0,80
 Zemst,2020-07-25,0,80
 Zemst,2020-07-26,0,80
+Zemst,2020-07-27,0,80
 Roosdaal,2020-04-01,3,16
 Roosdaal,2020-04-02,0,16
 Roosdaal,2020-04-03,0,16
@@ -12311,6 +12424,7 @@ Roosdaal,2020-07-23,0,37
 Roosdaal,2020-07-24,0,37
 Roosdaal,2020-07-25,0,37
 Roosdaal,2020-07-26,0,37
+Roosdaal,2020-07-27,0,37
 Drogenbos,2020-04-01,1,8
 Drogenbos,2020-04-02,0,8
 Drogenbos,2020-04-03,0,8
@@ -12419,6 +12533,7 @@ Drogenbos,2020-07-23,0,41
 Drogenbos,2020-07-24,0,41
 Drogenbos,2020-07-25,0,41
 Drogenbos,2020-07-26,0,41
+Drogenbos,2020-07-27,0,41
 Kraainem,2020-04-01,3,31
 Kraainem,2020-04-02,0,31
 Kraainem,2020-04-03,1,32
@@ -12527,6 +12642,7 @@ Kraainem,2020-07-23,0,80
 Kraainem,2020-07-24,0,80
 Kraainem,2020-07-25,0,80
 Kraainem,2020-07-26,0,80
+Kraainem,2020-07-27,0,80
 Linkebeek,2020-04-01,0,8
 Linkebeek,2020-04-02,0,8
 Linkebeek,2020-04-03,3,11
@@ -12635,6 +12751,7 @@ Linkebeek,2020-07-23,0,29
 Linkebeek,2020-07-24,0,29
 Linkebeek,2020-07-25,1,30
 Linkebeek,2020-07-26,0,30
+Linkebeek,2020-07-27,0,30
 Sint-Genesius-Rode,2020-04-01,1,38
 Sint-Genesius-Rode,2020-04-02,0,38
 Sint-Genesius-Rode,2020-04-03,2,40
@@ -12743,6 +12860,7 @@ Sint-Genesius-Rode,2020-07-23,1,71
 Sint-Genesius-Rode,2020-07-24,1,72
 Sint-Genesius-Rode,2020-07-25,1,73
 Sint-Genesius-Rode,2020-07-26,0,73
+Sint-Genesius-Rode,2020-07-27,2,75
 Wemmel,2020-04-01,0,11
 Wemmel,2020-04-02,0,11
 Wemmel,2020-04-03,0,11
@@ -12851,6 +12969,7 @@ Wemmel,2020-07-23,1,43
 Wemmel,2020-07-24,0,43
 Wemmel,2020-07-25,0,43
 Wemmel,2020-07-26,1,44
+Wemmel,2020-07-27,0,44
 Wezembeek-Oppem,2020-04-01,1,22
 Wezembeek-Oppem,2020-04-02,0,22
 Wezembeek-Oppem,2020-04-03,2,24
@@ -12959,6 +13078,7 @@ Wezembeek-Oppem,2020-07-23,1,64
 Wezembeek-Oppem,2020-07-24,0,64
 Wezembeek-Oppem,2020-07-25,0,64
 Wezembeek-Oppem,2020-07-26,0,64
+Wezembeek-Oppem,2020-07-27,0,64
 Lennik,2020-04-01,0,10
 Lennik,2020-04-02,2,12
 Lennik,2020-04-03,1,13
@@ -13067,6 +13187,7 @@ Lennik,2020-07-23,0,31
 Lennik,2020-07-24,0,31
 Lennik,2020-07-25,0,31
 Lennik,2020-07-26,0,31
+Lennik,2020-07-27,0,31
 Affligem,2020-04-01,1,20
 Affligem,2020-04-02,1,21
 Affligem,2020-04-03,1,22
@@ -13175,6 +13296,7 @@ Affligem,2020-07-23,0,56
 Affligem,2020-07-24,0,56
 Affligem,2020-07-25,0,56
 Affligem,2020-07-26,0,56
+Affligem,2020-07-27,0,56
 Aarschot,2020-04-01,5,59
 Aarschot,2020-04-02,3,62
 Aarschot,2020-04-03,6,68
@@ -13283,6 +13405,7 @@ Aarschot,2020-07-23,1,157
 Aarschot,2020-07-24,0,157
 Aarschot,2020-07-25,0,157
 Aarschot,2020-07-26,0,157
+Aarschot,2020-07-27,0,157
 Begijnendijk,2020-04-01,0,12
 Begijnendijk,2020-04-02,1,13
 Begijnendijk,2020-04-03,2,15
@@ -13391,6 +13514,7 @@ Begijnendijk,2020-07-23,1,60
 Begijnendijk,2020-07-24,0,60
 Begijnendijk,2020-07-25,0,60
 Begijnendijk,2020-07-26,0,60
+Begijnendijk,2020-07-27,0,60
 Bekkevoort,2020-04-01,0,7
 Bekkevoort,2020-04-02,0,7
 Bekkevoort,2020-04-03,0,7
@@ -13499,6 +13623,7 @@ Bekkevoort,2020-07-23,0,44
 Bekkevoort,2020-07-24,0,44
 Bekkevoort,2020-07-25,0,44
 Bekkevoort,2020-07-26,0,44
+Bekkevoort,2020-07-27,0,44
 Bertem,2020-04-01,1,7
 Bertem,2020-04-02,0,7
 Bertem,2020-04-03,2,9
@@ -13607,6 +13732,7 @@ Bertem,2020-07-23,0,35
 Bertem,2020-07-24,0,35
 Bertem,2020-07-25,0,35
 Bertem,2020-07-26,1,36
+Bertem,2020-07-27,0,36
 Bierbeek,2020-04-01,0,7
 Bierbeek,2020-04-02,1,8
 Bierbeek,2020-04-03,1,9
@@ -13715,6 +13841,7 @@ Bierbeek,2020-07-23,0,18
 Bierbeek,2020-07-24,0,18
 Bierbeek,2020-07-25,0,18
 Bierbeek,2020-07-26,0,18
+Bierbeek,2020-07-27,0,18
 Boortmeerbeek,2020-04-01,0,18
 Boortmeerbeek,2020-04-02,2,20
 Boortmeerbeek,2020-04-03,0,20
@@ -13823,6 +13950,7 @@ Boortmeerbeek,2020-07-23,0,46
 Boortmeerbeek,2020-07-24,0,46
 Boortmeerbeek,2020-07-25,0,46
 Boortmeerbeek,2020-07-26,0,46
+Boortmeerbeek,2020-07-27,0,46
 Boutersem,2020-04-01,0,15
 Boutersem,2020-04-02,3,18
 Boutersem,2020-04-03,2,20
@@ -13931,6 +14059,7 @@ Boutersem,2020-07-23,1,63
 Boutersem,2020-07-24,0,63
 Boutersem,2020-07-25,0,63
 Boutersem,2020-07-26,0,63
+Boutersem,2020-07-27,0,63
 Diest,2020-04-01,7,40
 Diest,2020-04-02,4,44
 Diest,2020-04-03,3,47
@@ -14039,6 +14168,7 @@ Diest,2020-07-23,0,138
 Diest,2020-07-24,1,139
 Diest,2020-07-25,0,139
 Diest,2020-07-26,1,140
+Diest,2020-07-27,2,142
 Geetbets,2020-04-01,0,15
 Geetbets,2020-04-02,7,22
 Geetbets,2020-04-03,2,24
@@ -14147,6 +14277,7 @@ Geetbets,2020-07-23,0,87
 Geetbets,2020-07-24,0,87
 Geetbets,2020-07-25,0,87
 Geetbets,2020-07-26,0,87
+Geetbets,2020-07-27,0,87
 Haacht,2020-04-01,2,9
 Haacht,2020-04-02,1,10
 Haacht,2020-04-03,0,10
@@ -14255,6 +14386,7 @@ Haacht,2020-07-23,0,30
 Haacht,2020-07-24,0,30
 Haacht,2020-07-25,0,30
 Haacht,2020-07-26,0,30
+Haacht,2020-07-27,0,30
 Herent,2020-04-01,1,27
 Herent,2020-04-02,6,33
 Herent,2020-04-03,1,34
@@ -14363,6 +14495,7 @@ Herent,2020-07-23,0,161
 Herent,2020-07-24,0,161
 Herent,2020-07-25,0,161
 Herent,2020-07-26,0,161
+Herent,2020-07-27,0,161
 Hoegaarden,2020-04-01,0,13
 Hoegaarden,2020-04-02,1,14
 Hoegaarden,2020-04-03,1,15
@@ -14471,6 +14604,7 @@ Hoegaarden,2020-07-23,0,26
 Hoegaarden,2020-07-24,0,26
 Hoegaarden,2020-07-25,0,26
 Hoegaarden,2020-07-26,0,26
+Hoegaarden,2020-07-27,0,26
 Holsbeek,2020-04-01,2,16
 Holsbeek,2020-04-02,0,16
 Holsbeek,2020-04-03,1,17
@@ -14579,6 +14713,7 @@ Holsbeek,2020-07-23,0,43
 Holsbeek,2020-07-24,0,43
 Holsbeek,2020-07-25,0,43
 Holsbeek,2020-07-26,0,43
+Holsbeek,2020-07-27,0,43
 Huldenberg,2020-04-01,1,15
 Huldenberg,2020-04-02,0,15
 Huldenberg,2020-04-03,0,15
@@ -14687,6 +14822,7 @@ Huldenberg,2020-07-23,0,38
 Huldenberg,2020-07-24,0,38
 Huldenberg,2020-07-25,0,38
 Huldenberg,2020-07-26,0,38
+Huldenberg,2020-07-27,0,38
 Keerbergen,2020-04-01,1,16
 Keerbergen,2020-04-02,7,23
 Keerbergen,2020-04-03,4,27
@@ -14795,6 +14931,7 @@ Keerbergen,2020-07-23,0,54
 Keerbergen,2020-07-24,0,54
 Keerbergen,2020-07-25,0,54
 Keerbergen,2020-07-26,0,54
+Keerbergen,2020-07-27,0,54
 Kortenaken,2020-04-01,1,24
 Kortenaken,2020-04-02,2,26
 Kortenaken,2020-04-03,1,27
@@ -14903,6 +15040,7 @@ Kortenaken,2020-07-23,0,90
 Kortenaken,2020-07-24,0,90
 Kortenaken,2020-07-25,0,90
 Kortenaken,2020-07-26,1,91
+Kortenaken,2020-07-27,0,91
 Kortenberg,2020-04-01,0,10
 Kortenberg,2020-04-02,2,12
 Kortenberg,2020-04-03,4,16
@@ -15011,6 +15149,7 @@ Kortenberg,2020-07-23,1,63
 Kortenberg,2020-07-24,1,64
 Kortenberg,2020-07-25,0,64
 Kortenberg,2020-07-26,0,64
+Kortenberg,2020-07-27,0,64
 Landen,2020-04-01,4,36
 Landen,2020-04-02,8,44
 Landen,2020-04-03,4,48
@@ -15119,6 +15258,7 @@ Landen,2020-07-23,0,166
 Landen,2020-07-24,1,167
 Landen,2020-07-25,0,167
 Landen,2020-07-26,0,167
+Landen,2020-07-27,0,167
 Leuven,2020-04-01,9,142
 Leuven,2020-04-02,13,155
 Leuven,2020-04-03,16,171
@@ -15227,6 +15367,7 @@ Leuven,2020-07-23,3,472
 Leuven,2020-07-24,1,473
 Leuven,2020-07-25,0,473
 Leuven,2020-07-26,4,477
+Leuven,2020-07-27,0,477
 Lubbeek,2020-04-01,3,30
 Lubbeek,2020-04-02,1,31
 Lubbeek,2020-04-03,2,33
@@ -15335,6 +15476,7 @@ Lubbeek,2020-07-23,0,113
 Lubbeek,2020-07-24,0,113
 Lubbeek,2020-07-25,0,113
 Lubbeek,2020-07-26,0,113
+Lubbeek,2020-07-27,0,113
 Oud-Heverlee,2020-04-01,0,19
 Oud-Heverlee,2020-04-02,1,20
 Oud-Heverlee,2020-04-03,1,21
@@ -15443,6 +15585,7 @@ Oud-Heverlee,2020-07-23,0,35
 Oud-Heverlee,2020-07-24,0,35
 Oud-Heverlee,2020-07-25,0,35
 Oud-Heverlee,2020-07-26,1,36
+Oud-Heverlee,2020-07-27,0,36
 Rotselaar,2020-04-01,1,14
 Rotselaar,2020-04-02,0,14
 Rotselaar,2020-04-03,3,17
@@ -15551,6 +15694,7 @@ Rotselaar,2020-07-23,0,40
 Rotselaar,2020-07-24,0,40
 Rotselaar,2020-07-25,0,40
 Rotselaar,2020-07-26,0,40
+Rotselaar,2020-07-27,0,40
 Tervuren,2020-04-01,4,21
 Tervuren,2020-04-02,0,21
 Tervuren,2020-04-03,1,22
@@ -15659,6 +15803,7 @@ Tervuren,2020-07-23,0,112
 Tervuren,2020-07-24,0,112
 Tervuren,2020-07-25,0,112
 Tervuren,2020-07-26,1,113
+Tervuren,2020-07-27,0,113
 Tienen,2020-04-01,5,44
 Tienen,2020-04-02,6,50
 Tienen,2020-04-03,8,58
@@ -15767,6 +15912,7 @@ Tienen,2020-07-23,0,244
 Tienen,2020-07-24,0,244
 Tienen,2020-07-25,0,244
 Tienen,2020-07-26,0,244
+Tienen,2020-07-27,0,244
 Tremelo,2020-04-01,0,17
 Tremelo,2020-04-02,0,17
 Tremelo,2020-04-03,1,18
@@ -15875,6 +16021,7 @@ Tremelo,2020-07-23,0,43
 Tremelo,2020-07-24,0,43
 Tremelo,2020-07-25,1,44
 Tremelo,2020-07-26,0,44
+Tremelo,2020-07-27,0,44
 Zoutleeuw,2020-04-01,1,20
 Zoutleeuw,2020-04-02,2,22
 Zoutleeuw,2020-04-03,1,23
@@ -15983,6 +16130,7 @@ Zoutleeuw,2020-07-23,0,87
 Zoutleeuw,2020-07-24,0,87
 Zoutleeuw,2020-07-25,0,87
 Zoutleeuw,2020-07-26,0,87
+Zoutleeuw,2020-07-27,0,87
 Linter,2020-04-01,0,8
 Linter,2020-04-02,2,10
 Linter,2020-04-03,1,11
@@ -16091,6 +16239,7 @@ Linter,2020-07-23,0,35
 Linter,2020-07-24,0,35
 Linter,2020-07-25,0,35
 Linter,2020-07-26,0,35
+Linter,2020-07-27,0,35
 Scherpenheuvel-Zichem,2020-04-01,4,28
 Scherpenheuvel-Zichem,2020-04-02,2,30
 Scherpenheuvel-Zichem,2020-04-03,4,34
@@ -16199,6 +16348,7 @@ Scherpenheuvel-Zichem,2020-07-23,0,112
 Scherpenheuvel-Zichem,2020-07-24,1,113
 Scherpenheuvel-Zichem,2020-07-25,0,113
 Scherpenheuvel-Zichem,2020-07-26,0,113
+Scherpenheuvel-Zichem,2020-07-27,1,114
 Tielt-Winge,2020-04-01,2,10
 Tielt-Winge,2020-04-02,1,11
 Tielt-Winge,2020-04-03,2,13
@@ -16307,6 +16457,7 @@ Tielt-Winge,2020-07-23,0,33
 Tielt-Winge,2020-07-24,0,33
 Tielt-Winge,2020-07-25,0,33
 Tielt-Winge,2020-07-26,0,33
+Tielt-Winge,2020-07-27,0,33
 Glabbeek,2020-04-01,0,10
 Glabbeek,2020-04-02,0,10
 Glabbeek,2020-04-03,2,12
@@ -16415,6 +16566,7 @@ Glabbeek,2020-07-23,0,30
 Glabbeek,2020-07-24,0,30
 Glabbeek,2020-07-25,0,30
 Glabbeek,2020-07-26,0,30
+Glabbeek,2020-07-27,0,30
 Bevekom,2020-04-01,0,0
 Bevekom,2020-04-02,0,0
 Bevekom,2020-04-03,0,0
@@ -16523,6 +16675,7 @@ Bevekom,2020-07-23,0,13
 Bevekom,2020-07-24,0,13
 Bevekom,2020-07-25,0,13
 Bevekom,2020-07-26,0,13
+Bevekom,2020-07-27,0,13
 Eigenbrakel,2020-04-01,2,39
 Eigenbrakel,2020-04-02,6,45
 Eigenbrakel,2020-04-03,3,48
@@ -16631,6 +16784,7 @@ Eigenbrakel,2020-07-23,0,176
 Eigenbrakel,2020-07-24,0,176
 Eigenbrakel,2020-07-25,2,178
 Eigenbrakel,2020-07-26,0,178
+Eigenbrakel,2020-07-27,1,179
 Kasteelbrakel,2020-04-01,1,8
 Kasteelbrakel,2020-04-02,0,8
 Kasteelbrakel,2020-04-03,1,9
@@ -16739,6 +16893,7 @@ Kasteelbrakel,2020-07-23,0,26
 Kasteelbrakel,2020-07-24,0,26
 Kasteelbrakel,2020-07-25,0,26
 Kasteelbrakel,2020-07-26,0,26
+Kasteelbrakel,2020-07-27,1,27
 Chaumont-Gistoux,2020-04-01,1,10
 Chaumont-Gistoux,2020-04-02,0,10
 Chaumont-Gistoux,2020-04-03,1,11
@@ -16847,6 +17002,7 @@ Chaumont-Gistoux,2020-07-23,1,32
 Chaumont-Gistoux,2020-07-24,0,32
 Chaumont-Gistoux,2020-07-25,0,32
 Chaumont-Gistoux,2020-07-26,0,32
+Chaumont-Gistoux,2020-07-27,0,32
 Court-Saint-Etienne,2020-04-01,0,8
 Court-Saint-Etienne,2020-04-02,0,8
 Court-Saint-Etienne,2020-04-03,0,8
@@ -16955,6 +17111,7 @@ Court-Saint-Etienne,2020-07-23,0,31
 Court-Saint-Etienne,2020-07-24,0,31
 Court-Saint-Etienne,2020-07-25,0,31
 Court-Saint-Etienne,2020-07-26,0,31
+Court-Saint-Etienne,2020-07-27,0,31
 Genepiën,2020-04-01,1,11
 Genepiën,2020-04-02,1,12
 Genepiën,2020-04-03,2,14
@@ -17063,6 +17220,7 @@ Genepiën,2020-07-23,0,80
 Genepiën,2020-07-24,1,81
 Genepiën,2020-07-25,1,82
 Genepiën,2020-07-26,1,83
+Genepiën,2020-07-27,0,83
 Graven,2020-04-01,0,17
 Graven,2020-04-02,1,18
 Graven,2020-04-03,2,20
@@ -17171,6 +17329,7 @@ Graven,2020-07-23,0,42
 Graven,2020-07-24,0,42
 Graven,2020-07-25,0,42
 Graven,2020-07-26,0,42
+Graven,2020-07-27,0,42
 Incourt,2020-04-01,0,9
 Incourt,2020-04-02,1,10
 Incourt,2020-04-03,1,11
@@ -17279,6 +17438,7 @@ Incourt,2020-07-23,0,19
 Incourt,2020-07-24,0,19
 Incourt,2020-07-25,0,19
 Incourt,2020-07-26,0,19
+Incourt,2020-07-27,1,20
 Itter,2020-04-01,0,10
 Itter,2020-04-02,0,10
 Itter,2020-04-03,0,10
@@ -17387,6 +17547,7 @@ Itter,2020-07-23,0,38
 Itter,2020-07-24,0,38
 Itter,2020-07-25,0,38
 Itter,2020-07-26,0,38
+Itter,2020-07-27,2,40
 Geldenaken,2020-04-01,1,13
 Geldenaken,2020-04-02,2,15
 Geldenaken,2020-04-03,1,16
@@ -17495,6 +17656,7 @@ Geldenaken,2020-07-23,0,66
 Geldenaken,2020-07-24,1,67
 Geldenaken,2020-07-25,1,68
 Geldenaken,2020-07-26,-1,67
+Geldenaken,2020-07-27,0,67
 Terhulpen,2020-04-01,1,15
 Terhulpen,2020-04-02,0,15
 Terhulpen,2020-04-03,0,15
@@ -17603,6 +17765,7 @@ Terhulpen,2020-07-23,0,30
 Terhulpen,2020-07-24,0,30
 Terhulpen,2020-07-25,0,30
 Terhulpen,2020-07-26,0,30
+Terhulpen,2020-07-27,0,30
 Mont-Saint-Guibert,2020-04-01,0,10
 Mont-Saint-Guibert,2020-04-02,1,11
 Mont-Saint-Guibert,2020-04-03,1,12
@@ -17711,6 +17874,7 @@ Mont-Saint-Guibert,2020-07-23,0,24
 Mont-Saint-Guibert,2020-07-24,0,24
 Mont-Saint-Guibert,2020-07-25,0,24
 Mont-Saint-Guibert,2020-07-26,1,25
+Mont-Saint-Guibert,2020-07-27,0,25
 Nijvel,2020-04-01,0,28
 Nijvel,2020-04-02,1,29
 Nijvel,2020-04-03,5,34
@@ -17819,6 +17983,7 @@ Nijvel,2020-07-23,1,132
 Nijvel,2020-07-24,0,132
 Nijvel,2020-07-25,0,132
 Nijvel,2020-07-26,1,133
+Nijvel,2020-07-27,1,134
 Perwijs (Nijvel),2020-04-01,1,6
 Perwijs (Nijvel),2020-04-02,0,6
 Perwijs (Nijvel),2020-04-03,0,6
@@ -17927,6 +18092,7 @@ Perwijs (Nijvel),2020-07-23,0,17
 Perwijs (Nijvel),2020-07-24,0,17
 Perwijs (Nijvel),2020-07-25,0,17
 Perwijs (Nijvel),2020-07-26,0,17
+Perwijs (Nijvel),2020-07-27,0,17
 Rixensart,2020-04-01,2,30
 Rixensart,2020-04-02,1,31
 Rixensart,2020-04-03,4,35
@@ -18035,6 +18201,7 @@ Rixensart,2020-07-23,0,96
 Rixensart,2020-07-24,0,96
 Rixensart,2020-07-25,0,96
 Rixensart,2020-07-26,0,96
+Rixensart,2020-07-27,1,97
 Tubeke,2020-04-01,4,43
 Tubeke,2020-04-02,2,45
 Tubeke,2020-04-03,4,49
@@ -18143,6 +18310,7 @@ Tubeke,2020-07-23,1,167
 Tubeke,2020-07-24,0,167
 Tubeke,2020-07-25,1,168
 Tubeke,2020-07-26,0,168
+Tubeke,2020-07-27,0,168
 Villers-la-Ville,2020-04-01,0,0
 Villers-la-Ville,2020-04-02,0,0
 Villers-la-Ville,2020-04-03,0,0
@@ -18251,6 +18419,7 @@ Villers-la-Ville,2020-07-23,2,30
 Villers-la-Ville,2020-07-24,0,30
 Villers-la-Ville,2020-07-25,0,30
 Villers-la-Ville,2020-07-26,1,31
+Villers-la-Ville,2020-07-27,0,31
 Waterloo,2020-04-01,2,28
 Waterloo,2020-04-02,2,30
 Waterloo,2020-04-03,2,32
@@ -18359,6 +18528,7 @@ Waterloo,2020-07-23,0,115
 Waterloo,2020-07-24,0,115
 Waterloo,2020-07-25,0,115
 Waterloo,2020-07-26,1,116
+Waterloo,2020-07-27,0,116
 Waver,2020-04-01,2,27
 Waver,2020-04-02,3,30
 Waver,2020-04-03,2,32
@@ -18467,6 +18637,7 @@ Waver,2020-07-23,0,134
 Waver,2020-07-24,0,134
 Waver,2020-07-25,0,134
 Waver,2020-07-26,0,134
+Waver,2020-07-27,0,134
 Chastre,2020-04-01,1,6
 Chastre,2020-04-02,0,6
 Chastre,2020-04-03,0,6
@@ -18575,6 +18746,7 @@ Chastre,2020-07-23,0,15
 Chastre,2020-07-24,0,15
 Chastre,2020-07-25,0,15
 Chastre,2020-07-26,0,15
+Chastre,2020-07-27,0,15
 Hélécine,2020-04-01,0,5
 Hélécine,2020-04-02,1,6
 Hélécine,2020-04-03,0,6
@@ -18683,6 +18855,7 @@ Hélécine,2020-07-23,0,19
 Hélécine,2020-07-24,0,19
 Hélécine,2020-07-25,0,19
 Hélécine,2020-07-26,0,19
+Hélécine,2020-07-27,0,19
 Lasne,2020-04-01,1,19
 Lasne,2020-04-02,1,20
 Lasne,2020-04-03,1,21
@@ -18791,6 +18964,7 @@ Lasne,2020-07-23,0,46
 Lasne,2020-07-24,0,46
 Lasne,2020-07-25,0,46
 Lasne,2020-07-26,0,46
+Lasne,2020-07-27,0,46
 Orp-Jauche,2020-04-01,0,6
 Orp-Jauche,2020-04-02,0,6
 Orp-Jauche,2020-04-03,0,6
@@ -18899,6 +19073,7 @@ Orp-Jauche,2020-07-23,0,19
 Orp-Jauche,2020-07-24,0,19
 Orp-Jauche,2020-07-25,0,19
 Orp-Jauche,2020-07-26,0,19
+Orp-Jauche,2020-07-27,0,19
 Ottignies-Louvain-la-Neuve,2020-04-01,1,21
 Ottignies-Louvain-la-Neuve,2020-04-02,0,21
 Ottignies-Louvain-la-Neuve,2020-04-03,0,21
@@ -19007,6 +19182,7 @@ Ottignies-Louvain-la-Neuve,2020-07-23,0,108
 Ottignies-Louvain-la-Neuve,2020-07-24,0,108
 Ottignies-Louvain-la-Neuve,2020-07-25,0,108
 Ottignies-Louvain-la-Neuve,2020-07-26,2,110
+Ottignies-Louvain-la-Neuve,2020-07-27,1,111
 Ramillies,2020-04-01,0,0
 Ramillies,2020-04-02,0,0
 Ramillies,2020-04-03,0,0
@@ -19115,6 +19291,7 @@ Ramillies,2020-07-23,0,8
 Ramillies,2020-07-24,0,8
 Ramillies,2020-07-25,0,8
 Ramillies,2020-07-26,0,8
+Ramillies,2020-07-27,0,8
 Rebecq,2020-04-01,1,10
 Rebecq,2020-04-02,3,13
 Rebecq,2020-04-03,2,15
@@ -19223,6 +19400,7 @@ Rebecq,2020-07-23,0,72
 Rebecq,2020-07-24,0,72
 Rebecq,2020-07-25,0,72
 Rebecq,2020-07-26,0,72
+Rebecq,2020-07-27,0,72
 Walhain,2020-04-01,0,6
 Walhain,2020-04-02,0,6
 Walhain,2020-04-03,1,7
@@ -19331,6 +19509,7 @@ Walhain,2020-07-23,0,20
 Walhain,2020-07-24,0,20
 Walhain,2020-07-25,0,20
 Walhain,2020-07-26,0,20
+Walhain,2020-07-27,0,20
 Beernem,2020-04-01,1,14
 Beernem,2020-04-02,0,14
 Beernem,2020-04-03,1,15
@@ -19439,6 +19618,7 @@ Beernem,2020-07-23,0,129
 Beernem,2020-07-24,0,129
 Beernem,2020-07-25,0,129
 Beernem,2020-07-26,0,129
+Beernem,2020-07-27,0,129
 Blankenberge,2020-04-01,1,24
 Blankenberge,2020-04-02,2,26
 Blankenberge,2020-04-03,2,28
@@ -19547,6 +19727,7 @@ Blankenberge,2020-07-23,1,58
 Blankenberge,2020-07-24,1,59
 Blankenberge,2020-07-25,0,59
 Blankenberge,2020-07-26,1,60
+Blankenberge,2020-07-27,0,60
 Brugge,2020-04-01,13,119
 Brugge,2020-04-02,8,127
 Brugge,2020-04-03,11,138
@@ -19655,6 +19836,7 @@ Brugge,2020-07-23,0,783
 Brugge,2020-07-24,1,784
 Brugge,2020-07-25,2,786
 Brugge,2020-07-26,4,790
+Brugge,2020-07-27,1,791
 Damme,2020-04-01,1,25
 Damme,2020-04-02,3,28
 Damme,2020-04-03,4,32
@@ -19763,6 +19945,7 @@ Damme,2020-07-23,0,83
 Damme,2020-07-24,0,83
 Damme,2020-07-25,0,83
 Damme,2020-07-26,0,83
+Damme,2020-07-27,0,83
 Jabbeke,2020-04-01,0,15
 Jabbeke,2020-04-02,1,16
 Jabbeke,2020-04-03,0,16
@@ -19871,6 +20054,7 @@ Jabbeke,2020-07-23,0,54
 Jabbeke,2020-07-24,0,54
 Jabbeke,2020-07-25,0,54
 Jabbeke,2020-07-26,1,55
+Jabbeke,2020-07-27,0,55
 Oostkamp,2020-04-01,2,21
 Oostkamp,2020-04-02,3,24
 Oostkamp,2020-04-03,5,29
@@ -19979,6 +20163,7 @@ Oostkamp,2020-07-23,0,181
 Oostkamp,2020-07-24,0,181
 Oostkamp,2020-07-25,0,181
 Oostkamp,2020-07-26,0,181
+Oostkamp,2020-07-27,0,181
 Torhout,2020-04-01,2,32
 Torhout,2020-04-02,2,34
 Torhout,2020-04-03,1,35
@@ -20087,6 +20272,7 @@ Torhout,2020-07-23,0,148
 Torhout,2020-07-24,4,152
 Torhout,2020-07-25,1,153
 Torhout,2020-07-26,0,153
+Torhout,2020-07-27,0,153
 Zedelgem,2020-04-01,5,19
 Zedelgem,2020-04-02,5,24
 Zedelgem,2020-04-03,3,27
@@ -20195,6 +20381,7 @@ Zedelgem,2020-07-23,0,125
 Zedelgem,2020-07-24,0,125
 Zedelgem,2020-07-25,2,127
 Zedelgem,2020-07-26,0,127
+Zedelgem,2020-07-27,0,127
 Knokke-Heist,2020-04-01,2,60
 Knokke-Heist,2020-04-02,4,64
 Knokke-Heist,2020-04-03,5,69
@@ -20303,6 +20490,7 @@ Knokke-Heist,2020-07-23,0,176
 Knokke-Heist,2020-07-24,0,176
 Knokke-Heist,2020-07-25,0,176
 Knokke-Heist,2020-07-26,0,176
+Knokke-Heist,2020-07-27,1,177
 Diksmuide,2020-04-01,2,18
 Diksmuide,2020-04-02,0,18
 Diksmuide,2020-04-03,0,18
@@ -20411,6 +20599,7 @@ Diksmuide,2020-07-23,0,56
 Diksmuide,2020-07-24,0,56
 Diksmuide,2020-07-25,0,56
 Diksmuide,2020-07-26,0,56
+Diksmuide,2020-07-27,0,56
 Houthulst,2020-04-01,0,7
 Houthulst,2020-04-02,2,9
 Houthulst,2020-04-03,1,10
@@ -20519,6 +20708,7 @@ Houthulst,2020-07-23,0,64
 Houthulst,2020-07-24,1,65
 Houthulst,2020-07-25,0,65
 Houthulst,2020-07-26,0,65
+Houthulst,2020-07-27,0,65
 Koekelare,2020-04-01,0,0
 Koekelare,2020-04-02,0,0
 Koekelare,2020-04-03,0,0
@@ -20627,6 +20817,7 @@ Koekelare,2020-07-23,0,28
 Koekelare,2020-07-24,0,28
 Koekelare,2020-07-25,0,28
 Koekelare,2020-07-26,0,28
+Koekelare,2020-07-27,0,28
 Kortemark,2020-04-01,0,11
 Kortemark,2020-04-02,0,11
 Kortemark,2020-04-03,1,12
@@ -20735,6 +20926,7 @@ Kortemark,2020-07-23,0,55
 Kortemark,2020-07-24,0,55
 Kortemark,2020-07-25,0,55
 Kortemark,2020-07-26,0,55
+Kortemark,2020-07-27,1,56
 Lo-Reninge,2020-04-01,6,6
 Lo-Reninge,2020-04-02,0,6
 Lo-Reninge,2020-04-03,3,9
@@ -20843,6 +21035,7 @@ Lo-Reninge,2020-07-23,0,17
 Lo-Reninge,2020-07-24,0,17
 Lo-Reninge,2020-07-25,0,17
 Lo-Reninge,2020-07-26,0,17
+Lo-Reninge,2020-07-27,0,17
 Ieper,2020-04-01,7,76
 Ieper,2020-04-02,4,80
 Ieper,2020-04-03,4,84
@@ -20951,6 +21144,7 @@ Ieper,2020-07-23,0,283
 Ieper,2020-07-24,0,283
 Ieper,2020-07-25,0,283
 Ieper,2020-07-26,0,283
+Ieper,2020-07-27,0,283
 Mesen,2020-04-01,0,0
 Mesen,2020-04-02,0,0
 Mesen,2020-04-03,0,0
@@ -21059,6 +21253,7 @@ Mesen,2020-07-23,0,7
 Mesen,2020-07-24,0,7
 Mesen,2020-07-25,0,7
 Mesen,2020-07-26,0,7
+Mesen,2020-07-27,0,7
 Poperinge,2020-04-01,7,26
 Poperinge,2020-04-02,2,28
 Poperinge,2020-04-03,6,34
@@ -21167,6 +21362,7 @@ Poperinge,2020-07-23,0,91
 Poperinge,2020-07-24,0,91
 Poperinge,2020-07-25,0,91
 Poperinge,2020-07-26,0,91
+Poperinge,2020-07-27,1,92
 Wervik,2020-04-01,3,37
 Wervik,2020-04-02,4,41
 Wervik,2020-04-03,3,44
@@ -21275,6 +21471,7 @@ Wervik,2020-07-23,0,148
 Wervik,2020-07-24,1,149
 Wervik,2020-07-25,0,149
 Wervik,2020-07-26,0,149
+Wervik,2020-07-27,0,149
 Zonnebeke,2020-04-01,1,25
 Zonnebeke,2020-04-02,1,26
 Zonnebeke,2020-04-03,1,27
@@ -21383,6 +21580,7 @@ Zonnebeke,2020-07-23,0,56
 Zonnebeke,2020-07-24,1,57
 Zonnebeke,2020-07-25,0,57
 Zonnebeke,2020-07-26,1,58
+Zonnebeke,2020-07-27,0,58
 Heuvelland,2020-04-01,0,8
 Heuvelland,2020-04-02,0,8
 Heuvelland,2020-04-03,0,8
@@ -21491,6 +21689,7 @@ Heuvelland,2020-07-23,0,23
 Heuvelland,2020-07-24,0,23
 Heuvelland,2020-07-25,0,23
 Heuvelland,2020-07-26,0,23
+Heuvelland,2020-07-27,0,23
 Langemark-Poelkapelle,2020-04-01,1,11
 Langemark-Poelkapelle,2020-04-02,0,11
 Langemark-Poelkapelle,2020-04-03,3,14
@@ -21599,6 +21798,7 @@ Langemark-Poelkapelle,2020-07-23,0,36
 Langemark-Poelkapelle,2020-07-24,0,36
 Langemark-Poelkapelle,2020-07-25,0,36
 Langemark-Poelkapelle,2020-07-26,0,36
+Langemark-Poelkapelle,2020-07-27,1,37
 Vleteren,2020-04-01,0,0
 Vleteren,2020-04-02,0,0
 Vleteren,2020-04-03,0,0
@@ -21707,6 +21907,7 @@ Vleteren,2020-07-23,0,6
 Vleteren,2020-07-24,0,6
 Vleteren,2020-07-25,0,6
 Vleteren,2020-07-26,0,6
+Vleteren,2020-07-27,1,7
 Anzegem,2020-04-01,4,14
 Anzegem,2020-04-02,2,16
 Anzegem,2020-04-03,1,17
@@ -21815,6 +22016,7 @@ Anzegem,2020-07-23,0,100
 Anzegem,2020-07-24,0,100
 Anzegem,2020-07-25,0,100
 Anzegem,2020-07-26,0,100
+Anzegem,2020-07-27,0,100
 Avelgem,2020-04-01,1,11
 Avelgem,2020-04-02,1,12
 Avelgem,2020-04-03,1,13
@@ -21923,6 +22125,7 @@ Avelgem,2020-07-23,0,62
 Avelgem,2020-07-24,0,62
 Avelgem,2020-07-25,0,62
 Avelgem,2020-07-26,0,62
+Avelgem,2020-07-27,0,62
 Deerlijk,2020-04-01,9,19
 Deerlijk,2020-04-02,6,25
 Deerlijk,2020-04-03,0,25
@@ -22031,6 +22234,7 @@ Deerlijk,2020-07-23,0,79
 Deerlijk,2020-07-24,1,80
 Deerlijk,2020-07-25,0,80
 Deerlijk,2020-07-26,0,80
+Deerlijk,2020-07-27,0,80
 Harelbeke,2020-04-01,3,51
 Harelbeke,2020-04-02,10,61
 Harelbeke,2020-04-03,9,70
@@ -22139,6 +22343,7 @@ Harelbeke,2020-07-23,0,280
 Harelbeke,2020-07-24,2,282
 Harelbeke,2020-07-25,0,282
 Harelbeke,2020-07-26,1,283
+Harelbeke,2020-07-27,0,283
 Kortrijk,2020-04-01,9,121
 Kortrijk,2020-04-02,17,138
 Kortrijk,2020-04-03,8,146
@@ -22247,6 +22452,7 @@ Kortrijk,2020-07-23,1,594
 Kortrijk,2020-07-24,2,596
 Kortrijk,2020-07-25,1,597
 Kortrijk,2020-07-26,0,597
+Kortrijk,2020-07-27,0,597
 Kuurne,2020-04-01,4,14
 Kuurne,2020-04-02,5,19
 Kuurne,2020-04-03,3,22
@@ -22355,6 +22561,7 @@ Kuurne,2020-07-23,0,94
 Kuurne,2020-07-24,0,94
 Kuurne,2020-07-25,0,94
 Kuurne,2020-07-26,0,94
+Kuurne,2020-07-27,0,94
 Lendelede,2020-04-01,0,0
 Lendelede,2020-04-02,0,0
 Lendelede,2020-04-03,0,0
@@ -22463,6 +22670,7 @@ Lendelede,2020-07-23,0,40
 Lendelede,2020-07-24,1,41
 Lendelede,2020-07-25,1,42
 Lendelede,2020-07-26,0,42
+Lendelede,2020-07-27,0,42
 Menen,2020-04-01,6,60
 Menen,2020-04-02,7,67
 Menen,2020-04-03,5,72
@@ -22571,6 +22779,7 @@ Menen,2020-07-23,3,304
 Menen,2020-07-24,1,305
 Menen,2020-07-25,0,305
 Menen,2020-07-26,0,305
+Menen,2020-07-27,0,305
 Waregem,2020-04-01,2,68
 Waregem,2020-04-02,11,79
 Waregem,2020-04-03,5,84
@@ -22679,6 +22888,7 @@ Waregem,2020-07-23,0,364
 Waregem,2020-07-24,0,364
 Waregem,2020-07-25,2,366
 Waregem,2020-07-26,0,366
+Waregem,2020-07-27,1,367
 Wevelgem,2020-04-01,4,52
 Wevelgem,2020-04-02,5,57
 Wevelgem,2020-04-03,4,61
@@ -22787,6 +22997,7 @@ Wevelgem,2020-07-23,0,220
 Wevelgem,2020-07-24,0,220
 Wevelgem,2020-07-25,1,221
 Wevelgem,2020-07-26,1,222
+Wevelgem,2020-07-27,0,222
 Zwevegem,2020-04-01,2,32
 Zwevegem,2020-04-02,4,36
 Zwevegem,2020-04-03,5,41
@@ -22895,6 +23106,7 @@ Zwevegem,2020-07-23,0,140
 Zwevegem,2020-07-24,2,142
 Zwevegem,2020-07-25,0,142
 Zwevegem,2020-07-26,1,143
+Zwevegem,2020-07-27,0,143
 Spiere-Helkijn,2020-04-01,0,0
 Spiere-Helkijn,2020-04-02,0,0
 Spiere-Helkijn,2020-04-03,0,0
@@ -23003,6 +23215,7 @@ Spiere-Helkijn,2020-07-23,0,11
 Spiere-Helkijn,2020-07-24,0,11
 Spiere-Helkijn,2020-07-25,0,11
 Spiere-Helkijn,2020-07-26,0,11
+Spiere-Helkijn,2020-07-27,0,11
 Bredene,2020-04-01,1,15
 Bredene,2020-04-02,3,18
 Bredene,2020-04-03,2,20
@@ -23111,6 +23324,7 @@ Bredene,2020-07-23,1,71
 Bredene,2020-07-24,0,71
 Bredene,2020-07-25,0,71
 Bredene,2020-07-26,0,71
+Bredene,2020-07-27,0,71
 Gistel,2020-04-01,3,14
 Gistel,2020-04-02,0,14
 Gistel,2020-04-03,0,14
@@ -23219,6 +23433,7 @@ Gistel,2020-07-23,0,54
 Gistel,2020-07-24,0,54
 Gistel,2020-07-25,1,55
 Gistel,2020-07-26,0,55
+Gistel,2020-07-27,0,55
 Ichtegem,2020-04-01,4,14
 Ichtegem,2020-04-02,1,15
 Ichtegem,2020-04-03,1,16
@@ -23327,6 +23542,7 @@ Ichtegem,2020-07-23,0,76
 Ichtegem,2020-07-24,0,76
 Ichtegem,2020-07-25,0,76
 Ichtegem,2020-07-26,0,76
+Ichtegem,2020-07-27,0,76
 Middelkerke,2020-04-01,1,20
 Middelkerke,2020-04-02,0,20
 Middelkerke,2020-04-03,1,21
@@ -23435,6 +23651,7 @@ Middelkerke,2020-07-23,1,64
 Middelkerke,2020-07-24,0,64
 Middelkerke,2020-07-25,0,64
 Middelkerke,2020-07-26,0,64
+Middelkerke,2020-07-27,0,64
 Oostende,2020-04-01,4,62
 Oostende,2020-04-02,10,72
 Oostende,2020-04-03,2,74
@@ -23543,6 +23760,7 @@ Oostende,2020-07-23,7,389
 Oostende,2020-07-24,1,390
 Oostende,2020-07-25,1,391
 Oostende,2020-07-26,0,391
+Oostende,2020-07-27,1,392
 Oudenburg,2020-04-01,2,14
 Oudenburg,2020-04-02,1,15
 Oudenburg,2020-04-03,1,16
@@ -23651,6 +23869,7 @@ Oudenburg,2020-07-23,0,39
 Oudenburg,2020-07-24,1,40
 Oudenburg,2020-07-25,0,40
 Oudenburg,2020-07-26,0,40
+Oudenburg,2020-07-27,0,40
 De Haan,2020-04-01,1,16
 De Haan,2020-04-02,2,18
 De Haan,2020-04-03,3,21
@@ -23759,6 +23978,7 @@ De Haan,2020-07-23,0,70
 De Haan,2020-07-24,0,70
 De Haan,2020-07-25,0,70
 De Haan,2020-07-26,0,70
+De Haan,2020-07-27,0,70
 Hooglede,2020-04-01,2,9
 Hooglede,2020-04-02,1,10
 Hooglede,2020-04-03,1,11
@@ -23867,6 +24087,7 @@ Hooglede,2020-07-23,0,52
 Hooglede,2020-07-24,0,52
 Hooglede,2020-07-25,1,53
 Hooglede,2020-07-26,0,53
+Hooglede,2020-07-27,0,53
 Ingelmunster,2020-04-01,0,6
 Ingelmunster,2020-04-02,0,6
 Ingelmunster,2020-04-03,2,8
@@ -23975,6 +24196,7 @@ Ingelmunster,2020-07-23,0,70
 Ingelmunster,2020-07-24,0,70
 Ingelmunster,2020-07-25,0,70
 Ingelmunster,2020-07-26,0,70
+Ingelmunster,2020-07-27,0,70
 Izegem,2020-04-01,3,31
 Izegem,2020-04-02,4,35
 Izegem,2020-04-03,6,41
@@ -24083,6 +24305,7 @@ Izegem,2020-07-23,0,163
 Izegem,2020-07-24,1,164
 Izegem,2020-07-25,1,165
 Izegem,2020-07-26,1,166
+Izegem,2020-07-27,0,166
 Ledegem,2020-04-01,1,18
 Ledegem,2020-04-02,1,19
 Ledegem,2020-04-03,1,20
@@ -24191,6 +24414,7 @@ Ledegem,2020-07-23,0,81
 Ledegem,2020-07-24,2,83
 Ledegem,2020-07-25,0,83
 Ledegem,2020-07-26,1,84
+Ledegem,2020-07-27,0,84
 Lichtervelde,2020-04-01,0,11
 Lichtervelde,2020-04-02,0,11
 Lichtervelde,2020-04-03,0,11
@@ -24299,6 +24523,7 @@ Lichtervelde,2020-07-23,0,45
 Lichtervelde,2020-07-24,2,47
 Lichtervelde,2020-07-25,2,49
 Lichtervelde,2020-07-26,0,49
+Lichtervelde,2020-07-27,0,49
 Moorslede,2020-04-01,2,16
 Moorslede,2020-04-02,3,19
 Moorslede,2020-04-03,8,27
@@ -24407,6 +24632,7 @@ Moorslede,2020-07-23,0,85
 Moorslede,2020-07-24,1,86
 Moorslede,2020-07-25,0,86
 Moorslede,2020-07-26,0,86
+Moorslede,2020-07-27,0,86
 Roeselare,2020-04-01,11,118
 Roeselare,2020-04-02,14,132
 Roeselare,2020-04-03,12,144
@@ -24515,6 +24741,7 @@ Roeselare,2020-07-23,1,406
 Roeselare,2020-07-24,6,412
 Roeselare,2020-07-25,6,418
 Roeselare,2020-07-26,0,418
+Roeselare,2020-07-27,1,419
 Staden,2020-04-01,0,7
 Staden,2020-04-02,2,9
 Staden,2020-04-03,0,9
@@ -24623,6 +24850,7 @@ Staden,2020-07-23,0,43
 Staden,2020-07-24,0,43
 Staden,2020-07-25,1,44
 Staden,2020-07-26,0,44
+Staden,2020-07-27,0,44
 Dentergem,2020-04-01,1,16
 Dentergem,2020-04-02,1,17
 Dentergem,2020-04-03,2,19
@@ -24731,6 +24959,7 @@ Dentergem,2020-07-23,0,44
 Dentergem,2020-07-24,1,45
 Dentergem,2020-07-25,0,45
 Dentergem,2020-07-26,0,45
+Dentergem,2020-07-27,0,45
 Meulebeke,2020-04-01,0,9
 Meulebeke,2020-04-02,5,14
 Meulebeke,2020-04-03,0,14
@@ -24839,6 +25068,7 @@ Meulebeke,2020-07-23,1,43
 Meulebeke,2020-07-24,3,46
 Meulebeke,2020-07-25,0,46
 Meulebeke,2020-07-26,0,46
+Meulebeke,2020-07-27,0,46
 Oostrozebeke,2020-04-01,1,7
 Oostrozebeke,2020-04-02,0,7
 Oostrozebeke,2020-04-03,2,9
@@ -24947,6 +25177,7 @@ Oostrozebeke,2020-07-23,0,40
 Oostrozebeke,2020-07-24,0,40
 Oostrozebeke,2020-07-25,0,40
 Oostrozebeke,2020-07-26,0,40
+Oostrozebeke,2020-07-27,0,40
 Pittem,2020-04-01,1,10
 Pittem,2020-04-02,0,10
 Pittem,2020-04-03,1,11
@@ -25055,6 +25286,7 @@ Pittem,2020-07-23,0,33
 Pittem,2020-07-24,1,34
 Pittem,2020-07-25,0,34
 Pittem,2020-07-26,0,34
+Pittem,2020-07-27,0,34
 Ruiselede,2020-04-01,1,10
 Ruiselede,2020-04-02,1,11
 Ruiselede,2020-04-03,2,13
@@ -25163,6 +25395,7 @@ Ruiselede,2020-07-23,0,31
 Ruiselede,2020-07-24,0,31
 Ruiselede,2020-07-25,0,31
 Ruiselede,2020-07-26,0,31
+Ruiselede,2020-07-27,0,31
 Tielt (Tielt),2020-04-01,2,36
 Tielt (Tielt),2020-04-02,3,39
 Tielt (Tielt),2020-04-03,6,45
@@ -25271,6 +25504,7 @@ Tielt (Tielt),2020-07-23,0,108
 Tielt (Tielt),2020-07-24,0,108
 Tielt (Tielt),2020-07-25,0,108
 Tielt (Tielt),2020-07-26,0,108
+Tielt (Tielt),2020-07-27,0,108
 Wielsbeke,2020-04-01,2,14
 Wielsbeke,2020-04-02,1,15
 Wielsbeke,2020-04-03,2,17
@@ -25379,6 +25613,7 @@ Wielsbeke,2020-07-23,1,42
 Wielsbeke,2020-07-24,0,42
 Wielsbeke,2020-07-25,0,42
 Wielsbeke,2020-07-26,1,43
+Wielsbeke,2020-07-27,0,43
 Wingene,2020-04-01,3,36
 Wingene,2020-04-02,9,45
 Wingene,2020-04-03,0,45
@@ -25487,6 +25722,7 @@ Wingene,2020-07-23,1,138
 Wingene,2020-07-24,1,139
 Wingene,2020-07-25,1,140
 Wingene,2020-07-26,0,140
+Wingene,2020-07-27,0,140
 Ardooie,2020-04-01,0,20
 Ardooie,2020-04-02,1,21
 Ardooie,2020-04-03,3,24
@@ -25595,6 +25831,7 @@ Ardooie,2020-07-23,0,38
 Ardooie,2020-07-24,0,38
 Ardooie,2020-07-25,0,38
 Ardooie,2020-07-26,0,38
+Ardooie,2020-07-27,0,38
 Alveringem,2020-04-01,1,6
 Alveringem,2020-04-02,1,7
 Alveringem,2020-04-03,1,8
@@ -25703,6 +25940,7 @@ Alveringem,2020-07-23,0,20
 Alveringem,2020-07-24,0,20
 Alveringem,2020-07-25,0,20
 Alveringem,2020-07-26,0,20
+Alveringem,2020-07-27,0,20
 De Panne,2020-04-01,1,7
 De Panne,2020-04-02,2,9
 De Panne,2020-04-03,1,10
@@ -25811,6 +26049,7 @@ De Panne,2020-07-23,0,35
 De Panne,2020-07-24,0,35
 De Panne,2020-07-25,0,35
 De Panne,2020-07-26,0,35
+De Panne,2020-07-27,0,35
 Koksijde,2020-04-01,2,20
 Koksijde,2020-04-02,3,23
 Koksijde,2020-04-03,0,23
@@ -25919,6 +26158,7 @@ Koksijde,2020-07-23,0,87
 Koksijde,2020-07-24,1,88
 Koksijde,2020-07-25,0,88
 Koksijde,2020-07-26,0,88
+Koksijde,2020-07-27,0,88
 Nieuwpoort,2020-04-01,5,5
 Nieuwpoort,2020-04-02,2,7
 Nieuwpoort,2020-04-03,0,7
@@ -26027,6 +26267,7 @@ Nieuwpoort,2020-07-23,0,42
 Nieuwpoort,2020-07-24,0,42
 Nieuwpoort,2020-07-25,0,42
 Nieuwpoort,2020-07-26,0,42
+Nieuwpoort,2020-07-27,0,42
 Veurne,2020-04-01,0,7
 Veurne,2020-04-02,1,8
 Veurne,2020-04-03,1,9
@@ -26135,6 +26376,7 @@ Veurne,2020-07-23,0,39
 Veurne,2020-07-24,0,39
 Veurne,2020-07-25,0,39
 Veurne,2020-07-26,1,40
+Veurne,2020-07-27,0,40
 Aalst (Aalst),2020-04-01,1,90
 Aalst (Aalst),2020-04-02,20,110
 Aalst (Aalst),2020-04-03,13,123
@@ -26243,6 +26485,7 @@ Aalst (Aalst),2020-07-23,2,543
 Aalst (Aalst),2020-07-24,1,544
 Aalst (Aalst),2020-07-25,0,544
 Aalst (Aalst),2020-07-26,1,545
+Aalst (Aalst),2020-07-27,0,545
 Denderleeuw,2020-04-01,0,27
 Denderleeuw,2020-04-02,4,31
 Denderleeuw,2020-04-03,2,33
@@ -26351,6 +26594,7 @@ Denderleeuw,2020-07-23,0,108
 Denderleeuw,2020-07-24,0,108
 Denderleeuw,2020-07-25,0,108
 Denderleeuw,2020-07-26,1,109
+Denderleeuw,2020-07-27,0,109
 Geraardsbergen,2020-04-01,0,36
 Geraardsbergen,2020-04-02,4,40
 Geraardsbergen,2020-04-03,5,45
@@ -26459,6 +26703,7 @@ Geraardsbergen,2020-07-23,0,112
 Geraardsbergen,2020-07-24,1,113
 Geraardsbergen,2020-07-25,0,113
 Geraardsbergen,2020-07-26,0,113
+Geraardsbergen,2020-07-27,0,113
 Haaltert,2020-04-01,1,31
 Haaltert,2020-04-02,4,35
 Haaltert,2020-04-03,9,44
@@ -26567,6 +26812,7 @@ Haaltert,2020-07-23,0,178
 Haaltert,2020-07-24,0,178
 Haaltert,2020-07-25,0,178
 Haaltert,2020-07-26,0,178
+Haaltert,2020-07-27,0,178
 Herzele,2020-04-01,0,14
 Herzele,2020-04-02,2,16
 Herzele,2020-04-03,0,16
@@ -26675,6 +26921,7 @@ Herzele,2020-07-23,2,83
 Herzele,2020-07-24,0,83
 Herzele,2020-07-25,1,84
 Herzele,2020-07-26,1,85
+Herzele,2020-07-27,0,85
 Lede,2020-04-01,0,18
 Lede,2020-04-02,2,20
 Lede,2020-04-03,4,24
@@ -26783,6 +27030,7 @@ Lede,2020-07-23,1,82
 Lede,2020-07-24,0,82
 Lede,2020-07-25,1,83
 Lede,2020-07-26,1,84
+Lede,2020-07-27,0,84
 Ninove,2020-04-01,1,65
 Ninove,2020-04-02,1,66
 Ninove,2020-04-03,8,74
@@ -26891,6 +27139,7 @@ Ninove,2020-07-23,0,204
 Ninove,2020-07-24,1,205
 Ninove,2020-07-25,1,206
 Ninove,2020-07-26,4,210
+Ninove,2020-07-27,1,211
 Sint-Lievens-Houtem,2020-04-01,0,11
 Sint-Lievens-Houtem,2020-04-02,0,11
 Sint-Lievens-Houtem,2020-04-03,0,11
@@ -26999,6 +27248,7 @@ Sint-Lievens-Houtem,2020-07-23,1,31
 Sint-Lievens-Houtem,2020-07-24,0,31
 Sint-Lievens-Houtem,2020-07-25,0,31
 Sint-Lievens-Houtem,2020-07-26,0,31
+Sint-Lievens-Houtem,2020-07-27,0,31
 Zottegem,2020-04-01,1,27
 Zottegem,2020-04-02,3,30
 Zottegem,2020-04-03,1,31
@@ -27107,6 +27357,7 @@ Zottegem,2020-07-23,0,78
 Zottegem,2020-07-24,0,78
 Zottegem,2020-07-25,1,79
 Zottegem,2020-07-26,0,79
+Zottegem,2020-07-27,0,79
 Erpe-Mere,2020-04-01,0,16
 Erpe-Mere,2020-04-02,2,18
 Erpe-Mere,2020-04-03,4,22
@@ -27215,6 +27466,7 @@ Erpe-Mere,2020-07-23,1,139
 Erpe-Mere,2020-07-24,0,139
 Erpe-Mere,2020-07-25,0,139
 Erpe-Mere,2020-07-26,0,139
+Erpe-Mere,2020-07-27,0,139
 Berlare,2020-04-01,0,12
 Berlare,2020-04-02,0,12
 Berlare,2020-04-03,2,14
@@ -27323,6 +27575,7 @@ Berlare,2020-07-23,0,61
 Berlare,2020-07-24,0,61
 Berlare,2020-07-25,0,61
 Berlare,2020-07-26,0,61
+Berlare,2020-07-27,0,61
 Buggenhout,2020-04-01,1,9
 Buggenhout,2020-04-02,1,10
 Buggenhout,2020-04-03,1,11
@@ -27431,6 +27684,7 @@ Buggenhout,2020-07-23,0,102
 Buggenhout,2020-07-24,1,103
 Buggenhout,2020-07-25,0,103
 Buggenhout,2020-07-26,2,105
+Buggenhout,2020-07-27,0,105
 Dendermonde,2020-04-01,5,50
 Dendermonde,2020-04-02,4,54
 Dendermonde,2020-04-03,4,58
@@ -27539,6 +27793,7 @@ Dendermonde,2020-07-23,0,256
 Dendermonde,2020-07-24,0,256
 Dendermonde,2020-07-25,0,256
 Dendermonde,2020-07-26,5,261
+Dendermonde,2020-07-27,1,262
 Hamme (Dendermonde),2020-04-01,1,21
 Hamme (Dendermonde),2020-04-02,5,26
 Hamme (Dendermonde),2020-04-03,4,30
@@ -27647,6 +27902,7 @@ Hamme (Dendermonde),2020-07-23,0,174
 Hamme (Dendermonde),2020-07-24,0,174
 Hamme (Dendermonde),2020-07-25,1,175
 Hamme (Dendermonde),2020-07-26,0,175
+Hamme (Dendermonde),2020-07-27,0,175
 Laarne,2020-04-01,2,13
 Laarne,2020-04-02,0,13
 Laarne,2020-04-03,2,15
@@ -27755,6 +28011,7 @@ Laarne,2020-07-23,0,31
 Laarne,2020-07-24,0,31
 Laarne,2020-07-25,0,31
 Laarne,2020-07-26,0,31
+Laarne,2020-07-27,0,31
 Lebbeke,2020-04-01,0,19
 Lebbeke,2020-04-02,4,23
 Lebbeke,2020-04-03,1,24
@@ -27863,6 +28120,7 @@ Lebbeke,2020-07-23,0,92
 Lebbeke,2020-07-24,0,92
 Lebbeke,2020-07-25,1,93
 Lebbeke,2020-07-26,4,97
+Lebbeke,2020-07-27,1,98
 Waasmunster,2020-04-01,2,18
 Waasmunster,2020-04-02,1,19
 Waasmunster,2020-04-03,1,20
@@ -27971,6 +28229,7 @@ Waasmunster,2020-07-23,0,64
 Waasmunster,2020-07-24,0,64
 Waasmunster,2020-07-25,0,64
 Waasmunster,2020-07-26,1,65
+Waasmunster,2020-07-27,0,65
 Wetteren,2020-04-01,2,48
 Wetteren,2020-04-02,4,52
 Wetteren,2020-04-03,8,60
@@ -28079,6 +28338,7 @@ Wetteren,2020-07-23,0,141
 Wetteren,2020-07-24,0,141
 Wetteren,2020-07-25,1,142
 Wetteren,2020-07-26,0,142
+Wetteren,2020-07-27,0,142
 Wichelen,2020-04-01,6,47
 Wichelen,2020-04-02,5,52
 Wichelen,2020-04-03,4,56
@@ -28187,6 +28447,7 @@ Wichelen,2020-07-23,2,103
 Wichelen,2020-07-24,0,103
 Wichelen,2020-07-25,0,103
 Wichelen,2020-07-26,0,103
+Wichelen,2020-07-27,0,103
 Zele,2020-04-01,0,11
 Zele,2020-04-02,2,13
 Zele,2020-04-03,2,15
@@ -28295,6 +28556,7 @@ Zele,2020-07-23,1,133
 Zele,2020-07-24,0,133
 Zele,2020-07-25,0,133
 Zele,2020-07-26,0,133
+Zele,2020-07-27,1,134
 Assenede,2020-04-01,0,9
 Assenede,2020-04-02,7,16
 Assenede,2020-04-03,7,23
@@ -28403,6 +28665,7 @@ Assenede,2020-07-23,2,89
 Assenede,2020-07-24,0,89
 Assenede,2020-07-25,0,89
 Assenede,2020-07-26,0,89
+Assenede,2020-07-27,0,89
 Eeklo,2020-04-01,0,15
 Eeklo,2020-04-02,1,16
 Eeklo,2020-04-03,1,17
@@ -28511,6 +28774,7 @@ Eeklo,2020-07-23,1,84
 Eeklo,2020-07-24,0,84
 Eeklo,2020-07-25,1,85
 Eeklo,2020-07-26,0,85
+Eeklo,2020-07-27,0,85
 Kaprijke,2020-04-01,0,0
 Kaprijke,2020-04-02,7,7
 Kaprijke,2020-04-03,1,8
@@ -28619,6 +28883,7 @@ Kaprijke,2020-07-23,0,38
 Kaprijke,2020-07-24,0,38
 Kaprijke,2020-07-25,0,38
 Kaprijke,2020-07-26,1,39
+Kaprijke,2020-07-27,0,39
 Maldegem,2020-04-01,0,11
 Maldegem,2020-04-02,3,14
 Maldegem,2020-04-03,0,14
@@ -28727,6 +28992,7 @@ Maldegem,2020-07-23,0,76
 Maldegem,2020-07-24,0,76
 Maldegem,2020-07-25,0,76
 Maldegem,2020-07-26,0,76
+Maldegem,2020-07-27,1,77
 Sint-Laureins,2020-04-01,0,0
 Sint-Laureins,2020-04-02,0,0
 Sint-Laureins,2020-04-03,0,0
@@ -28835,6 +29101,7 @@ Sint-Laureins,2020-07-23,0,19
 Sint-Laureins,2020-07-24,0,19
 Sint-Laureins,2020-07-25,0,19
 Sint-Laureins,2020-07-26,0,19
+Sint-Laureins,2020-07-27,0,19
 Zelzate,2020-04-01,0,0
 Zelzate,2020-04-02,0,0
 Zelzate,2020-04-03,6,6
@@ -28943,6 +29210,7 @@ Zelzate,2020-07-23,0,27
 Zelzate,2020-07-24,0,27
 Zelzate,2020-07-25,0,27
 Zelzate,2020-07-26,1,28
+Zelzate,2020-07-27,0,28
 De Pinte,2020-04-01,0,8
 De Pinte,2020-04-02,0,8
 De Pinte,2020-04-03,0,8
@@ -29051,6 +29319,7 @@ De Pinte,2020-07-23,0,25
 De Pinte,2020-07-24,0,25
 De Pinte,2020-07-25,0,25
 De Pinte,2020-07-26,0,25
+De Pinte,2020-07-27,0,25
 Destelbergen,2020-04-01,2,22
 Destelbergen,2020-04-02,1,23
 Destelbergen,2020-04-03,2,25
@@ -29159,6 +29428,7 @@ Destelbergen,2020-07-23,0,72
 Destelbergen,2020-07-24,0,72
 Destelbergen,2020-07-25,0,72
 Destelbergen,2020-07-26,0,72
+Destelbergen,2020-07-27,0,72
 Evergem,2020-04-01,1,26
 Evergem,2020-04-02,4,30
 Evergem,2020-04-03,10,40
@@ -29267,6 +29537,7 @@ Evergem,2020-07-23,0,222
 Evergem,2020-07-24,0,222
 Evergem,2020-07-25,1,223
 Evergem,2020-07-26,1,224
+Evergem,2020-07-27,0,224
 Gavere,2020-04-01,0,12
 Gavere,2020-04-02,4,16
 Gavere,2020-04-03,1,17
@@ -29375,6 +29646,7 @@ Gavere,2020-07-23,1,49
 Gavere,2020-07-24,0,49
 Gavere,2020-07-25,0,49
 Gavere,2020-07-26,2,51
+Gavere,2020-07-27,0,51
 Gent,2020-04-01,18,226
 Gent,2020-04-02,13,239
 Gent,2020-04-03,32,271
@@ -29483,6 +29755,7 @@ Gent,2020-07-23,8,851
 Gent,2020-07-24,1,852
 Gent,2020-07-25,3,855
 Gent,2020-07-26,5,860
+Gent,2020-07-27,6,866
 Lochristi,2020-04-01,1,20
 Lochristi,2020-04-02,2,22
 Lochristi,2020-04-03,4,26
@@ -29591,6 +29864,7 @@ Lochristi,2020-07-23,0,87
 Lochristi,2020-07-24,0,87
 Lochristi,2020-07-25,0,87
 Lochristi,2020-07-26,0,87
+Lochristi,2020-07-27,0,87
 Melle,2020-04-01,2,19
 Melle,2020-04-02,0,19
 Melle,2020-04-03,1,20
@@ -29699,6 +29973,7 @@ Melle,2020-07-23,0,37
 Melle,2020-07-24,0,37
 Melle,2020-07-25,1,38
 Melle,2020-07-26,0,38
+Melle,2020-07-27,0,38
 Merelbeke,2020-04-01,3,29
 Merelbeke,2020-04-02,1,30
 Merelbeke,2020-04-03,3,33
@@ -29807,6 +30082,7 @@ Merelbeke,2020-07-23,0,85
 Merelbeke,2020-07-24,0,85
 Merelbeke,2020-07-25,1,86
 Merelbeke,2020-07-26,0,86
+Merelbeke,2020-07-27,0,86
 Moerbeke (Gent),2020-04-01,1,10
 Moerbeke (Gent),2020-04-02,0,10
 Moerbeke (Gent),2020-04-03,1,11
@@ -29915,6 +30191,7 @@ Moerbeke (Gent),2020-07-23,4,28
 Moerbeke (Gent),2020-07-24,0,28
 Moerbeke (Gent),2020-07-25,0,28
 Moerbeke (Gent),2020-07-26,0,28
+Moerbeke (Gent),2020-07-27,0,28
 Nazareth,2020-04-01,0,5
 Nazareth,2020-04-02,1,6
 Nazareth,2020-04-03,0,6
@@ -30023,6 +30300,7 @@ Nazareth,2020-07-23,0,21
 Nazareth,2020-07-24,0,21
 Nazareth,2020-07-25,0,21
 Nazareth,2020-07-26,0,21
+Nazareth,2020-07-27,0,21
 Oosterzele,2020-04-01,1,13
 Oosterzele,2020-04-02,2,15
 Oosterzele,2020-04-03,1,16
@@ -30131,6 +30409,7 @@ Oosterzele,2020-07-23,0,31
 Oosterzele,2020-07-24,0,31
 Oosterzele,2020-07-25,0,31
 Oosterzele,2020-07-26,0,31
+Oosterzele,2020-07-27,0,31
 Sint-Martens-Latem,2020-04-01,1,20
 Sint-Martens-Latem,2020-04-02,1,21
 Sint-Martens-Latem,2020-04-03,1,22
@@ -30239,6 +30518,7 @@ Sint-Martens-Latem,2020-07-23,1,52
 Sint-Martens-Latem,2020-07-24,1,53
 Sint-Martens-Latem,2020-07-25,0,53
 Sint-Martens-Latem,2020-07-26,0,53
+Sint-Martens-Latem,2020-07-27,1,54
 Wachtebeke,2020-04-01,2,14
 Wachtebeke,2020-04-02,7,21
 Wachtebeke,2020-04-03,2,23
@@ -30347,6 +30627,7 @@ Wachtebeke,2020-07-23,0,96
 Wachtebeke,2020-07-24,0,96
 Wachtebeke,2020-07-25,0,96
 Wachtebeke,2020-07-26,0,96
+Wachtebeke,2020-07-27,0,96
 Zulte,2020-04-01,2,21
 Zulte,2020-04-02,2,23
 Zulte,2020-04-03,0,23
@@ -30455,6 +30736,7 @@ Zulte,2020-07-23,0,58
 Zulte,2020-07-24,0,58
 Zulte,2020-07-25,0,58
 Zulte,2020-07-26,0,58
+Zulte,2020-07-27,1,59
 Deinze,2020-04-01,1,27
 Deinze,2020-04-02,7,34
 Deinze,2020-04-03,1,35
@@ -30563,6 +30845,7 @@ Deinze,2020-07-23,0,119
 Deinze,2020-07-24,1,120
 Deinze,2020-07-25,2,122
 Deinze,2020-07-26,0,122
+Deinze,2020-07-27,0,122
 Aalter,2020-04-01,2,30
 Aalter,2020-04-02,3,33
 Aalter,2020-04-03,4,37
@@ -30671,6 +30954,7 @@ Aalter,2020-07-23,0,119
 Aalter,2020-07-24,0,119
 Aalter,2020-07-25,1,120
 Aalter,2020-07-26,2,122
+Aalter,2020-07-27,0,122
 Lievegem,2020-04-01,3,39
 Lievegem,2020-04-02,5,44
 Lievegem,2020-04-03,4,48
@@ -30779,6 +31063,7 @@ Lievegem,2020-07-23,0,165
 Lievegem,2020-07-24,1,166
 Lievegem,2020-07-25,3,169
 Lievegem,2020-07-26,0,169
+Lievegem,2020-07-27,0,169
 Oudenaarde,2020-04-01,5,39
 Oudenaarde,2020-04-02,1,40
 Oudenaarde,2020-04-03,1,41
@@ -30887,6 +31172,7 @@ Oudenaarde,2020-07-23,0,187
 Oudenaarde,2020-07-24,0,187
 Oudenaarde,2020-07-25,1,188
 Oudenaarde,2020-07-26,0,188
+Oudenaarde,2020-07-27,0,188
 Ronse,2020-04-01,22,65
 Ronse,2020-04-02,1,66
 Ronse,2020-04-03,4,70
@@ -30995,6 +31281,7 @@ Ronse,2020-07-23,0,239
 Ronse,2020-07-24,0,239
 Ronse,2020-07-25,0,239
 Ronse,2020-07-26,0,239
+Ronse,2020-07-27,0,239
 Brakel,2020-04-01,2,13
 Brakel,2020-04-02,0,13
 Brakel,2020-04-03,1,14
@@ -31103,6 +31390,7 @@ Brakel,2020-07-23,1,45
 Brakel,2020-07-24,0,45
 Brakel,2020-07-25,0,45
 Brakel,2020-07-26,1,46
+Brakel,2020-07-27,0,46
 Kluisbergen,2020-04-01,5,5
 Kluisbergen,2020-04-02,1,6
 Kluisbergen,2020-04-03,1,7
@@ -31211,6 +31499,7 @@ Kluisbergen,2020-07-23,0,27
 Kluisbergen,2020-07-24,0,27
 Kluisbergen,2020-07-25,0,27
 Kluisbergen,2020-07-26,0,27
+Kluisbergen,2020-07-27,0,27
 Horebeke,2020-04-01,0,5
 Horebeke,2020-04-02,0,5
 Horebeke,2020-04-03,1,6
@@ -31319,6 +31608,7 @@ Horebeke,2020-07-23,0,20
 Horebeke,2020-07-24,0,20
 Horebeke,2020-07-25,0,20
 Horebeke,2020-07-26,0,20
+Horebeke,2020-07-27,0,20
 Lierde,2020-04-01,0,6
 Lierde,2020-04-02,1,7
 Lierde,2020-04-03,1,8
@@ -31427,6 +31717,7 @@ Lierde,2020-07-23,0,13
 Lierde,2020-07-24,0,13
 Lierde,2020-07-25,0,13
 Lierde,2020-07-26,0,13
+Lierde,2020-07-27,0,13
 Maarkedal,2020-04-01,1,7
 Maarkedal,2020-04-02,2,9
 Maarkedal,2020-04-03,0,9
@@ -31535,6 +31826,7 @@ Maarkedal,2020-07-23,1,43
 Maarkedal,2020-07-24,0,43
 Maarkedal,2020-07-25,0,43
 Maarkedal,2020-07-26,0,43
+Maarkedal,2020-07-27,0,43
 Zwalm,2020-04-01,0,7
 Zwalm,2020-04-02,0,7
 Zwalm,2020-04-03,0,7
@@ -31643,6 +31935,7 @@ Zwalm,2020-07-23,0,16
 Zwalm,2020-07-24,0,16
 Zwalm,2020-07-25,0,16
 Zwalm,2020-07-26,0,16
+Zwalm,2020-07-27,2,18
 Kruisem,2020-04-01,0,10
 Kruisem,2020-04-02,1,11
 Kruisem,2020-04-03,1,12
@@ -31751,6 +32044,7 @@ Kruisem,2020-07-23,0,40
 Kruisem,2020-07-24,1,41
 Kruisem,2020-07-25,0,41
 Kruisem,2020-07-26,1,42
+Kruisem,2020-07-27,1,43
 Beveren (Sint-Niklaas),2020-04-01,3,29
 Beveren (Sint-Niklaas),2020-04-02,6,35
 Beveren (Sint-Niklaas),2020-04-03,6,41
@@ -31859,6 +32153,7 @@ Beveren (Sint-Niklaas),2020-07-23,1,163
 Beveren (Sint-Niklaas),2020-07-24,0,163
 Beveren (Sint-Niklaas),2020-07-25,2,165
 Beveren (Sint-Niklaas),2020-07-26,2,167
+Beveren (Sint-Niklaas),2020-07-27,0,167
 Kruibeke,2020-04-01,1,17
 Kruibeke,2020-04-02,3,20
 Kruibeke,2020-04-03,3,23
@@ -31967,6 +32262,7 @@ Kruibeke,2020-07-23,1,64
 Kruibeke,2020-07-24,0,64
 Kruibeke,2020-07-25,0,64
 Kruibeke,2020-07-26,1,65
+Kruibeke,2020-07-27,0,65
 Lokeren,2020-04-01,1,55
 Lokeren,2020-04-02,10,65
 Lokeren,2020-04-03,6,71
@@ -32075,6 +32371,7 @@ Lokeren,2020-07-23,0,300
 Lokeren,2020-07-24,1,301
 Lokeren,2020-07-25,0,301
 Lokeren,2020-07-26,5,306
+Lokeren,2020-07-27,4,310
 Sint-Gillis-Waas,2020-04-01,2,26
 Sint-Gillis-Waas,2020-04-02,1,27
 Sint-Gillis-Waas,2020-04-03,1,28
@@ -32183,6 +32480,7 @@ Sint-Gillis-Waas,2020-07-23,0,121
 Sint-Gillis-Waas,2020-07-24,0,121
 Sint-Gillis-Waas,2020-07-25,2,123
 Sint-Gillis-Waas,2020-07-26,1,124
+Sint-Gillis-Waas,2020-07-27,0,124
 Sint-Niklaas (Sint-Niklaas),2020-04-01,12,86
 Sint-Niklaas (Sint-Niklaas),2020-04-02,9,95
 Sint-Niklaas (Sint-Niklaas),2020-04-03,16,111
@@ -32291,6 +32589,7 @@ Sint-Niklaas (Sint-Niklaas),2020-07-23,2,324
 Sint-Niklaas (Sint-Niklaas),2020-07-24,1,325
 Sint-Niklaas (Sint-Niklaas),2020-07-25,5,330
 Sint-Niklaas (Sint-Niklaas),2020-07-26,2,332
+Sint-Niklaas (Sint-Niklaas),2020-07-27,1,333
 Stekene,2020-04-01,0,22
 Stekene,2020-04-02,6,28
 Stekene,2020-04-03,2,30
@@ -32399,6 +32698,7 @@ Stekene,2020-07-23,0,68
 Stekene,2020-07-24,0,68
 Stekene,2020-07-25,0,68
 Stekene,2020-07-26,0,68
+Stekene,2020-07-27,0,68
 Temse,2020-04-01,4,31
 Temse,2020-04-02,5,36
 Temse,2020-04-03,18,54
@@ -32507,6 +32807,7 @@ Temse,2020-07-23,0,225
 Temse,2020-07-24,0,225
 Temse,2020-07-25,0,225
 Temse,2020-07-26,1,226
+Temse,2020-07-27,1,227
 Aat,2020-04-01,2,28
 Aat,2020-04-02,2,30
 Aat,2020-04-03,3,33
@@ -32615,6 +32916,7 @@ Aat,2020-07-23,0,122
 Aat,2020-07-24,0,122
 Aat,2020-07-25,0,122
 Aat,2020-07-26,0,122
+Aat,2020-07-27,0,122
 Beloeil,2020-04-01,0,14
 Beloeil,2020-04-02,2,16
 Beloeil,2020-04-03,1,17
@@ -32723,6 +33025,7 @@ Beloeil,2020-07-23,0,46
 Beloeil,2020-07-24,0,46
 Beloeil,2020-07-25,0,46
 Beloeil,2020-07-26,0,46
+Beloeil,2020-07-27,0,46
 Bernissart,2020-04-01,1,7
 Bernissart,2020-04-02,1,8
 Bernissart,2020-04-03,2,10
@@ -32831,6 +33134,7 @@ Bernissart,2020-07-23,0,44
 Bernissart,2020-07-24,0,44
 Bernissart,2020-07-25,0,44
 Bernissart,2020-07-26,0,44
+Bernissart,2020-07-27,0,44
 Brugelette,2020-04-01,1,9
 Brugelette,2020-04-02,0,9
 Brugelette,2020-04-03,1,10
@@ -32939,6 +33243,7 @@ Brugelette,2020-07-23,0,18
 Brugelette,2020-07-24,0,18
 Brugelette,2020-07-25,0,18
 Brugelette,2020-07-26,0,18
+Brugelette,2020-07-27,0,18
 Chièvres,2020-04-01,0,0
 Chièvres,2020-04-02,0,0
 Chièvres,2020-04-03,6,6
@@ -33047,6 +33352,7 @@ Chièvres,2020-07-23,0,19
 Chièvres,2020-07-24,0,19
 Chièvres,2020-07-25,0,19
 Chièvres,2020-07-26,0,19
+Chièvres,2020-07-27,0,19
 Elzele,2020-04-01,0,8
 Elzele,2020-04-02,0,8
 Elzele,2020-04-03,0,8
@@ -33155,6 +33461,7 @@ Elzele,2020-07-23,0,20
 Elzele,2020-07-24,0,20
 Elzele,2020-07-25,0,20
 Elzele,2020-07-26,0,20
+Elzele,2020-07-27,0,20
 Vloesberg,2020-04-01,2,9
 Vloesberg,2020-04-02,0,9
 Vloesberg,2020-04-03,0,9
@@ -33263,6 +33570,7 @@ Vloesberg,2020-07-23,0,29
 Vloesberg,2020-07-24,0,29
 Vloesberg,2020-07-25,0,29
 Vloesberg,2020-07-26,0,29
+Vloesberg,2020-07-27,0,29
 Frasnes-lez-Anvaing,2020-04-01,3,9
 Frasnes-lez-Anvaing,2020-04-02,0,9
 Frasnes-lez-Anvaing,2020-04-03,1,10
@@ -33371,6 +33679,7 @@ Frasnes-lez-Anvaing,2020-07-23,0,42
 Frasnes-lez-Anvaing,2020-07-24,0,42
 Frasnes-lez-Anvaing,2020-07-25,1,43
 Frasnes-lez-Anvaing,2020-07-26,0,43
+Frasnes-lez-Anvaing,2020-07-27,0,43
 Edingen,2020-04-01,3,13
 Edingen,2020-04-02,0,13
 Edingen,2020-04-03,1,14
@@ -33479,6 +33788,7 @@ Edingen,2020-07-23,0,62
 Edingen,2020-07-24,0,62
 Edingen,2020-07-25,0,62
 Edingen,2020-07-26,0,62
+Edingen,2020-07-27,0,62
 Opzullik,2020-04-01,0,6
 Opzullik,2020-04-02,0,6
 Opzullik,2020-04-03,1,7
@@ -33587,6 +33897,7 @@ Opzullik,2020-07-23,0,24
 Opzullik,2020-07-24,0,24
 Opzullik,2020-07-25,0,24
 Opzullik,2020-07-26,0,24
+Opzullik,2020-07-27,0,24
 Lessen,2020-04-01,2,16
 Lessen,2020-04-02,1,17
 Lessen,2020-04-03,1,18
@@ -33695,6 +34006,7 @@ Lessen,2020-07-23,0,63
 Lessen,2020-07-24,0,63
 Lessen,2020-07-25,0,63
 Lessen,2020-07-26,0,63
+Lessen,2020-07-27,0,63
 Chapelle-lez-Herlaimont,2020-04-01,3,9
 Chapelle-lez-Herlaimont,2020-04-02,1,10
 Chapelle-lez-Herlaimont,2020-04-03,0,10
@@ -33803,6 +34115,7 @@ Chapelle-lez-Herlaimont,2020-07-23,0,106
 Chapelle-lez-Herlaimont,2020-07-24,0,106
 Chapelle-lez-Herlaimont,2020-07-25,0,106
 Chapelle-lez-Herlaimont,2020-07-26,0,106
+Chapelle-lez-Herlaimont,2020-07-27,0,106
 Charleroi,2020-04-01,3,79
 Charleroi,2020-04-02,4,83
 Charleroi,2020-04-03,11,94
@@ -33911,6 +34224,7 @@ Charleroi,2020-07-23,11,913
 Charleroi,2020-07-24,1,914
 Charleroi,2020-07-25,16,930
 Charleroi,2020-07-26,1,931
+Charleroi,2020-07-27,2,933
 Châtelet,2020-04-01,1,19
 Châtelet,2020-04-02,0,19
 Châtelet,2020-04-03,0,19
@@ -34019,6 +34333,7 @@ Châtelet,2020-07-23,2,152
 Châtelet,2020-07-24,0,152
 Châtelet,2020-07-25,0,152
 Châtelet,2020-07-26,0,152
+Châtelet,2020-07-27,0,152
 Courcelles,2020-04-01,0,25
 Courcelles,2020-04-02,1,26
 Courcelles,2020-04-03,2,28
@@ -34127,6 +34442,7 @@ Courcelles,2020-07-23,1,98
 Courcelles,2020-07-24,0,98
 Courcelles,2020-07-25,0,98
 Courcelles,2020-07-26,0,98
+Courcelles,2020-07-27,0,98
 Farciennes,2020-04-01,0,0
 Farciennes,2020-04-02,0,0
 Farciennes,2020-04-03,0,0
@@ -34235,6 +34551,7 @@ Farciennes,2020-07-23,0,42
 Farciennes,2020-07-24,0,42
 Farciennes,2020-07-25,0,42
 Farciennes,2020-07-26,0,42
+Farciennes,2020-07-27,0,42
 Fleurus,2020-04-01,0,11
 Fleurus,2020-04-02,3,14
 Fleurus,2020-04-03,2,16
@@ -34343,6 +34660,7 @@ Fleurus,2020-07-23,0,129
 Fleurus,2020-07-24,0,129
 Fleurus,2020-07-25,0,129
 Fleurus,2020-07-26,0,129
+Fleurus,2020-07-27,1,130
 Fontaine-l’Evêque,2020-04-01,1,15
 Fontaine-l’Evêque,2020-04-02,1,16
 Fontaine-l’Evêque,2020-04-03,1,17
@@ -34451,6 +34769,7 @@ Fontaine-l’Evêque,2020-07-23,0,49
 Fontaine-l’Evêque,2020-07-24,0,49
 Fontaine-l’Evêque,2020-07-25,0,49
 Fontaine-l’Evêque,2020-07-26,0,49
+Fontaine-l’Evêque,2020-07-27,0,49
 Gerpinnes,2020-04-01,1,9
 Gerpinnes,2020-04-02,1,10
 Gerpinnes,2020-04-03,0,10
@@ -34559,6 +34878,7 @@ Gerpinnes,2020-07-23,1,51
 Gerpinnes,2020-07-24,0,51
 Gerpinnes,2020-07-25,1,52
 Gerpinnes,2020-07-26,0,52
+Gerpinnes,2020-07-27,0,52
 Montigny-le-Tilleul,2020-04-01,1,6
 Montigny-le-Tilleul,2020-04-02,0,6
 Montigny-le-Tilleul,2020-04-03,0,6
@@ -34667,6 +34987,7 @@ Montigny-le-Tilleul,2020-07-23,0,43
 Montigny-le-Tilleul,2020-07-24,0,43
 Montigny-le-Tilleul,2020-07-25,1,44
 Montigny-le-Tilleul,2020-07-26,0,44
+Montigny-le-Tilleul,2020-07-27,0,44
 Pont-à-Celles,2020-04-01,1,20
 Pont-à-Celles,2020-04-02,2,22
 Pont-à-Celles,2020-04-03,0,22
@@ -34775,6 +35096,7 @@ Pont-à-Celles,2020-07-23,0,68
 Pont-à-Celles,2020-07-24,1,69
 Pont-à-Celles,2020-07-25,0,69
 Pont-à-Celles,2020-07-26,0,69
+Pont-à-Celles,2020-07-27,0,69
 Aiseau-Presles,2020-04-01,1,6
 Aiseau-Presles,2020-04-02,1,7
 Aiseau-Presles,2020-04-03,0,7
@@ -34883,6 +35205,7 @@ Aiseau-Presles,2020-07-23,0,40
 Aiseau-Presles,2020-07-24,0,40
 Aiseau-Presles,2020-07-25,0,40
 Aiseau-Presles,2020-07-26,0,40
+Aiseau-Presles,2020-07-27,0,40
 Les Bons Villers,2020-04-01,2,7
 Les Bons Villers,2020-04-02,2,9
 Les Bons Villers,2020-04-03,0,9
@@ -34991,6 +35314,7 @@ Les Bons Villers,2020-07-23,0,94
 Les Bons Villers,2020-07-24,0,94
 Les Bons Villers,2020-07-25,0,94
 Les Bons Villers,2020-07-26,0,94
+Les Bons Villers,2020-07-27,1,95
 Boussu,2020-04-01,0,52
 Boussu,2020-04-02,6,58
 Boussu,2020-04-03,3,61
@@ -35099,6 +35423,7 @@ Boussu,2020-07-23,0,125
 Boussu,2020-07-24,0,125
 Boussu,2020-07-25,0,125
 Boussu,2020-07-26,0,125
+Boussu,2020-07-27,0,125
 Dour,2020-04-01,3,47
 Dour,2020-04-02,3,50
 Dour,2020-04-03,6,56
@@ -35207,6 +35532,7 @@ Dour,2020-07-23,0,158
 Dour,2020-07-24,0,158
 Dour,2020-07-25,3,161
 Dour,2020-07-26,0,161
+Dour,2020-07-27,0,161
 Frameries,2020-04-01,8,56
 Frameries,2020-04-02,4,60
 Frameries,2020-04-03,4,64
@@ -35315,6 +35641,7 @@ Frameries,2020-07-23,0,203
 Frameries,2020-07-24,0,203
 Frameries,2020-07-25,0,203
 Frameries,2020-07-26,0,203
+Frameries,2020-07-27,0,203
 Hensies,2020-04-01,1,16
 Hensies,2020-04-02,3,19
 Hensies,2020-04-03,2,21
@@ -35423,6 +35750,7 @@ Hensies,2020-07-23,0,56
 Hensies,2020-07-24,0,56
 Hensies,2020-07-25,0,56
 Hensies,2020-07-26,0,56
+Hensies,2020-07-27,0,56
 Jurbeke,2020-04-01,0,19
 Jurbeke,2020-04-02,0,19
 Jurbeke,2020-04-03,3,22
@@ -35531,6 +35859,7 @@ Jurbeke,2020-07-23,0,44
 Jurbeke,2020-07-24,0,44
 Jurbeke,2020-07-25,0,44
 Jurbeke,2020-07-26,0,44
+Jurbeke,2020-07-27,0,44
 Lens,2020-04-01,1,7
 Lens,2020-04-02,1,8
 Lens,2020-04-03,0,8
@@ -35639,6 +35968,7 @@ Lens,2020-07-23,0,16
 Lens,2020-07-24,0,16
 Lens,2020-07-25,0,16
 Lens,2020-07-26,0,16
+Lens,2020-07-27,0,16
 Bergen,2020-04-01,17,272
 Bergen,2020-04-02,12,284
 Bergen,2020-04-03,11,295
@@ -35747,6 +36077,7 @@ Bergen,2020-07-23,7,813
 Bergen,2020-07-24,0,813
 Bergen,2020-07-25,2,815
 Bergen,2020-07-26,1,816
+Bergen,2020-07-27,2,818
 Quaregnon,2020-04-01,6,58
 Quaregnon,2020-04-02,4,62
 Quaregnon,2020-04-03,1,63
@@ -35855,6 +36186,7 @@ Quaregnon,2020-07-23,1,136
 Quaregnon,2020-07-24,0,136
 Quaregnon,2020-07-25,0,136
 Quaregnon,2020-07-26,0,136
+Quaregnon,2020-07-27,0,136
 Quiévrain,2020-04-01,1,12
 Quiévrain,2020-04-02,3,15
 Quiévrain,2020-04-03,1,16
@@ -35963,6 +36295,7 @@ Quiévrain,2020-07-23,0,39
 Quiévrain,2020-07-24,0,39
 Quiévrain,2020-07-25,1,40
 Quiévrain,2020-07-26,0,40
+Quiévrain,2020-07-27,0,40
 Saint-Ghislain,2020-04-01,7,47
 Saint-Ghislain,2020-04-02,8,55
 Saint-Ghislain,2020-04-03,4,59
@@ -36071,6 +36404,7 @@ Saint-Ghislain,2020-07-23,0,140
 Saint-Ghislain,2020-07-24,0,140
 Saint-Ghislain,2020-07-25,0,140
 Saint-Ghislain,2020-07-26,0,140
+Saint-Ghislain,2020-07-27,1,141
 Colfontaine,2020-04-01,2,56
 Colfontaine,2020-04-02,3,59
 Colfontaine,2020-04-03,5,64
@@ -36179,6 +36513,7 @@ Colfontaine,2020-07-23,1,132
 Colfontaine,2020-07-24,0,132
 Colfontaine,2020-07-25,0,132
 Colfontaine,2020-07-26,0,132
+Colfontaine,2020-07-27,0,132
 Honnelles,2020-04-01,1,13
 Honnelles,2020-04-02,1,14
 Honnelles,2020-04-03,3,17
@@ -36287,6 +36622,7 @@ Honnelles,2020-07-23,0,31
 Honnelles,2020-07-24,0,31
 Honnelles,2020-07-25,0,31
 Honnelles,2020-07-26,0,31
+Honnelles,2020-07-27,0,31
 Quévy,2020-04-01,3,31
 Quévy,2020-04-02,2,33
 Quévy,2020-04-03,1,34
@@ -36395,6 +36731,7 @@ Quévy,2020-07-23,0,66
 Quévy,2020-07-24,0,66
 Quévy,2020-07-25,0,66
 Quévy,2020-07-26,0,66
+Quévy,2020-07-27,1,67
 ’s Gravenbrakel,2020-04-01,4,15
 ’s Gravenbrakel,2020-04-02,2,17
 ’s Gravenbrakel,2020-04-03,1,18
@@ -36503,6 +36840,7 @@ Quévy,2020-07-26,0,66
 ’s Gravenbrakel,2020-07-24,0,69
 ’s Gravenbrakel,2020-07-25,1,70
 ’s Gravenbrakel,2020-07-26,2,72
+’s Gravenbrakel,2020-07-27,0,72
 Le Roeulx,2020-04-01,1,13
 Le Roeulx,2020-04-02,0,13
 Le Roeulx,2020-04-03,1,14
@@ -36611,6 +36949,7 @@ Le Roeulx,2020-07-23,0,79
 Le Roeulx,2020-07-24,0,79
 Le Roeulx,2020-07-25,1,80
 Le Roeulx,2020-07-26,1,81
+Le Roeulx,2020-07-27,0,81
 Zinnik,2020-04-01,5,43
 Zinnik,2020-04-02,1,44
 Zinnik,2020-04-03,12,56
@@ -36719,6 +37058,7 @@ Zinnik,2020-07-23,0,198
 Zinnik,2020-07-24,0,198
 Zinnik,2020-07-25,1,199
 Zinnik,2020-07-26,1,200
+Zinnik,2020-07-27,0,200
 Ecaussinnes,2020-04-01,0,5
 Ecaussinnes,2020-04-02,3,8
 Ecaussinnes,2020-04-03,1,9
@@ -36827,6 +37167,7 @@ Ecaussinnes,2020-07-23,0,42
 Ecaussinnes,2020-07-24,0,42
 Ecaussinnes,2020-07-25,0,42
 Ecaussinnes,2020-07-26,0,42
+Ecaussinnes,2020-07-27,0,42
 Seneffe,2020-04-01,5,5
 Seneffe,2020-04-02,2,7
 Seneffe,2020-04-03,0,7
@@ -36935,6 +37276,7 @@ Seneffe,2020-07-23,0,45
 Seneffe,2020-07-24,0,45
 Seneffe,2020-07-25,0,45
 Seneffe,2020-07-26,0,45
+Seneffe,2020-07-27,0,45
 Manage,2020-04-01,5,25
 Manage,2020-04-02,0,25
 Manage,2020-04-03,0,25
@@ -37043,6 +37385,7 @@ Manage,2020-07-23,1,88
 Manage,2020-07-24,0,88
 Manage,2020-07-25,0,88
 Manage,2020-07-26,0,88
+Manage,2020-07-27,1,89
 Anderlues,2020-04-01,2,8
 Anderlues,2020-04-02,0,8
 Anderlues,2020-04-03,0,8
@@ -37151,6 +37494,7 @@ Anderlues,2020-07-23,1,47
 Anderlues,2020-07-24,0,47
 Anderlues,2020-07-25,0,47
 Anderlues,2020-07-26,0,47
+Anderlues,2020-07-27,0,47
 Beaumont,2020-04-01,0,0
 Beaumont,2020-04-02,0,0
 Beaumont,2020-04-03,0,0
@@ -37259,6 +37603,7 @@ Beaumont,2020-07-23,0,28
 Beaumont,2020-07-24,0,28
 Beaumont,2020-07-25,0,28
 Beaumont,2020-07-26,0,28
+Beaumont,2020-07-27,0,28
 Chimay,2020-04-01,0,10
 Chimay,2020-04-02,2,12
 Chimay,2020-04-03,0,12
@@ -37367,6 +37712,7 @@ Chimay,2020-07-23,0,26
 Chimay,2020-07-24,0,26
 Chimay,2020-07-25,0,26
 Chimay,2020-07-26,0,26
+Chimay,2020-07-27,0,26
 Erquelinnes,2020-04-01,0,6
 Erquelinnes,2020-04-02,1,7
 Erquelinnes,2020-04-03,3,10
@@ -37475,6 +37821,7 @@ Erquelinnes,2020-07-23,0,42
 Erquelinnes,2020-07-24,0,42
 Erquelinnes,2020-07-25,0,42
 Erquelinnes,2020-07-26,0,42
+Erquelinnes,2020-07-27,0,42
 Froidchapelle,2020-04-01,0,0
 Froidchapelle,2020-04-02,0,0
 Froidchapelle,2020-04-03,0,0
@@ -37583,6 +37930,7 @@ Froidchapelle,2020-07-23,0,6
 Froidchapelle,2020-07-24,0,6
 Froidchapelle,2020-07-25,0,6
 Froidchapelle,2020-07-26,0,6
+Froidchapelle,2020-07-27,0,6
 Lobbes,2020-04-01,1,10
 Lobbes,2020-04-02,0,10
 Lobbes,2020-04-03,0,10
@@ -37691,6 +38039,7 @@ Lobbes,2020-07-23,0,26
 Lobbes,2020-07-24,0,26
 Lobbes,2020-07-25,0,26
 Lobbes,2020-07-26,0,26
+Lobbes,2020-07-27,0,26
 Merbes-le-Château,2020-04-01,0,0
 Merbes-le-Château,2020-04-02,0,0
 Merbes-le-Château,2020-04-03,0,0
@@ -37799,6 +38148,7 @@ Merbes-le-Château,2020-07-23,0,14
 Merbes-le-Château,2020-07-24,0,14
 Merbes-le-Château,2020-07-25,0,14
 Merbes-le-Château,2020-07-26,0,14
+Merbes-le-Château,2020-07-27,0,14
 Momignies,2020-04-01,0,6
 Momignies,2020-04-02,0,6
 Momignies,2020-04-03,0,6
@@ -37907,6 +38257,7 @@ Momignies,2020-07-23,0,11
 Momignies,2020-07-24,0,11
 Momignies,2020-07-25,0,11
 Momignies,2020-07-26,0,11
+Momignies,2020-07-27,0,11
 Thuin,2020-04-01,0,11
 Thuin,2020-04-02,1,12
 Thuin,2020-04-03,1,13
@@ -38015,6 +38366,7 @@ Thuin,2020-07-23,0,42
 Thuin,2020-07-24,0,42
 Thuin,2020-07-25,0,42
 Thuin,2020-07-26,0,42
+Thuin,2020-07-27,0,42
 Ham-sur-Heure-Nalinnes,2020-04-01,0,0
 Ham-sur-Heure-Nalinnes,2020-04-02,0,0
 Ham-sur-Heure-Nalinnes,2020-04-03,0,0
@@ -38123,6 +38475,7 @@ Ham-sur-Heure-Nalinnes,2020-07-23,0,36
 Ham-sur-Heure-Nalinnes,2020-07-24,0,36
 Ham-sur-Heure-Nalinnes,2020-07-25,2,38
 Ham-sur-Heure-Nalinnes,2020-07-26,0,38
+Ham-sur-Heure-Nalinnes,2020-07-27,1,39
 Celles (Doornik),2020-04-01,0,0
 Celles (Doornik),2020-04-02,0,0
 Celles (Doornik),2020-04-03,0,0
@@ -38231,6 +38584,7 @@ Celles (Doornik),2020-07-23,0,15
 Celles (Doornik),2020-07-24,0,15
 Celles (Doornik),2020-07-25,0,15
 Celles (Doornik),2020-07-26,0,15
+Celles (Doornik),2020-07-27,0,15
 Estaimpuis,2020-04-01,0,0
 Estaimpuis,2020-04-02,0,0
 Estaimpuis,2020-04-03,0,0
@@ -38339,6 +38693,7 @@ Estaimpuis,2020-07-23,0,54
 Estaimpuis,2020-07-24,0,54
 Estaimpuis,2020-07-25,0,54
 Estaimpuis,2020-07-26,0,54
+Estaimpuis,2020-07-27,0,54
 Pecq,2020-04-01,0,0
 Pecq,2020-04-02,0,0
 Pecq,2020-04-03,0,0
@@ -38447,6 +38802,7 @@ Pecq,2020-07-23,0,22
 Pecq,2020-07-24,0,22
 Pecq,2020-07-25,0,22
 Pecq,2020-07-26,0,22
+Pecq,2020-07-27,0,22
 Péruwelz,2020-04-01,4,12
 Péruwelz,2020-04-02,1,13
 Péruwelz,2020-04-03,0,13
@@ -38555,6 +38911,7 @@ Péruwelz,2020-07-23,0,75
 Péruwelz,2020-07-24,0,75
 Péruwelz,2020-07-25,0,75
 Péruwelz,2020-07-26,0,75
+Péruwelz,2020-07-27,0,75
 Rumes,2020-04-01,0,0
 Rumes,2020-04-02,0,0
 Rumes,2020-04-03,5,5
@@ -38663,6 +39020,7 @@ Rumes,2020-07-23,0,14
 Rumes,2020-07-24,0,14
 Rumes,2020-07-25,0,14
 Rumes,2020-07-26,0,14
+Rumes,2020-07-27,0,14
 Doornik,2020-04-01,4,48
 Doornik,2020-04-02,6,54
 Doornik,2020-04-03,12,66
@@ -38771,6 +39129,7 @@ Doornik,2020-07-23,0,257
 Doornik,2020-07-24,0,257
 Doornik,2020-07-25,3,260
 Doornik,2020-07-26,1,261
+Doornik,2020-07-27,0,261
 Leuze-en-Hainaut,2020-04-01,2,10
 Leuze-en-Hainaut,2020-04-02,1,11
 Leuze-en-Hainaut,2020-04-03,0,11
@@ -38879,6 +39238,7 @@ Leuze-en-Hainaut,2020-07-23,0,50
 Leuze-en-Hainaut,2020-07-24,0,50
 Leuze-en-Hainaut,2020-07-25,1,51
 Leuze-en-Hainaut,2020-07-26,0,51
+Leuze-en-Hainaut,2020-07-27,0,51
 Moeskroen,2020-04-01,6,48
 Moeskroen,2020-04-02,2,50
 Moeskroen,2020-04-03,4,54
@@ -38987,6 +39347,7 @@ Moeskroen,2020-07-23,2,504
 Moeskroen,2020-07-24,0,504
 Moeskroen,2020-07-25,0,504
 Moeskroen,2020-07-26,1,505
+Moeskroen,2020-07-27,0,505
 Komen-Waasten,2020-04-01,2,36
 Komen-Waasten,2020-04-02,7,43
 Komen-Waasten,2020-04-03,6,49
@@ -39095,6 +39456,7 @@ Komen-Waasten,2020-07-23,0,99
 Komen-Waasten,2020-07-24,0,99
 Komen-Waasten,2020-07-25,0,99
 Komen-Waasten,2020-07-26,0,99
+Komen-Waasten,2020-07-27,0,99
 La Louvière,2020-04-01,11,92
 La Louvière,2020-04-02,16,108
 La Louvière,2020-04-03,3,111
@@ -39203,6 +39565,7 @@ La Louvière,2020-07-23,2,526
 La Louvière,2020-07-24,1,527
 La Louvière,2020-07-25,2,529
 La Louvière,2020-07-26,0,529
+La Louvière,2020-07-27,2,531
 Binche,2020-04-01,2,28
 Binche,2020-04-02,3,31
 Binche,2020-04-03,1,32
@@ -39311,6 +39674,7 @@ Binche,2020-07-23,1,234
 Binche,2020-07-24,0,234
 Binche,2020-07-25,0,234
 Binche,2020-07-26,0,234
+Binche,2020-07-27,0,234
 Estinnes,2020-04-01,0,15
 Estinnes,2020-04-02,0,15
 Estinnes,2020-04-03,2,17
@@ -39419,6 +39783,7 @@ Estinnes,2020-07-23,0,35
 Estinnes,2020-07-24,0,35
 Estinnes,2020-07-25,1,36
 Estinnes,2020-07-26,0,36
+Estinnes,2020-07-27,1,37
 Morlanwelz,2020-04-01,6,20
 Morlanwelz,2020-04-02,0,20
 Morlanwelz,2020-04-03,1,21
@@ -39527,6 +39892,7 @@ Morlanwelz,2020-07-23,0,135
 Morlanwelz,2020-07-24,0,135
 Morlanwelz,2020-07-25,0,135
 Morlanwelz,2020-07-26,1,136
+Morlanwelz,2020-07-27,0,136
 Amay,2020-04-01,0,12
 Amay,2020-04-02,0,12
 Amay,2020-04-03,0,12
@@ -39635,6 +40001,7 @@ Amay,2020-07-23,0,53
 Amay,2020-07-24,0,53
 Amay,2020-07-25,0,53
 Amay,2020-07-26,0,53
+Amay,2020-07-27,0,53
 Burdinne,2020-04-01,0,0
 Burdinne,2020-04-02,0,0
 Burdinne,2020-04-03,0,0
@@ -39743,6 +40110,7 @@ Burdinne,2020-07-23,0,11
 Burdinne,2020-07-24,0,11
 Burdinne,2020-07-25,0,11
 Burdinne,2020-07-26,0,11
+Burdinne,2020-07-27,0,11
 Clavier,2020-04-01,5,5
 Clavier,2020-04-02,1,6
 Clavier,2020-04-03,0,6
@@ -39851,6 +40219,7 @@ Clavier,2020-07-23,1,17
 Clavier,2020-07-24,0,17
 Clavier,2020-07-25,0,17
 Clavier,2020-07-26,0,17
+Clavier,2020-07-27,0,17
 Ferrières,2020-04-01,0,8
 Ferrières,2020-04-02,0,8
 Ferrières,2020-04-03,1,9
@@ -39959,6 +40328,7 @@ Ferrières,2020-07-23,0,27
 Ferrières,2020-07-24,0,27
 Ferrières,2020-07-25,0,27
 Ferrières,2020-07-26,0,27
+Ferrières,2020-07-27,0,27
 Hamoir,2020-04-01,0,0
 Hamoir,2020-04-02,0,0
 Hamoir,2020-04-03,0,0
@@ -40067,6 +40437,7 @@ Hamoir,2020-07-23,0,12
 Hamoir,2020-07-24,0,12
 Hamoir,2020-07-25,0,12
 Hamoir,2020-07-26,0,12
+Hamoir,2020-07-27,0,12
 Héron,2020-04-01,0,5
 Héron,2020-04-02,1,6
 Héron,2020-04-03,0,6
@@ -40175,6 +40546,7 @@ Héron,2020-07-23,0,18
 Héron,2020-07-24,0,18
 Héron,2020-07-25,0,18
 Héron,2020-07-26,0,18
+Héron,2020-07-27,0,18
 Hoei,2020-04-01,1,34
 Hoei,2020-04-02,0,34
 Hoei,2020-04-03,1,35
@@ -40283,6 +40655,7 @@ Hoei,2020-07-23,0,165
 Hoei,2020-07-24,0,165
 Hoei,2020-07-25,0,165
 Hoei,2020-07-26,0,165
+Hoei,2020-07-27,0,165
 Marchin,2020-04-01,1,13
 Marchin,2020-04-02,0,13
 Marchin,2020-04-03,0,13
@@ -40391,6 +40764,7 @@ Marchin,2020-07-23,0,30
 Marchin,2020-07-24,0,30
 Marchin,2020-07-25,0,30
 Marchin,2020-07-26,0,30
+Marchin,2020-07-27,0,30
 Modave,2020-04-01,0,0
 Modave,2020-04-02,0,0
 Modave,2020-04-03,0,0
@@ -40499,6 +40873,7 @@ Modave,2020-07-23,0,13
 Modave,2020-07-24,0,13
 Modave,2020-07-25,0,13
 Modave,2020-07-26,0,13
+Modave,2020-07-27,0,13
 Nandrin,2020-04-01,4,16
 Nandrin,2020-04-02,1,17
 Nandrin,2020-04-03,0,17
@@ -40607,6 +40982,7 @@ Nandrin,2020-07-23,0,39
 Nandrin,2020-07-24,0,39
 Nandrin,2020-07-25,0,39
 Nandrin,2020-07-26,0,39
+Nandrin,2020-07-27,0,39
 Ouffet,2020-04-01,0,0
 Ouffet,2020-04-02,5,5
 Ouffet,2020-04-03,0,5
@@ -40715,6 +41091,7 @@ Ouffet,2020-07-23,0,11
 Ouffet,2020-07-24,0,11
 Ouffet,2020-07-25,0,11
 Ouffet,2020-07-26,0,11
+Ouffet,2020-07-27,0,11
 Verlaine,2020-04-01,5,5
 Verlaine,2020-04-02,0,5
 Verlaine,2020-04-03,0,5
@@ -40823,6 +41200,7 @@ Verlaine,2020-07-23,0,10
 Verlaine,2020-07-24,0,10
 Verlaine,2020-07-25,0,10
 Verlaine,2020-07-26,0,10
+Verlaine,2020-07-27,0,10
 Villers-Le-Bouillet,2020-04-01,0,5
 Villers-Le-Bouillet,2020-04-02,0,5
 Villers-Le-Bouillet,2020-04-03,1,6
@@ -40931,6 +41309,7 @@ Villers-Le-Bouillet,2020-07-23,1,22
 Villers-Le-Bouillet,2020-07-24,0,22
 Villers-Le-Bouillet,2020-07-25,1,23
 Villers-Le-Bouillet,2020-07-26,0,23
+Villers-Le-Bouillet,2020-07-27,0,23
 Wanze,2020-04-01,2,13
 Wanze,2020-04-02,3,16
 Wanze,2020-04-03,0,16
@@ -41039,6 +41418,7 @@ Wanze,2020-07-23,2,65
 Wanze,2020-07-24,0,65
 Wanze,2020-07-25,0,65
 Wanze,2020-07-26,0,65
+Wanze,2020-07-27,0,65
 Anthisnes,2020-04-01,1,7
 Anthisnes,2020-04-02,0,7
 Anthisnes,2020-04-03,0,7
@@ -41147,6 +41527,7 @@ Anthisnes,2020-07-23,0,23
 Anthisnes,2020-07-24,0,23
 Anthisnes,2020-07-25,0,23
 Anthisnes,2020-07-26,0,23
+Anthisnes,2020-07-27,0,23
 Engis,2020-04-01,2,9
 Engis,2020-04-02,0,9
 Engis,2020-04-03,1,10
@@ -41255,6 +41636,7 @@ Engis,2020-07-23,0,40
 Engis,2020-07-24,0,40
 Engis,2020-07-25,0,40
 Engis,2020-07-26,0,40
+Engis,2020-07-27,0,40
 Tinlot,2020-04-01,0,5
 Tinlot,2020-04-02,0,5
 Tinlot,2020-04-03,0,5
@@ -41363,6 +41745,7 @@ Tinlot,2020-07-23,0,11
 Tinlot,2020-07-24,0,11
 Tinlot,2020-07-25,0,11
 Tinlot,2020-07-26,0,11
+Tinlot,2020-07-27,0,11
 Ans,2020-04-01,0,20
 Ans,2020-04-02,1,21
 Ans,2020-04-03,1,22
@@ -41471,6 +41854,7 @@ Ans,2020-07-23,3,151
 Ans,2020-07-24,1,152
 Ans,2020-07-25,0,152
 Ans,2020-07-26,0,152
+Ans,2020-07-27,0,152
 Awans,2020-04-01,1,13
 Awans,2020-04-02,0,13
 Awans,2020-04-03,2,15
@@ -41579,6 +41963,7 @@ Awans,2020-07-23,0,92
 Awans,2020-07-24,0,92
 Awans,2020-07-25,0,92
 Awans,2020-07-26,0,92
+Awans,2020-07-27,0,92
 Aywaille,2020-04-01,1,13
 Aywaille,2020-04-02,0,13
 Aywaille,2020-04-03,0,13
@@ -41687,6 +42072,7 @@ Aywaille,2020-07-23,0,69
 Aywaille,2020-07-24,0,69
 Aywaille,2020-07-25,0,69
 Aywaille,2020-07-26,0,69
+Aywaille,2020-07-27,0,69
 Bitsingen,2020-04-01,0,7
 Bitsingen,2020-04-02,0,7
 Bitsingen,2020-04-03,0,7
@@ -41795,6 +42181,7 @@ Bitsingen,2020-07-23,0,85
 Bitsingen,2020-07-24,0,85
 Bitsingen,2020-07-25,0,85
 Bitsingen,2020-07-26,0,85
+Bitsingen,2020-07-27,0,85
 Beyne-Heusay,2020-04-01,8,22
 Beyne-Heusay,2020-04-02,0,22
 Beyne-Heusay,2020-04-03,1,23
@@ -41903,6 +42290,7 @@ Beyne-Heusay,2020-07-23,0,97
 Beyne-Heusay,2020-07-24,0,97
 Beyne-Heusay,2020-07-25,0,97
 Beyne-Heusay,2020-07-26,2,99
+Beyne-Heusay,2020-07-27,3,102
 Chaudfontaine,2020-04-01,2,50
 Chaudfontaine,2020-04-02,1,51
 Chaudfontaine,2020-04-03,0,51
@@ -42011,6 +42399,7 @@ Chaudfontaine,2020-07-23,0,145
 Chaudfontaine,2020-07-24,1,146
 Chaudfontaine,2020-07-25,0,146
 Chaudfontaine,2020-07-26,0,146
+Chaudfontaine,2020-07-27,0,146
 Comblain-au-Pont,2020-04-01,2,13
 Comblain-au-Pont,2020-04-02,0,13
 Comblain-au-Pont,2020-04-03,0,13
@@ -42119,6 +42508,7 @@ Comblain-au-Pont,2020-07-23,0,68
 Comblain-au-Pont,2020-07-24,0,68
 Comblain-au-Pont,2020-07-25,0,68
 Comblain-au-Pont,2020-07-26,0,68
+Comblain-au-Pont,2020-07-27,0,68
 Dalhem,2020-04-01,0,5
 Dalhem,2020-04-02,0,5
 Dalhem,2020-04-03,0,5
@@ -42227,6 +42617,7 @@ Dalhem,2020-07-23,0,40
 Dalhem,2020-07-24,1,41
 Dalhem,2020-07-25,0,41
 Dalhem,2020-07-26,0,41
+Dalhem,2020-07-27,5,46
 Esneux,2020-04-01,9,23
 Esneux,2020-04-02,0,23
 Esneux,2020-04-03,6,29
@@ -42335,6 +42726,7 @@ Esneux,2020-07-23,0,116
 Esneux,2020-07-24,1,117
 Esneux,2020-07-25,0,117
 Esneux,2020-07-26,0,117
+Esneux,2020-07-27,0,117
 Fléron,2020-04-01,10,20
 Fléron,2020-04-02,0,20
 Fléron,2020-04-03,2,22
@@ -42443,6 +42835,7 @@ Fléron,2020-07-23,1,160
 Fléron,2020-07-24,0,160
 Fléron,2020-07-25,0,160
 Fléron,2020-07-26,1,161
+Fléron,2020-07-27,0,161
 Herstal,2020-04-01,1,51
 Herstal,2020-04-02,0,51
 Herstal,2020-04-03,9,60
@@ -42551,6 +42944,7 @@ Herstal,2020-07-23,0,367
 Herstal,2020-07-24,0,367
 Herstal,2020-07-25,0,367
 Herstal,2020-07-26,1,368
+Herstal,2020-07-27,0,368
 Juprelle,2020-04-01,2,7
 Juprelle,2020-04-02,0,7
 Juprelle,2020-04-03,4,11
@@ -42659,6 +43053,7 @@ Juprelle,2020-07-23,0,48
 Juprelle,2020-07-24,0,48
 Juprelle,2020-07-25,0,48
 Juprelle,2020-07-26,0,48
+Juprelle,2020-07-27,0,48
 Luik,2020-04-01,15,253
 Luik,2020-04-02,4,257
 Luik,2020-04-03,47,304
@@ -42767,6 +43162,7 @@ Luik,2020-07-23,8,1315
 Luik,2020-07-24,8,1323
 Luik,2020-07-25,2,1325
 Luik,2020-07-26,8,1333
+Luik,2020-07-27,14,1347
 Oupeye,2020-04-01,2,21
 Oupeye,2020-04-02,0,21
 Oupeye,2020-04-03,4,25
@@ -42875,6 +43271,7 @@ Oupeye,2020-07-23,0,153
 Oupeye,2020-07-24,1,154
 Oupeye,2020-07-25,0,154
 Oupeye,2020-07-26,0,154
+Oupeye,2020-07-27,3,157
 Saint-Nicolas (Luik),2020-04-01,1,22
 Saint-Nicolas (Luik),2020-04-02,0,22
 Saint-Nicolas (Luik),2020-04-03,2,24
@@ -42983,6 +43380,7 @@ Saint-Nicolas (Luik),2020-07-23,0,183
 Saint-Nicolas (Luik),2020-07-24,2,185
 Saint-Nicolas (Luik),2020-07-25,3,188
 Saint-Nicolas (Luik),2020-07-26,1,189
+Saint-Nicolas (Luik),2020-07-27,2,191
 Seraing,2020-04-01,13,124
 Seraing,2020-04-02,0,124
 Seraing,2020-04-03,3,127
@@ -43091,6 +43489,7 @@ Seraing,2020-07-23,0,452
 Seraing,2020-07-24,2,454
 Seraing,2020-07-25,2,456
 Seraing,2020-07-26,1,457
+Seraing,2020-07-27,0,457
 Soumagne,2020-04-01,3,26
 Soumagne,2020-04-02,0,26
 Soumagne,2020-04-03,1,27
@@ -43199,6 +43598,7 @@ Soumagne,2020-07-23,0,121
 Soumagne,2020-07-24,0,121
 Soumagne,2020-07-25,0,121
 Soumagne,2020-07-26,0,121
+Soumagne,2020-07-27,1,122
 Sprimont,2020-04-01,2,23
 Sprimont,2020-04-02,0,23
 Sprimont,2020-04-03,2,25
@@ -43307,6 +43707,7 @@ Sprimont,2020-07-23,0,94
 Sprimont,2020-07-24,0,94
 Sprimont,2020-07-25,0,94
 Sprimont,2020-07-26,0,94
+Sprimont,2020-07-27,0,94
 Wezet,2020-04-01,2,25
 Wezet,2020-04-02,0,25
 Wezet,2020-04-03,2,27
@@ -43415,6 +43816,7 @@ Wezet,2020-07-23,0,102
 Wezet,2020-07-24,0,102
 Wezet,2020-07-25,2,104
 Wezet,2020-07-26,0,104
+Wezet,2020-07-27,0,104
 Grâce-Hollogne,2020-04-01,2,40
 Grâce-Hollogne,2020-04-02,0,40
 Grâce-Hollogne,2020-04-03,2,42
@@ -43523,6 +43925,7 @@ Grâce-Hollogne,2020-07-23,1,140
 Grâce-Hollogne,2020-07-24,0,140
 Grâce-Hollogne,2020-07-25,0,140
 Grâce-Hollogne,2020-07-26,0,140
+Grâce-Hollogne,2020-07-27,0,140
 Blegny,2020-04-01,2,21
 Blegny,2020-04-02,0,21
 Blegny,2020-04-03,1,22
@@ -43631,6 +44034,7 @@ Blegny,2020-07-23,1,127
 Blegny,2020-07-24,0,127
 Blegny,2020-07-25,0,127
 Blegny,2020-07-26,0,127
+Blegny,2020-07-27,0,127
 Flémalle,2020-04-01,12,65
 Flémalle,2020-04-02,1,66
 Flémalle,2020-04-03,2,68
@@ -43739,6 +44143,7 @@ Flémalle,2020-07-23,1,209
 Flémalle,2020-07-24,1,210
 Flémalle,2020-07-25,0,210
 Flémalle,2020-07-26,2,212
+Flémalle,2020-07-27,0,212
 Neupré,2020-04-01,3,17
 Neupré,2020-04-02,0,17
 Neupré,2020-04-03,0,17
@@ -43847,6 +44252,7 @@ Neupré,2020-07-23,0,83
 Neupré,2020-07-24,0,83
 Neupré,2020-07-25,0,83
 Neupré,2020-07-26,0,83
+Neupré,2020-07-27,0,83
 Trooz,2020-04-01,4,11
 Trooz,2020-04-02,0,11
 Trooz,2020-04-03,0,11
@@ -43955,6 +44361,7 @@ Trooz,2020-07-23,0,41
 Trooz,2020-07-24,0,41
 Trooz,2020-07-25,0,41
 Trooz,2020-07-26,0,41
+Trooz,2020-07-27,0,41
 Amel,2020-04-01,1,7
 Amel,2020-04-02,0,7
 Amel,2020-04-03,1,8
@@ -44063,6 +44470,7 @@ Amel,2020-07-23,0,19
 Amel,2020-07-24,0,19
 Amel,2020-07-25,0,19
 Amel,2020-07-26,0,19
+Amel,2020-07-27,0,19
 Aubel,2020-04-01,0,0
 Aubel,2020-04-02,0,0
 Aubel,2020-04-03,0,0
@@ -44171,6 +44579,7 @@ Aubel,2020-07-23,0,41
 Aubel,2020-07-24,0,41
 Aubel,2020-07-25,2,43
 Aubel,2020-07-26,0,43
+Aubel,2020-07-27,0,43
 Baelen,2020-04-01,0,6
 Baelen,2020-04-02,0,6
 Baelen,2020-04-03,0,6
@@ -44279,6 +44688,7 @@ Baelen,2020-07-23,0,22
 Baelen,2020-07-24,0,22
 Baelen,2020-07-25,0,22
 Baelen,2020-07-26,0,22
+Baelen,2020-07-27,0,22
 Büllingen,2020-04-01,1,6
 Büllingen,2020-04-02,0,6
 Büllingen,2020-04-03,0,6
@@ -44387,6 +44797,7 @@ Büllingen,2020-07-23,0,39
 Büllingen,2020-07-24,0,39
 Büllingen,2020-07-25,0,39
 Büllingen,2020-07-26,0,39
+Büllingen,2020-07-27,0,39
 Bütgenbach,2020-04-01,0,6
 Bütgenbach,2020-04-02,0,6
 Bütgenbach,2020-04-03,0,6
@@ -44495,6 +44906,7 @@ Bütgenbach,2020-07-23,0,41
 Bütgenbach,2020-07-24,0,41
 Bütgenbach,2020-07-25,0,41
 Bütgenbach,2020-07-26,0,41
+Bütgenbach,2020-07-27,0,41
 Dison,2020-04-01,1,8
 Dison,2020-04-02,0,8
 Dison,2020-04-03,1,9
@@ -44603,6 +45015,7 @@ Dison,2020-07-23,1,106
 Dison,2020-07-24,3,109
 Dison,2020-07-25,3,112
 Dison,2020-07-26,1,113
+Dison,2020-07-27,1,114
 Eupen,2020-04-01,0,14
 Eupen,2020-04-02,0,14
 Eupen,2020-04-03,0,14
@@ -44711,6 +45124,7 @@ Eupen,2020-07-23,0,91
 Eupen,2020-07-24,0,91
 Eupen,2020-07-25,0,91
 Eupen,2020-07-26,0,91
+Eupen,2020-07-27,0,91
 Herve,2020-04-01,3,27
 Herve,2020-04-02,0,27
 Herve,2020-04-03,1,28
@@ -44819,6 +45233,7 @@ Herve,2020-07-23,2,151
 Herve,2020-07-24,6,157
 Herve,2020-07-25,3,160
 Herve,2020-07-26,0,160
+Herve,2020-07-27,1,161
 Jalhay,2020-04-01,1,8
 Jalhay,2020-04-02,0,8
 Jalhay,2020-04-03,0,8
@@ -44927,6 +45342,7 @@ Jalhay,2020-07-23,0,56
 Jalhay,2020-07-24,0,56
 Jalhay,2020-07-25,0,56
 Jalhay,2020-07-26,0,56
+Jalhay,2020-07-27,0,56
 Kelmis,2020-04-01,4,9
 Kelmis,2020-04-02,1,10
 Kelmis,2020-04-03,1,11
@@ -45035,6 +45451,7 @@ Kelmis,2020-07-23,0,38
 Kelmis,2020-07-24,0,38
 Kelmis,2020-07-25,0,38
 Kelmis,2020-07-26,0,38
+Kelmis,2020-07-27,0,38
 Lierneux,2020-04-01,0,8
 Lierneux,2020-04-02,0,8
 Lierneux,2020-04-03,0,8
@@ -45143,6 +45560,7 @@ Lierneux,2020-07-23,0,36
 Lierneux,2020-07-24,0,36
 Lierneux,2020-07-25,0,36
 Lierneux,2020-07-26,1,37
+Lierneux,2020-07-27,0,37
 Limburg,2020-04-01,3,13
 Limburg,2020-04-02,0,13
 Limburg,2020-04-03,0,13
@@ -45251,6 +45669,7 @@ Limburg,2020-07-23,0,48
 Limburg,2020-07-24,4,52
 Limburg,2020-07-25,1,53
 Limburg,2020-07-26,0,53
+Limburg,2020-07-27,0,53
 Lontzen,2020-04-01,0,0
 Lontzen,2020-04-02,0,0
 Lontzen,2020-04-03,0,0
@@ -45359,6 +45778,7 @@ Lontzen,2020-07-23,2,12
 Lontzen,2020-07-24,0,12
 Lontzen,2020-07-25,0,12
 Lontzen,2020-07-26,0,12
+Lontzen,2020-07-27,0,12
 Malmedy,2020-04-01,1,22
 Malmedy,2020-04-02,0,22
 Malmedy,2020-04-03,6,28
@@ -45467,6 +45887,7 @@ Malmedy,2020-07-23,0,175
 Malmedy,2020-07-24,0,175
 Malmedy,2020-07-25,0,175
 Malmedy,2020-07-26,0,175
+Malmedy,2020-07-27,0,175
 Olne,2020-04-01,0,0
 Olne,2020-04-02,0,0
 Olne,2020-04-03,0,0
@@ -45575,6 +45996,7 @@ Olne,2020-07-23,0,16
 Olne,2020-07-24,1,17
 Olne,2020-07-25,0,17
 Olne,2020-07-26,0,17
+Olne,2020-07-27,0,17
 Pepinster,2020-04-01,1,8
 Pepinster,2020-04-02,0,8
 Pepinster,2020-04-03,0,8
@@ -45683,6 +46105,7 @@ Pepinster,2020-07-23,0,50
 Pepinster,2020-07-24,0,50
 Pepinster,2020-07-25,0,50
 Pepinster,2020-07-26,0,50
+Pepinster,2020-07-27,0,50
 Raeren,2020-04-01,7,7
 Raeren,2020-04-02,0,7
 Raeren,2020-04-03,0,7
@@ -45791,6 +46214,7 @@ Raeren,2020-07-23,0,21
 Raeren,2020-07-24,0,21
 Raeren,2020-07-25,0,21
 Raeren,2020-07-26,0,21
+Raeren,2020-07-27,0,21
 Sankt Vith,2020-04-01,0,11
 Sankt Vith,2020-04-02,0,11
 Sankt Vith,2020-04-03,1,12
@@ -45899,6 +46323,7 @@ Sankt Vith,2020-07-23,0,46
 Sankt Vith,2020-07-24,0,46
 Sankt Vith,2020-07-25,0,46
 Sankt Vith,2020-07-26,0,46
+Sankt Vith,2020-07-27,0,46
 Spa,2020-04-01,2,8
 Spa,2020-04-02,0,8
 Spa,2020-04-03,0,8
@@ -46007,6 +46432,7 @@ Spa,2020-07-23,0,131
 Spa,2020-07-24,0,131
 Spa,2020-07-25,0,131
 Spa,2020-07-26,0,131
+Spa,2020-07-27,0,131
 Stavelot,2020-04-01,0,5
 Stavelot,2020-04-02,0,5
 Stavelot,2020-04-03,2,7
@@ -46115,6 +46541,7 @@ Stavelot,2020-07-23,0,30
 Stavelot,2020-07-24,0,30
 Stavelot,2020-07-25,0,30
 Stavelot,2020-07-26,0,30
+Stavelot,2020-07-27,0,30
 Theux,2020-04-01,3,14
 Theux,2020-04-02,1,15
 Theux,2020-04-03,0,15
@@ -46223,6 +46650,7 @@ Theux,2020-07-23,0,116
 Theux,2020-07-24,0,116
 Theux,2020-07-25,0,116
 Theux,2020-07-26,0,116
+Theux,2020-07-27,0,116
 Verviers,2020-04-01,2,54
 Verviers,2020-04-02,0,54
 Verviers,2020-04-03,4,58
@@ -46331,6 +46759,7 @@ Verviers,2020-07-23,1,344
 Verviers,2020-07-24,9,353
 Verviers,2020-07-25,7,360
 Verviers,2020-07-26,9,369
+Verviers,2020-07-27,8,377
 Weismes,2020-04-01,0,0
 Weismes,2020-04-02,0,0
 Weismes,2020-04-03,5,5
@@ -46439,6 +46868,7 @@ Weismes,2020-07-23,0,54
 Weismes,2020-07-24,0,54
 Weismes,2020-07-25,0,54
 Weismes,2020-07-26,0,54
+Weismes,2020-07-27,1,55
 Welkenraedt,2020-04-01,0,0
 Welkenraedt,2020-04-02,0,0
 Welkenraedt,2020-04-03,0,0
@@ -46547,6 +46977,7 @@ Welkenraedt,2020-07-23,0,56
 Welkenraedt,2020-07-24,0,56
 Welkenraedt,2020-07-25,0,56
 Welkenraedt,2020-07-26,0,56
+Welkenraedt,2020-07-27,0,56
 Burg-Reuland,2020-04-01,0,0
 Burg-Reuland,2020-04-02,0,0
 Burg-Reuland,2020-04-03,0,0
@@ -46655,6 +47086,7 @@ Burg-Reuland,2020-07-23,0,12
 Burg-Reuland,2020-07-24,0,12
 Burg-Reuland,2020-07-25,0,12
 Burg-Reuland,2020-07-26,0,12
+Burg-Reuland,2020-07-27,0,12
 Plombières,2020-04-01,2,9
 Plombières,2020-04-02,1,10
 Plombières,2020-04-03,0,10
@@ -46763,6 +47195,7 @@ Plombières,2020-07-23,0,56
 Plombières,2020-07-24,0,56
 Plombières,2020-07-25,0,56
 Plombières,2020-07-26,0,56
+Plombières,2020-07-27,1,57
 Thimister-Clermont,2020-04-01,0,6
 Thimister-Clermont,2020-04-02,0,6
 Thimister-Clermont,2020-04-03,1,7
@@ -46871,6 +47304,7 @@ Thimister-Clermont,2020-07-23,0,34
 Thimister-Clermont,2020-07-24,1,35
 Thimister-Clermont,2020-07-25,0,35
 Thimister-Clermont,2020-07-26,0,35
+Thimister-Clermont,2020-07-27,0,35
 Berloz,2020-04-01,0,0
 Berloz,2020-04-02,0,0
 Berloz,2020-04-03,0,0
@@ -46979,6 +47413,7 @@ Berloz,2020-07-23,0,12
 Berloz,2020-07-24,0,12
 Berloz,2020-07-25,0,12
 Berloz,2020-07-26,0,12
+Berloz,2020-07-27,0,12
 Braives,2020-04-01,5,5
 Braives,2020-04-02,0,5
 Braives,2020-04-03,0,5
@@ -47087,6 +47522,7 @@ Braives,2020-07-23,12,34
 Braives,2020-07-24,0,34
 Braives,2020-07-25,1,35
 Braives,2020-07-26,0,35
+Braives,2020-07-27,0,35
 Crisnée,2020-04-01,0,0
 Crisnée,2020-04-02,0,0
 Crisnée,2020-04-03,0,0
@@ -47195,6 +47631,7 @@ Crisnée,2020-07-23,0,32
 Crisnée,2020-07-24,0,32
 Crisnée,2020-07-25,0,32
 Crisnée,2020-07-26,0,32
+Crisnée,2020-07-27,0,32
 Donceel,2020-04-01,0,0
 Donceel,2020-04-02,0,0
 Donceel,2020-04-03,0,0
@@ -47303,6 +47740,7 @@ Donceel,2020-07-23,0,12
 Donceel,2020-07-24,0,12
 Donceel,2020-07-25,0,12
 Donceel,2020-07-26,0,12
+Donceel,2020-07-27,0,12
 Fexhe-le-Haut-Clocher,2020-04-01,0,0
 Fexhe-le-Haut-Clocher,2020-04-02,0,0
 Fexhe-le-Haut-Clocher,2020-04-03,0,0
@@ -47411,6 +47849,7 @@ Fexhe-le-Haut-Clocher,2020-07-23,0,15
 Fexhe-le-Haut-Clocher,2020-07-24,0,15
 Fexhe-le-Haut-Clocher,2020-07-25,0,15
 Fexhe-le-Haut-Clocher,2020-07-26,0,15
+Fexhe-le-Haut-Clocher,2020-07-27,0,15
 Geer,2020-04-01,0,0
 Geer,2020-04-02,0,0
 Geer,2020-04-03,0,0
@@ -47519,6 +47958,7 @@ Geer,2020-07-23,0,16
 Geer,2020-07-24,0,16
 Geer,2020-07-25,0,16
 Geer,2020-07-26,0,16
+Geer,2020-07-27,0,16
 Hannuit,2020-04-01,0,13
 Hannuit,2020-04-02,1,14
 Hannuit,2020-04-03,0,14
@@ -47627,6 +48067,7 @@ Hannuit,2020-07-23,1,57
 Hannuit,2020-07-24,2,59
 Hannuit,2020-07-25,0,59
 Hannuit,2020-07-26,0,59
+Hannuit,2020-07-27,0,59
 Lijsem,2020-04-01,0,5
 Lijsem,2020-04-02,0,5
 Lijsem,2020-04-03,1,6
@@ -47735,6 +48176,7 @@ Lijsem,2020-07-23,0,29
 Lijsem,2020-07-24,0,29
 Lijsem,2020-07-25,0,29
 Lijsem,2020-07-26,0,29
+Lijsem,2020-07-27,0,29
 Oerle,2020-04-01,0,5
 Oerle,2020-04-02,0,5
 Oerle,2020-04-03,0,5
@@ -47843,6 +48285,7 @@ Oerle,2020-07-23,0,15
 Oerle,2020-07-24,0,15
 Oerle,2020-07-25,0,15
 Oerle,2020-07-26,0,15
+Oerle,2020-07-27,0,15
 Remicourt,2020-04-01,0,9
 Remicourt,2020-04-02,0,9
 Remicourt,2020-04-03,0,9
@@ -47951,6 +48394,7 @@ Remicourt,2020-07-23,0,48
 Remicourt,2020-07-24,0,48
 Remicourt,2020-07-25,0,48
 Remicourt,2020-07-26,0,48
+Remicourt,2020-07-27,0,48
 Saint-Georges-sur-Meuse,2020-04-01,0,6
 Saint-Georges-sur-Meuse,2020-04-02,0,6
 Saint-Georges-sur-Meuse,2020-04-03,0,6
@@ -48059,6 +48503,7 @@ Saint-Georges-sur-Meuse,2020-07-23,0,18
 Saint-Georges-sur-Meuse,2020-07-24,0,18
 Saint-Georges-sur-Meuse,2020-07-25,0,18
 Saint-Georges-sur-Meuse,2020-07-26,0,18
+Saint-Georges-sur-Meuse,2020-07-27,0,18
 Borgworm,2020-04-01,2,12
 Borgworm,2020-04-02,0,12
 Borgworm,2020-04-03,2,14
@@ -48167,6 +48612,7 @@ Borgworm,2020-07-23,0,57
 Borgworm,2020-07-24,0,57
 Borgworm,2020-07-25,0,57
 Borgworm,2020-07-26,0,57
+Borgworm,2020-07-27,0,57
 Wasseiges,2020-04-01,0,0
 Wasseiges,2020-04-02,0,0
 Wasseiges,2020-04-03,0,0
@@ -48275,6 +48721,7 @@ Wasseiges,2020-07-23,0,5
 Wasseiges,2020-07-24,0,5
 Wasseiges,2020-07-25,1,6
 Wasseiges,2020-07-26,0,6
+Wasseiges,2020-07-27,0,6
 Faimes,2020-04-01,0,0
 Faimes,2020-04-02,0,0
 Faimes,2020-04-03,0,0
@@ -48383,6 +48830,7 @@ Faimes,2020-07-23,0,13
 Faimes,2020-07-24,0,13
 Faimes,2020-07-25,0,13
 Faimes,2020-07-26,0,13
+Faimes,2020-07-27,0,13
 As,2020-04-01,1,11
 As,2020-04-02,3,14
 As,2020-04-03,1,15
@@ -48491,6 +48939,7 @@ As,2020-07-23,0,70
 As,2020-07-24,0,70
 As,2020-07-25,0,70
 As,2020-07-26,0,70
+As,2020-07-27,0,70
 Beringen,2020-04-01,6,69
 Beringen,2020-04-02,11,80
 Beringen,2020-04-03,9,89
@@ -48599,6 +49048,7 @@ Beringen,2020-07-23,0,288
 Beringen,2020-07-24,2,290
 Beringen,2020-07-25,12,302
 Beringen,2020-07-26,5,307
+Beringen,2020-07-27,3,310
 Diepenbeek,2020-04-01,6,44
 Diepenbeek,2020-04-02,6,50
 Diepenbeek,2020-04-03,7,57
@@ -48707,6 +49157,7 @@ Diepenbeek,2020-07-23,0,169
 Diepenbeek,2020-07-24,0,169
 Diepenbeek,2020-07-25,0,169
 Diepenbeek,2020-07-26,0,169
+Diepenbeek,2020-07-27,0,169
 Genk,2020-04-01,17,183
 Genk,2020-04-02,27,210
 Genk,2020-04-03,10,220
@@ -48815,6 +49266,7 @@ Genk,2020-07-23,3,573
 Genk,2020-07-24,1,574
 Genk,2020-07-25,1,575
 Genk,2020-07-26,2,577
+Genk,2020-07-27,6,583
 Gingelom,2020-04-01,2,27
 Gingelom,2020-04-02,6,33
 Gingelom,2020-04-03,3,36
@@ -48923,6 +49375,7 @@ Gingelom,2020-07-23,0,141
 Gingelom,2020-07-24,0,141
 Gingelom,2020-07-25,0,141
 Gingelom,2020-07-26,0,141
+Gingelom,2020-07-27,0,141
 Halen,2020-04-01,1,24
 Halen,2020-04-02,3,27
 Halen,2020-04-03,4,31
@@ -49031,6 +49484,7 @@ Halen,2020-07-23,0,80
 Halen,2020-07-24,0,80
 Halen,2020-07-25,0,80
 Halen,2020-07-26,0,80
+Halen,2020-07-27,0,80
 Hasselt,2020-04-01,8,183
 Hasselt,2020-04-02,28,211
 Hasselt,2020-04-03,14,225
@@ -49139,6 +49593,7 @@ Hasselt,2020-07-23,6,651
 Hasselt,2020-07-24,3,654
 Hasselt,2020-07-25,2,656
 Hasselt,2020-07-26,5,661
+Hasselt,2020-07-27,1,662
 Herk-de-Stad,2020-04-01,1,28
 Herk-de-Stad,2020-04-02,6,34
 Herk-de-Stad,2020-04-03,2,36
@@ -49247,6 +49702,7 @@ Herk-de-Stad,2020-07-23,0,98
 Herk-de-Stad,2020-07-24,0,98
 Herk-de-Stad,2020-07-25,0,98
 Herk-de-Stad,2020-07-26,0,98
+Herk-de-Stad,2020-07-27,0,98
 Leopoldsburg,2020-04-01,1,8
 Leopoldsburg,2020-04-02,2,10
 Leopoldsburg,2020-04-03,4,14
@@ -49355,6 +49811,7 @@ Leopoldsburg,2020-07-23,0,67
 Leopoldsburg,2020-07-24,0,67
 Leopoldsburg,2020-07-25,1,68
 Leopoldsburg,2020-07-26,0,68
+Leopoldsburg,2020-07-27,0,68
 Lummen,2020-04-01,0,33
 Lummen,2020-04-02,2,35
 Lummen,2020-04-03,2,37
@@ -49463,6 +49920,7 @@ Lummen,2020-07-23,0,83
 Lummen,2020-07-24,0,83
 Lummen,2020-07-25,2,85
 Lummen,2020-07-26,1,86
+Lummen,2020-07-27,1,87
 Nieuwerkerken (Hasselt),2020-04-01,0,20
 Nieuwerkerken (Hasselt),2020-04-02,4,24
 Nieuwerkerken (Hasselt),2020-04-03,0,24
@@ -49571,6 +50029,7 @@ Nieuwerkerken (Hasselt),2020-07-23,0,119
 Nieuwerkerken (Hasselt),2020-07-24,1,120
 Nieuwerkerken (Hasselt),2020-07-25,0,120
 Nieuwerkerken (Hasselt),2020-07-26,0,120
+Nieuwerkerken (Hasselt),2020-07-27,0,120
 Sint-Truiden,2020-04-01,18,187
 Sint-Truiden,2020-04-02,16,203
 Sint-Truiden,2020-04-03,8,211
@@ -49679,6 +50138,7 @@ Sint-Truiden,2020-07-23,0,714
 Sint-Truiden,2020-07-24,1,715
 Sint-Truiden,2020-07-25,1,716
 Sint-Truiden,2020-07-26,1,717
+Sint-Truiden,2020-07-27,1,718
 Tessenderlo,2020-04-01,5,20
 Tessenderlo,2020-04-02,2,22
 Tessenderlo,2020-04-03,3,25
@@ -49787,6 +50247,7 @@ Tessenderlo,2020-07-23,0,64
 Tessenderlo,2020-07-24,1,65
 Tessenderlo,2020-07-25,0,65
 Tessenderlo,2020-07-26,0,65
+Tessenderlo,2020-07-27,0,65
 Zonhoven,2020-04-01,5,43
 Zonhoven,2020-04-02,4,47
 Zonhoven,2020-04-03,6,53
@@ -49895,6 +50356,7 @@ Zonhoven,2020-07-23,2,211
 Zonhoven,2020-07-24,0,211
 Zonhoven,2020-07-25,0,211
 Zonhoven,2020-07-26,0,211
+Zonhoven,2020-07-27,0,211
 Zutendaal,2020-04-01,5,5
 Zutendaal,2020-04-02,1,6
 Zutendaal,2020-04-03,2,8
@@ -50003,6 +50465,7 @@ Zutendaal,2020-07-23,0,63
 Zutendaal,2020-07-24,0,63
 Zutendaal,2020-07-25,0,63
 Zutendaal,2020-07-26,0,63
+Zutendaal,2020-07-27,1,64
 Ham,2020-04-01,4,16
 Ham,2020-04-02,1,17
 Ham,2020-04-03,3,20
@@ -50111,6 +50574,7 @@ Ham,2020-07-23,0,61
 Ham,2020-07-24,0,61
 Ham,2020-07-25,3,64
 Ham,2020-07-26,0,64
+Ham,2020-07-27,0,64
 Heusden-Zolder,2020-04-01,5,66
 Heusden-Zolder,2020-04-02,5,71
 Heusden-Zolder,2020-04-03,3,74
@@ -50219,6 +50683,7 @@ Heusden-Zolder,2020-07-23,1,276
 Heusden-Zolder,2020-07-24,2,278
 Heusden-Zolder,2020-07-25,8,286
 Heusden-Zolder,2020-07-26,5,291
+Heusden-Zolder,2020-07-27,2,293
 Bocholt,2020-04-01,1,20
 Bocholt,2020-04-02,4,24
 Bocholt,2020-04-03,1,25
@@ -50327,6 +50792,7 @@ Bocholt,2020-07-23,0,62
 Bocholt,2020-07-24,0,62
 Bocholt,2020-07-25,0,62
 Bocholt,2020-07-26,0,62
+Bocholt,2020-07-27,0,62
 Bree,2020-04-01,2,29
 Bree,2020-04-02,1,30
 Bree,2020-04-03,1,31
@@ -50435,6 +50901,7 @@ Bree,2020-07-23,0,142
 Bree,2020-07-24,0,142
 Bree,2020-07-25,0,142
 Bree,2020-07-26,0,142
+Bree,2020-07-27,0,142
 Kinrooi,2020-04-01,1,18
 Kinrooi,2020-04-02,1,19
 Kinrooi,2020-04-03,1,20
@@ -50543,6 +51010,7 @@ Kinrooi,2020-07-23,0,45
 Kinrooi,2020-07-24,0,45
 Kinrooi,2020-07-25,0,45
 Kinrooi,2020-07-26,0,45
+Kinrooi,2020-07-27,0,45
 Lommel,2020-04-01,4,40
 Lommel,2020-04-02,2,42
 Lommel,2020-04-03,2,44
@@ -50651,6 +51119,7 @@ Lommel,2020-07-23,0,120
 Lommel,2020-07-24,0,120
 Lommel,2020-07-25,0,120
 Lommel,2020-07-26,1,121
+Lommel,2020-07-27,0,121
 Maaseik,2020-04-01,3,45
 Maaseik,2020-04-02,3,48
 Maaseik,2020-04-03,3,51
@@ -50759,6 +51228,7 @@ Maaseik,2020-07-23,0,161
 Maaseik,2020-07-24,0,161
 Maaseik,2020-07-25,0,161
 Maaseik,2020-07-26,0,161
+Maaseik,2020-07-27,0,161
 Peer,2020-04-01,3,14
 Peer,2020-04-02,4,18
 Peer,2020-04-03,1,19
@@ -50867,6 +51337,7 @@ Peer,2020-07-23,0,81
 Peer,2020-07-24,1,82
 Peer,2020-07-25,0,82
 Peer,2020-07-26,2,84
+Peer,2020-07-27,0,84
 Hamont-Achel,2020-04-01,1,14
 Hamont-Achel,2020-04-02,3,17
 Hamont-Achel,2020-04-03,0,17
@@ -50975,6 +51446,7 @@ Hamont-Achel,2020-07-23,0,63
 Hamont-Achel,2020-07-24,0,63
 Hamont-Achel,2020-07-25,0,63
 Hamont-Achel,2020-07-26,0,63
+Hamont-Achel,2020-07-27,0,63
 Hechtel-Eksel,2020-04-01,0,12
 Hechtel-Eksel,2020-04-02,2,14
 Hechtel-Eksel,2020-04-03,0,14
@@ -51083,6 +51555,7 @@ Hechtel-Eksel,2020-07-23,0,33
 Hechtel-Eksel,2020-07-24,0,33
 Hechtel-Eksel,2020-07-25,1,34
 Hechtel-Eksel,2020-07-26,0,34
+Hechtel-Eksel,2020-07-27,1,35
 Houthalen-Helchteren,2020-04-01,2,40
 Houthalen-Helchteren,2020-04-02,3,43
 Houthalen-Helchteren,2020-04-03,8,51
@@ -51191,6 +51664,7 @@ Houthalen-Helchteren,2020-07-23,0,257
 Houthalen-Helchteren,2020-07-24,2,259
 Houthalen-Helchteren,2020-07-25,1,260
 Houthalen-Helchteren,2020-07-26,1,261
+Houthalen-Helchteren,2020-07-27,4,265
 Dilsen-Stokkem,2020-04-01,2,24
 Dilsen-Stokkem,2020-04-02,5,29
 Dilsen-Stokkem,2020-04-03,6,35
@@ -51299,6 +51773,7 @@ Dilsen-Stokkem,2020-07-23,0,171
 Dilsen-Stokkem,2020-07-24,0,171
 Dilsen-Stokkem,2020-07-25,0,171
 Dilsen-Stokkem,2020-07-26,0,171
+Dilsen-Stokkem,2020-07-27,0,171
 Oudsbergen,2020-04-01,7,25
 Oudsbergen,2020-04-02,3,28
 Oudsbergen,2020-04-03,3,31
@@ -51407,6 +51882,7 @@ Oudsbergen,2020-07-23,1,119
 Oudsbergen,2020-07-24,0,119
 Oudsbergen,2020-07-25,2,121
 Oudsbergen,2020-07-26,1,122
+Oudsbergen,2020-07-27,0,122
 Pelt,2020-04-01,5,38
 Pelt,2020-04-02,6,44
 Pelt,2020-04-03,5,49
@@ -51515,6 +51991,7 @@ Pelt,2020-07-23,1,112
 Pelt,2020-07-24,0,112
 Pelt,2020-07-25,0,112
 Pelt,2020-07-26,0,112
+Pelt,2020-07-27,1,113
 Alken,2020-04-01,4,73
 Alken,2020-04-02,4,77
 Alken,2020-04-03,2,79
@@ -51623,6 +52100,7 @@ Alken,2020-07-23,0,218
 Alken,2020-07-24,0,218
 Alken,2020-07-25,0,218
 Alken,2020-07-26,0,218
+Alken,2020-07-27,0,218
 Bilzen,2020-04-01,8,55
 Bilzen,2020-04-02,6,61
 Bilzen,2020-04-03,2,63
@@ -51731,6 +52209,7 @@ Bilzen,2020-07-23,1,233
 Bilzen,2020-07-24,2,235
 Bilzen,2020-07-25,0,235
 Bilzen,2020-07-26,0,235
+Bilzen,2020-07-27,1,236
 Borgloon,2020-04-01,4,37
 Borgloon,2020-04-02,2,39
 Borgloon,2020-04-03,0,39
@@ -51839,6 +52318,7 @@ Borgloon,2020-07-23,0,120
 Borgloon,2020-07-24,0,120
 Borgloon,2020-07-25,0,120
 Borgloon,2020-07-26,0,120
+Borgloon,2020-07-27,0,120
 Heers,2020-04-01,3,15
 Heers,2020-04-02,1,16
 Heers,2020-04-03,3,19
@@ -51947,6 +52427,7 @@ Heers,2020-07-23,0,45
 Heers,2020-07-24,0,45
 Heers,2020-07-25,0,45
 Heers,2020-07-26,0,45
+Heers,2020-07-27,0,45
 Hoeselt,2020-04-01,1,7
 Hoeselt,2020-04-02,1,8
 Hoeselt,2020-04-03,0,8
@@ -52055,6 +52536,7 @@ Hoeselt,2020-07-23,0,80
 Hoeselt,2020-07-24,0,80
 Hoeselt,2020-07-25,0,80
 Hoeselt,2020-07-26,0,80
+Hoeselt,2020-07-27,0,80
 Kortessem,2020-04-01,1,10
 Kortessem,2020-04-02,1,11
 Kortessem,2020-04-03,2,13
@@ -52163,6 +52645,7 @@ Kortessem,2020-07-23,0,40
 Kortessem,2020-07-24,1,41
 Kortessem,2020-07-25,0,41
 Kortessem,2020-07-26,0,41
+Kortessem,2020-07-27,1,42
 Lanaken,2020-04-01,10,72
 Lanaken,2020-04-02,10,82
 Lanaken,2020-04-03,5,87
@@ -52271,6 +52754,7 @@ Lanaken,2020-07-23,0,233
 Lanaken,2020-07-24,3,236
 Lanaken,2020-07-25,0,236
 Lanaken,2020-07-26,3,239
+Lanaken,2020-07-27,0,239
 Riemst,2020-04-01,2,27
 Riemst,2020-04-02,3,30
 Riemst,2020-04-03,2,32
@@ -52379,6 +52863,7 @@ Riemst,2020-07-23,0,173
 Riemst,2020-07-24,0,173
 Riemst,2020-07-25,0,173
 Riemst,2020-07-26,0,173
+Riemst,2020-07-27,0,173
 Tongeren,2020-04-01,2,43
 Tongeren,2020-04-02,7,50
 Tongeren,2020-04-03,5,55
@@ -52487,6 +52972,7 @@ Tongeren,2020-07-23,2,252
 Tongeren,2020-07-24,2,254
 Tongeren,2020-07-25,1,255
 Tongeren,2020-07-26,0,255
+Tongeren,2020-07-27,1,256
 Wellen,2020-04-01,2,25
 Wellen,2020-04-02,1,26
 Wellen,2020-04-03,0,26
@@ -52595,6 +53081,7 @@ Wellen,2020-07-23,2,63
 Wellen,2020-07-24,0,63
 Wellen,2020-07-25,0,63
 Wellen,2020-07-26,0,63
+Wellen,2020-07-27,0,63
 Maasmechelen,2020-04-01,3,46
 Maasmechelen,2020-04-02,2,48
 Maasmechelen,2020-04-03,7,55
@@ -52703,6 +53190,7 @@ Maasmechelen,2020-07-23,0,255
 Maasmechelen,2020-07-24,0,255
 Maasmechelen,2020-07-25,3,258
 Maasmechelen,2020-07-26,0,258
+Maasmechelen,2020-07-27,0,258
 Voeren,2020-04-01,0,0
 Voeren,2020-04-02,0,0
 Voeren,2020-04-03,0,0
@@ -52811,6 +53299,7 @@ Voeren,2020-07-23,0,32
 Voeren,2020-07-24,0,32
 Voeren,2020-07-25,0,32
 Voeren,2020-07-26,0,32
+Voeren,2020-07-27,0,32
 Aarlen,2020-04-01,5,15
 Aarlen,2020-04-02,4,19
 Aarlen,2020-04-03,1,20
@@ -52919,6 +53408,7 @@ Aarlen,2020-07-23,1,102
 Aarlen,2020-07-24,0,102
 Aarlen,2020-07-25,3,105
 Aarlen,2020-07-26,0,105
+Aarlen,2020-07-27,1,106
 Attert,2020-04-01,0,0
 Attert,2020-04-02,0,0
 Attert,2020-04-03,0,0
@@ -53027,6 +53517,7 @@ Attert,2020-07-23,0,14
 Attert,2020-07-24,0,14
 Attert,2020-07-25,1,15
 Attert,2020-07-26,0,15
+Attert,2020-07-27,0,15
 Aubange,2020-04-01,1,6
 Aubange,2020-04-02,2,8
 Aubange,2020-04-03,0,8
@@ -53135,6 +53626,7 @@ Aubange,2020-07-23,3,108
 Aubange,2020-07-24,0,108
 Aubange,2020-07-25,4,112
 Aubange,2020-07-26,4,116
+Aubange,2020-07-27,2,118
 Messancy,2020-04-01,0,7
 Messancy,2020-04-02,3,10
 Messancy,2020-04-03,2,12
@@ -53243,6 +53735,7 @@ Messancy,2020-07-23,0,89
 Messancy,2020-07-24,0,89
 Messancy,2020-07-25,0,89
 Messancy,2020-07-26,0,89
+Messancy,2020-07-27,0,89
 Bastenaken,2020-04-01,1,11
 Bastenaken,2020-04-02,4,15
 Bastenaken,2020-04-03,3,18
@@ -53351,6 +53844,7 @@ Bastenaken,2020-07-23,1,76
 Bastenaken,2020-07-24,0,76
 Bastenaken,2020-07-25,0,76
 Bastenaken,2020-07-26,0,76
+Bastenaken,2020-07-27,0,76
 Bertogne,2020-04-01,0,0
 Bertogne,2020-04-02,0,0
 Bertogne,2020-04-03,0,0
@@ -53459,6 +53953,7 @@ Bertogne,2020-07-23,0,10
 Bertogne,2020-07-24,0,10
 Bertogne,2020-07-25,0,10
 Bertogne,2020-07-26,0,10
+Bertogne,2020-07-27,0,10
 Fauvillers,2020-04-01,0,5
 Fauvillers,2020-04-02,0,5
 Fauvillers,2020-04-03,0,5
@@ -53567,6 +54062,7 @@ Fauvillers,2020-07-23,0,12
 Fauvillers,2020-07-24,0,12
 Fauvillers,2020-07-25,0,12
 Fauvillers,2020-07-26,0,12
+Fauvillers,2020-07-27,0,12
 Houffalize,2020-04-01,0,0
 Houffalize,2020-04-02,5,5
 Houffalize,2020-04-03,1,6
@@ -53675,6 +54171,7 @@ Houffalize,2020-07-23,0,30
 Houffalize,2020-07-24,0,30
 Houffalize,2020-07-25,0,30
 Houffalize,2020-07-26,0,30
+Houffalize,2020-07-27,0,30
 Vielsalm,2020-04-01,0,20
 Vielsalm,2020-04-02,3,23
 Vielsalm,2020-04-03,9,32
@@ -53783,6 +54280,7 @@ Vielsalm,2020-07-23,0,107
 Vielsalm,2020-07-24,0,107
 Vielsalm,2020-07-25,0,107
 Vielsalm,2020-07-26,0,107
+Vielsalm,2020-07-27,0,107
 Vaux-sur-Sûre,2020-04-01,0,8
 Vaux-sur-Sûre,2020-04-02,1,9
 Vaux-sur-Sûre,2020-04-03,1,10
@@ -53891,6 +54389,7 @@ Vaux-sur-Sûre,2020-07-23,0,27
 Vaux-sur-Sûre,2020-07-24,0,27
 Vaux-sur-Sûre,2020-07-25,0,27
 Vaux-sur-Sûre,2020-07-26,0,27
+Vaux-sur-Sûre,2020-07-27,0,27
 Gouvy,2020-04-01,0,7
 Gouvy,2020-04-02,3,10
 Gouvy,2020-04-03,2,12
@@ -53999,6 +54498,7 @@ Gouvy,2020-07-23,0,42
 Gouvy,2020-07-24,1,43
 Gouvy,2020-07-25,0,43
 Gouvy,2020-07-26,0,43
+Gouvy,2020-07-27,0,43
 Sainte-Ode,2020-04-01,0,5
 Sainte-Ode,2020-04-02,0,5
 Sainte-Ode,2020-04-03,0,5
@@ -54107,6 +54607,7 @@ Sainte-Ode,2020-07-23,0,9
 Sainte-Ode,2020-07-24,0,9
 Sainte-Ode,2020-07-25,0,9
 Sainte-Ode,2020-07-26,0,9
+Sainte-Ode,2020-07-27,0,9
 Durbuy,2020-04-01,1,8
 Durbuy,2020-04-02,1,9
 Durbuy,2020-04-03,0,9
@@ -54215,6 +54716,7 @@ Durbuy,2020-07-23,0,67
 Durbuy,2020-07-24,0,67
 Durbuy,2020-07-25,0,67
 Durbuy,2020-07-26,0,67
+Durbuy,2020-07-27,0,67
 Erezée,2020-04-01,0,0
 Erezée,2020-04-02,0,0
 Erezée,2020-04-03,0,0
@@ -54323,6 +54825,7 @@ Erezée,2020-07-23,0,24
 Erezée,2020-07-24,0,24
 Erezée,2020-07-25,0,24
 Erezée,2020-07-26,0,24
+Erezée,2020-07-27,0,24
 Hotton,2020-04-01,0,11
 Hotton,2020-04-02,4,15
 Hotton,2020-04-03,2,17
@@ -54431,6 +54934,7 @@ Hotton,2020-07-23,0,47
 Hotton,2020-07-24,0,47
 Hotton,2020-07-25,0,47
 Hotton,2020-07-26,0,47
+Hotton,2020-07-27,0,47
 La Roche-en-Ardenne,2020-04-01,0,0
 La Roche-en-Ardenne,2020-04-02,0,0
 La Roche-en-Ardenne,2020-04-03,0,0
@@ -54539,6 +55043,7 @@ La Roche-en-Ardenne,2020-07-23,0,13
 La Roche-en-Ardenne,2020-07-24,0,13
 La Roche-en-Ardenne,2020-07-25,0,13
 La Roche-en-Ardenne,2020-07-26,0,13
+La Roche-en-Ardenne,2020-07-27,0,13
 Marche-en-Famenne,2020-04-01,0,23
 Marche-en-Famenne,2020-04-02,9,32
 Marche-en-Famenne,2020-04-03,4,36
@@ -54647,6 +55152,7 @@ Marche-en-Famenne,2020-07-23,0,108
 Marche-en-Famenne,2020-07-24,0,108
 Marche-en-Famenne,2020-07-25,0,108
 Marche-en-Famenne,2020-07-26,0,108
+Marche-en-Famenne,2020-07-27,0,108
 Nassogne,2020-04-01,0,0
 Nassogne,2020-04-02,5,5
 Nassogne,2020-04-03,0,5
@@ -54755,6 +55261,7 @@ Nassogne,2020-07-23,0,25
 Nassogne,2020-07-24,2,27
 Nassogne,2020-07-25,0,27
 Nassogne,2020-07-26,0,27
+Nassogne,2020-07-27,0,27
 Rendeux,2020-04-01,0,0
 Rendeux,2020-04-02,0,0
 Rendeux,2020-04-03,0,0
@@ -54863,6 +55370,7 @@ Rendeux,2020-07-23,0,17
 Rendeux,2020-07-24,0,17
 Rendeux,2020-07-25,0,17
 Rendeux,2020-07-26,0,17
+Rendeux,2020-07-27,0,17
 Tenneville,2020-04-01,0,0
 Tenneville,2020-04-02,0,0
 Tenneville,2020-04-03,5,5
@@ -54971,6 +55479,7 @@ Tenneville,2020-07-23,0,8
 Tenneville,2020-07-24,0,8
 Tenneville,2020-07-25,0,8
 Tenneville,2020-07-26,0,8
+Tenneville,2020-07-27,0,8
 Manhay,2020-04-01,0,8
 Manhay,2020-04-02,1,9
 Manhay,2020-04-03,1,10
@@ -55079,6 +55588,7 @@ Manhay,2020-07-23,1,21
 Manhay,2020-07-24,0,21
 Manhay,2020-07-25,0,21
 Manhay,2020-07-26,0,21
+Manhay,2020-07-27,0,21
 Bertrix,2020-04-01,1,21
 Bertrix,2020-04-02,3,24
 Bertrix,2020-04-03,0,24
@@ -55187,6 +55697,7 @@ Bertrix,2020-07-23,0,59
 Bertrix,2020-07-24,0,59
 Bertrix,2020-07-25,0,59
 Bertrix,2020-07-26,0,59
+Bertrix,2020-07-27,0,59
 Bouillon,2020-04-01,0,7
 Bouillon,2020-04-02,8,15
 Bouillon,2020-04-03,10,25
@@ -55295,6 +55806,7 @@ Bouillon,2020-07-23,0,98
 Bouillon,2020-07-24,0,98
 Bouillon,2020-07-25,0,98
 Bouillon,2020-07-26,0,98
+Bouillon,2020-07-27,0,98
 Daverdisse,2020-04-01,0,0
 Daverdisse,2020-04-02,0,0
 Daverdisse,2020-04-03,0,0
@@ -55403,6 +55915,7 @@ Daverdisse,2020-07-23,0,8
 Daverdisse,2020-07-24,0,8
 Daverdisse,2020-07-25,0,8
 Daverdisse,2020-07-26,0,8
+Daverdisse,2020-07-27,0,8
 Léglise,2020-04-01,1,8
 Léglise,2020-04-02,1,9
 Léglise,2020-04-03,0,9
@@ -55511,6 +56024,7 @@ Léglise,2020-07-23,0,22
 Léglise,2020-07-24,0,22
 Léglise,2020-07-25,0,22
 Léglise,2020-07-26,0,22
+Léglise,2020-07-27,0,22
 Libin,2020-04-01,0,0
 Libin,2020-04-02,0,0
 Libin,2020-04-03,0,0
@@ -55619,6 +56133,7 @@ Libin,2020-07-23,0,14
 Libin,2020-07-24,0,14
 Libin,2020-07-25,0,14
 Libin,2020-07-26,0,14
+Libin,2020-07-27,0,14
 Neufchâteau (Neufchâteau),2020-04-01,1,14
 Neufchâteau (Neufchâteau),2020-04-02,5,19
 Neufchâteau (Neufchâteau),2020-04-03,2,21
@@ -55727,6 +56242,7 @@ Neufchâteau (Neufchâteau),2020-07-23,2,76
 Neufchâteau (Neufchâteau),2020-07-24,0,76
 Neufchâteau (Neufchâteau),2020-07-25,0,76
 Neufchâteau (Neufchâteau),2020-07-26,0,76
+Neufchâteau (Neufchâteau),2020-07-27,0,76
 Paliseul,2020-04-01,0,10
 Paliseul,2020-04-02,2,12
 Paliseul,2020-04-03,1,13
@@ -55835,6 +56351,7 @@ Paliseul,2020-07-23,0,32
 Paliseul,2020-07-24,0,32
 Paliseul,2020-07-25,0,32
 Paliseul,2020-07-26,0,32
+Paliseul,2020-07-27,0,32
 Saint-Hubert,2020-04-01,0,8
 Saint-Hubert,2020-04-02,4,12
 Saint-Hubert,2020-04-03,0,12
@@ -55943,6 +56460,7 @@ Saint-Hubert,2020-07-23,0,21
 Saint-Hubert,2020-07-24,0,21
 Saint-Hubert,2020-07-25,0,21
 Saint-Hubert,2020-07-26,0,21
+Saint-Hubert,2020-07-27,0,21
 Wellin,2020-04-01,0,0
 Wellin,2020-04-02,5,5
 Wellin,2020-04-03,0,5
@@ -56051,6 +56569,7 @@ Wellin,2020-07-23,0,14
 Wellin,2020-07-24,0,14
 Wellin,2020-07-25,0,14
 Wellin,2020-07-26,0,14
+Wellin,2020-07-27,0,14
 Libramont-Chevigny,2020-04-01,1,16
 Libramont-Chevigny,2020-04-02,2,18
 Libramont-Chevigny,2020-04-03,4,22
@@ -56159,6 +56678,7 @@ Libramont-Chevigny,2020-07-23,0,86
 Libramont-Chevigny,2020-07-24,0,86
 Libramont-Chevigny,2020-07-25,0,86
 Libramont-Chevigny,2020-07-26,0,86
+Libramont-Chevigny,2020-07-27,0,86
 Chiny,2020-04-01,0,0
 Chiny,2020-04-02,0,0
 Chiny,2020-04-03,0,0
@@ -56267,6 +56787,7 @@ Chiny,2020-07-23,0,7
 Chiny,2020-07-24,0,7
 Chiny,2020-07-25,0,7
 Chiny,2020-07-26,0,7
+Chiny,2020-07-27,0,7
 Etalle,2020-04-01,0,0
 Etalle,2020-04-02,0,0
 Etalle,2020-04-03,0,0
@@ -56375,6 +56896,7 @@ Etalle,2020-07-23,0,12
 Etalle,2020-07-24,1,13
 Etalle,2020-07-25,0,13
 Etalle,2020-07-26,0,13
+Etalle,2020-07-27,0,13
 Musson,2020-04-01,0,0
 Musson,2020-04-02,5,5
 Musson,2020-04-03,1,6
@@ -56483,6 +57005,7 @@ Musson,2020-07-23,0,16
 Musson,2020-07-24,0,16
 Musson,2020-07-25,0,16
 Musson,2020-07-26,1,17
+Musson,2020-07-27,0,17
 Saint-Léger (Virton),2020-04-01,0,0
 Saint-Léger (Virton),2020-04-02,0,0
 Saint-Léger (Virton),2020-04-03,0,0
@@ -56591,6 +57114,7 @@ Saint-Léger (Virton),2020-07-23,0,7
 Saint-Léger (Virton),2020-07-24,0,7
 Saint-Léger (Virton),2020-07-25,0,7
 Saint-Léger (Virton),2020-07-26,0,7
+Saint-Léger (Virton),2020-07-27,0,7
 Tintigny,2020-04-01,0,0
 Tintigny,2020-04-02,0,0
 Tintigny,2020-04-03,0,0
@@ -56699,6 +57223,7 @@ Tintigny,2020-07-23,0,14
 Tintigny,2020-07-24,0,14
 Tintigny,2020-07-25,0,14
 Tintigny,2020-07-26,0,14
+Tintigny,2020-07-27,0,14
 Virton,2020-04-01,0,8
 Virton,2020-04-02,3,11
 Virton,2020-04-03,5,16
@@ -56807,6 +57332,7 @@ Virton,2020-07-23,0,38
 Virton,2020-07-24,0,38
 Virton,2020-07-25,0,38
 Virton,2020-07-26,0,38
+Virton,2020-07-27,0,38
 Habay,2020-04-01,0,0
 Habay,2020-04-02,0,0
 Habay,2020-04-03,5,5
@@ -56915,6 +57441,7 @@ Habay,2020-07-23,0,19
 Habay,2020-07-24,0,19
 Habay,2020-07-25,0,19
 Habay,2020-07-26,0,19
+Habay,2020-07-27,0,19
 Rouvroy,2020-04-01,0,0
 Rouvroy,2020-04-02,0,0
 Rouvroy,2020-04-03,9,9
@@ -57023,6 +57550,7 @@ Rouvroy,2020-07-23,0,26
 Rouvroy,2020-07-24,0,26
 Rouvroy,2020-07-25,0,26
 Rouvroy,2020-07-26,0,26
+Rouvroy,2020-07-27,0,26
 Anhée,2020-04-01,0,6
 Anhée,2020-04-02,1,7
 Anhée,2020-04-03,0,7
@@ -57131,6 +57659,7 @@ Anhée,2020-07-23,0,28
 Anhée,2020-07-24,0,28
 Anhée,2020-07-25,0,28
 Anhée,2020-07-26,0,28
+Anhée,2020-07-27,0,28
 Beauraing,2020-04-01,0,7
 Beauraing,2020-04-02,0,7
 Beauraing,2020-04-03,1,8
@@ -57239,6 +57768,7 @@ Beauraing,2020-07-23,0,31
 Beauraing,2020-07-24,0,31
 Beauraing,2020-07-25,0,31
 Beauraing,2020-07-26,0,31
+Beauraing,2020-07-27,0,31
 Bièvre,2020-04-01,0,0
 Bièvre,2020-04-02,5,5
 Bièvre,2020-04-03,0,5
@@ -57347,6 +57877,7 @@ Bièvre,2020-07-23,0,13
 Bièvre,2020-07-24,0,13
 Bièvre,2020-07-25,0,13
 Bièvre,2020-07-26,1,14
+Bièvre,2020-07-27,0,14
 Ciney,2020-04-01,4,12
 Ciney,2020-04-02,7,19
 Ciney,2020-04-03,2,21
@@ -57455,6 +57986,7 @@ Ciney,2020-07-23,1,90
 Ciney,2020-07-24,0,90
 Ciney,2020-07-25,0,90
 Ciney,2020-07-26,0,90
+Ciney,2020-07-27,0,90
 Dinant,2020-04-01,0,0
 Dinant,2020-04-02,0,0
 Dinant,2020-04-03,0,0
@@ -57563,6 +58095,7 @@ Dinant,2020-07-23,0,38
 Dinant,2020-07-24,0,38
 Dinant,2020-07-25,0,38
 Dinant,2020-07-26,0,38
+Dinant,2020-07-27,0,38
 Gedinne,2020-04-01,0,0
 Gedinne,2020-04-02,0,0
 Gedinne,2020-04-03,0,0
@@ -57671,6 +58204,7 @@ Gedinne,2020-07-23,0,5
 Gedinne,2020-07-24,0,5
 Gedinne,2020-07-25,0,5
 Gedinne,2020-07-26,0,5
+Gedinne,2020-07-27,0,5
 Hamois,2020-04-01,0,5
 Hamois,2020-04-02,2,7
 Hamois,2020-04-03,2,9
@@ -57779,6 +58313,7 @@ Hamois,2020-07-23,0,35
 Hamois,2020-07-24,0,35
 Hamois,2020-07-25,0,35
 Hamois,2020-07-26,0,35
+Hamois,2020-07-27,0,35
 Havelange,2020-04-01,0,9
 Havelange,2020-04-02,0,9
 Havelange,2020-04-03,0,9
@@ -57887,6 +58422,7 @@ Havelange,2020-07-23,1,29
 Havelange,2020-07-24,0,29
 Havelange,2020-07-25,0,29
 Havelange,2020-07-26,0,29
+Havelange,2020-07-27,0,29
 Houyet,2020-04-01,0,0
 Houyet,2020-04-02,0,0
 Houyet,2020-04-03,0,0
@@ -57995,6 +58531,7 @@ Houyet,2020-07-23,0,10
 Houyet,2020-07-24,0,10
 Houyet,2020-07-25,0,10
 Houyet,2020-07-26,0,10
+Houyet,2020-07-27,0,10
 Onhaye,2020-04-01,1,6
 Onhaye,2020-04-02,1,7
 Onhaye,2020-04-03,0,7
@@ -58103,6 +58640,7 @@ Onhaye,2020-07-23,0,22
 Onhaye,2020-07-24,0,22
 Onhaye,2020-07-25,0,22
 Onhaye,2020-07-26,0,22
+Onhaye,2020-07-27,0,22
 Rochefort,2020-04-01,2,11
 Rochefort,2020-04-02,0,11
 Rochefort,2020-04-03,0,11
@@ -58211,6 +58749,7 @@ Rochefort,2020-07-23,0,45
 Rochefort,2020-07-24,0,45
 Rochefort,2020-07-25,0,45
 Rochefort,2020-07-26,0,45
+Rochefort,2020-07-27,0,45
 Somme-Leuze,2020-04-01,0,0
 Somme-Leuze,2020-04-02,6,6
 Somme-Leuze,2020-04-03,1,7
@@ -58319,6 +58858,7 @@ Somme-Leuze,2020-07-23,0,17
 Somme-Leuze,2020-07-24,0,17
 Somme-Leuze,2020-07-25,0,17
 Somme-Leuze,2020-07-26,0,17
+Somme-Leuze,2020-07-27,0,17
 Yvoir,2020-04-01,0,13
 Yvoir,2020-04-02,3,16
 Yvoir,2020-04-03,1,17
@@ -58427,6 +58967,7 @@ Yvoir,2020-07-23,0,56
 Yvoir,2020-07-24,0,56
 Yvoir,2020-07-25,1,57
 Yvoir,2020-07-26,0,57
+Yvoir,2020-07-27,0,57
 Hastière,2020-04-01,0,0
 Hastière,2020-04-02,0,0
 Hastière,2020-04-03,0,0
@@ -58535,6 +59076,7 @@ Hastière,2020-07-23,0,15
 Hastière,2020-07-24,0,15
 Hastière,2020-07-25,0,15
 Hastière,2020-07-26,0,15
+Hastière,2020-07-27,0,15
 Andenne,2020-04-01,0,28
 Andenne,2020-04-02,3,31
 Andenne,2020-04-03,3,34
@@ -58643,6 +59185,7 @@ Andenne,2020-07-23,0,130
 Andenne,2020-07-24,0,130
 Andenne,2020-07-25,0,130
 Andenne,2020-07-26,0,130
+Andenne,2020-07-27,0,130
 Assesse,2020-04-01,0,8
 Assesse,2020-04-02,0,8
 Assesse,2020-04-03,1,9
@@ -58751,6 +59294,7 @@ Assesse,2020-07-23,1,35
 Assesse,2020-07-24,0,35
 Assesse,2020-07-25,0,35
 Assesse,2020-07-26,0,35
+Assesse,2020-07-27,0,35
 Eghezée,2020-04-01,2,25
 Eghezée,2020-04-02,4,29
 Eghezée,2020-04-03,1,30
@@ -58859,6 +59403,7 @@ Eghezée,2020-07-23,1,107
 Eghezée,2020-07-24,0,107
 Eghezée,2020-07-25,0,107
 Eghezée,2020-07-26,0,107
+Eghezée,2020-07-27,0,107
 Floreffe,2020-04-01,0,0
 Floreffe,2020-04-02,7,7
 Floreffe,2020-04-03,0,7
@@ -58967,6 +59512,7 @@ Floreffe,2020-07-23,0,29
 Floreffe,2020-07-24,0,29
 Floreffe,2020-07-25,0,29
 Floreffe,2020-07-26,0,29
+Floreffe,2020-07-27,0,29
 Fosses-la-Ville,2020-04-01,1,7
 Fosses-la-Ville,2020-04-02,0,7
 Fosses-la-Ville,2020-04-03,0,7
@@ -59075,6 +59621,7 @@ Fosses-la-Ville,2020-07-23,0,43
 Fosses-la-Ville,2020-07-24,0,43
 Fosses-la-Ville,2020-07-25,0,43
 Fosses-la-Ville,2020-07-26,0,43
+Fosses-la-Ville,2020-07-27,0,43
 Gesves,2020-04-01,0,0
 Gesves,2020-04-02,5,5
 Gesves,2020-04-03,0,5
@@ -59183,6 +59730,7 @@ Gesves,2020-07-23,0,39
 Gesves,2020-07-24,0,39
 Gesves,2020-07-25,0,39
 Gesves,2020-07-26,0,39
+Gesves,2020-07-27,0,39
 Mettet,2020-04-01,0,8
 Mettet,2020-04-02,2,10
 Mettet,2020-04-03,0,10
@@ -59291,6 +59839,7 @@ Mettet,2020-07-23,0,59
 Mettet,2020-07-24,0,59
 Mettet,2020-07-25,0,59
 Mettet,2020-07-26,0,59
+Mettet,2020-07-27,0,59
 Namen,2020-04-01,6,76
 Namen,2020-04-02,13,89
 Namen,2020-04-03,8,97
@@ -59399,6 +59948,7 @@ Namen,2020-07-23,9,702
 Namen,2020-07-24,3,705
 Namen,2020-07-25,0,705
 Namen,2020-07-26,0,705
+Namen,2020-07-27,0,705
 Ohey,2020-04-01,0,0
 Ohey,2020-04-02,0,0
 Ohey,2020-04-03,0,0
@@ -59507,6 +60057,7 @@ Ohey,2020-07-23,0,16
 Ohey,2020-07-24,0,16
 Ohey,2020-07-25,0,16
 Ohey,2020-07-26,0,16
+Ohey,2020-07-27,0,16
 Profondeville,2020-04-01,0,13
 Profondeville,2020-04-02,1,14
 Profondeville,2020-04-03,0,14
@@ -59615,6 +60166,7 @@ Profondeville,2020-07-23,1,60
 Profondeville,2020-07-24,0,60
 Profondeville,2020-07-25,0,60
 Profondeville,2020-07-26,0,60
+Profondeville,2020-07-27,0,60
 Sombreffe,2020-04-01,0,5
 Sombreffe,2020-04-02,0,5
 Sombreffe,2020-04-03,1,6
@@ -59723,6 +60275,7 @@ Sombreffe,2020-07-23,0,31
 Sombreffe,2020-07-24,0,31
 Sombreffe,2020-07-25,1,32
 Sombreffe,2020-07-26,0,32
+Sombreffe,2020-07-27,0,32
 Sambreville,2020-04-01,0,14
 Sambreville,2020-04-02,4,18
 Sambreville,2020-04-03,0,18
@@ -59831,6 +60384,7 @@ Sambreville,2020-07-23,0,190
 Sambreville,2020-07-24,0,190
 Sambreville,2020-07-25,1,191
 Sambreville,2020-07-26,0,191
+Sambreville,2020-07-27,0,191
 Fernelmont,2020-04-01,0,0
 Fernelmont,2020-04-02,0,0
 Fernelmont,2020-04-03,0,0
@@ -59939,6 +60493,7 @@ Fernelmont,2020-07-23,2,29
 Fernelmont,2020-07-24,0,29
 Fernelmont,2020-07-25,0,29
 Fernelmont,2020-07-26,0,29
+Fernelmont,2020-07-27,0,29
 Jemeppe-sur-Sambre,2020-04-01,0,11
 Jemeppe-sur-Sambre,2020-04-02,1,12
 Jemeppe-sur-Sambre,2020-04-03,0,12
@@ -60047,6 +60602,7 @@ Jemeppe-sur-Sambre,2020-07-23,3,88
 Jemeppe-sur-Sambre,2020-07-24,0,88
 Jemeppe-sur-Sambre,2020-07-25,0,88
 Jemeppe-sur-Sambre,2020-07-26,0,88
+Jemeppe-sur-Sambre,2020-07-27,0,88
 La Bruyère,2020-04-01,5,5
 La Bruyère,2020-04-02,3,8
 La Bruyère,2020-04-03,0,8
@@ -60155,6 +60711,7 @@ La Bruyère,2020-07-23,0,35
 La Bruyère,2020-07-24,0,35
 La Bruyère,2020-07-25,0,35
 La Bruyère,2020-07-26,0,35
+La Bruyère,2020-07-27,0,35
 Gembloux,2020-04-01,0,20
 Gembloux,2020-04-02,5,25
 Gembloux,2020-04-03,11,36
@@ -60263,6 +60820,7 @@ Gembloux,2020-07-23,0,146
 Gembloux,2020-07-24,0,146
 Gembloux,2020-07-25,0,146
 Gembloux,2020-07-26,1,147
+Gembloux,2020-07-27,0,147
 Cerfontaine,2020-04-01,0,0
 Cerfontaine,2020-04-02,0,0
 Cerfontaine,2020-04-03,0,0
@@ -60371,6 +60929,7 @@ Cerfontaine,2020-07-23,0,13
 Cerfontaine,2020-07-24,0,13
 Cerfontaine,2020-07-25,1,14
 Cerfontaine,2020-07-26,0,14
+Cerfontaine,2020-07-27,0,14
 Couvin,2020-04-01,0,9
 Couvin,2020-04-02,2,11
 Couvin,2020-04-03,0,11
@@ -60479,6 +61038,7 @@ Couvin,2020-07-23,0,70
 Couvin,2020-07-24,0,70
 Couvin,2020-07-25,0,70
 Couvin,2020-07-26,0,70
+Couvin,2020-07-27,0,70
 Florennes,2020-04-01,0,9
 Florennes,2020-04-02,0,9
 Florennes,2020-04-03,0,9
@@ -60587,6 +61147,7 @@ Florennes,2020-07-23,0,35
 Florennes,2020-07-24,0,35
 Florennes,2020-07-25,1,36
 Florennes,2020-07-26,2,38
+Florennes,2020-07-27,0,38
 Philippeville,2020-04-01,0,0
 Philippeville,2020-04-02,0,0
 Philippeville,2020-04-03,0,0
@@ -60695,6 +61256,7 @@ Philippeville,2020-07-23,0,16
 Philippeville,2020-07-24,0,16
 Philippeville,2020-07-25,0,16
 Philippeville,2020-07-26,2,18
+Philippeville,2020-07-27,0,18
 Walcourt,2020-04-01,0,0
 Walcourt,2020-04-02,6,6
 Walcourt,2020-04-03,0,6
@@ -60803,6 +61365,7 @@ Walcourt,2020-07-23,0,65
 Walcourt,2020-07-24,0,65
 Walcourt,2020-07-25,3,68
 Walcourt,2020-07-26,0,68
+Walcourt,2020-07-27,0,68
 Viroinval,2020-04-01,5,5
 Viroinval,2020-04-02,0,5
 Viroinval,2020-04-03,0,5
@@ -60911,6 +61474,7 @@ Viroinval,2020-07-23,0,15
 Viroinval,2020-07-24,0,15
 Viroinval,2020-07-25,0,15
 Viroinval,2020-07-26,0,15
+Viroinval,2020-07-27,0,15
 NA,2020-04-01,24,262
 NA,2020-04-02,18,280
 NA,2020-04-03,16,296
@@ -61019,6 +61583,7 @@ NA,2020-07-23,3,1482
 NA,2020-07-24,6,1488
 NA,2020-07-25,8,1496
 NA,2020-07-26,8,1504
+NA,2020-07-27,3,1507
 Wortegem-Petegem,2020-04-02,0,0
 Wortegem-Petegem,2020-04-03,5,5
 Wortegem-Petegem,2020-04-04,2,7
@@ -61126,6 +61691,7 @@ Wortegem-Petegem,2020-07-23,0,34
 Wortegem-Petegem,2020-07-24,0,34
 Wortegem-Petegem,2020-07-25,0,34
 Wortegem-Petegem,2020-07-26,0,34
+Wortegem-Petegem,2020-07-27,0,34
 Antoing,2020-04-02,0,0
 Antoing,2020-04-03,0,0
 Antoing,2020-04-04,0,0
@@ -61233,6 +61799,7 @@ Antoing,2020-07-23,0,17
 Antoing,2020-07-24,0,17
 Antoing,2020-07-25,0,17
 Antoing,2020-07-26,0,17
+Antoing,2020-07-27,0,17
 Sivry-Rance,2020-04-03,0,0
 Sivry-Rance,2020-04-04,0,0
 Sivry-Rance,2020-04-05,0,0
@@ -61339,6 +61906,7 @@ Sivry-Rance,2020-07-23,1,12
 Sivry-Rance,2020-07-24,0,12
 Sivry-Rance,2020-07-25,0,12
 Sivry-Rance,2020-07-26,0,12
+Sivry-Rance,2020-07-27,0,12
 Brunehaut,2020-04-03,0,0
 Brunehaut,2020-04-04,0,0
 Brunehaut,2020-04-05,0,0
@@ -61445,6 +62013,7 @@ Brunehaut,2020-07-23,0,44
 Brunehaut,2020-07-24,0,44
 Brunehaut,2020-07-25,1,45
 Brunehaut,2020-07-26,0,45
+Brunehaut,2020-07-27,0,45
 Mont-de-l’Enclus,2020-04-03,0,0
 Mont-de-l’Enclus,2020-04-04,0,0
 Mont-de-l’Enclus,2020-04-05,0,0
@@ -61551,6 +62120,7 @@ Mont-de-l’Enclus,2020-07-23,0,10
 Mont-de-l’Enclus,2020-07-24,0,10
 Mont-de-l’Enclus,2020-07-25,0,10
 Mont-de-l’Enclus,2020-07-26,0,10
+Mont-de-l’Enclus,2020-07-27,0,10
 Stoumont,2020-04-03,0,0
 Stoumont,2020-04-04,0,0
 Stoumont,2020-04-05,0,0
@@ -61657,6 +62227,7 @@ Stoumont,2020-07-23,0,16
 Stoumont,2020-07-24,0,16
 Stoumont,2020-07-25,0,16
 Stoumont,2020-07-26,0,16
+Stoumont,2020-07-27,0,16
 Tellin,2020-04-03,0,0
 Tellin,2020-04-04,0,0
 Tellin,2020-04-05,0,0
@@ -61763,6 +62334,7 @@ Tellin,2020-07-23,0,0
 Tellin,2020-07-24,0,0
 Tellin,2020-07-25,0,0
 Tellin,2020-07-26,0,0
+Tellin,2020-07-27,0,0
 Doische,2020-04-03,0,0
 Doische,2020-04-04,0,0
 Doische,2020-04-05,0,0
@@ -61869,6 +62441,7 @@ Doische,2020-07-23,0,6
 Doische,2020-07-24,0,6
 Doische,2020-07-25,0,6
 Doische,2020-07-26,0,6
+Doische,2020-07-27,0,6
 Bever,2020-04-04,0,0
 Bever,2020-04-05,0,0
 Bever,2020-04-06,0,0
@@ -61974,6 +62547,7 @@ Bever,2020-07-23,0,0
 Bever,2020-07-24,0,0
 Bever,2020-07-25,0,0
 Bever,2020-07-26,0,0
+Bever,2020-07-27,0,0
 Zuienkerke,2020-04-04,0,0
 Zuienkerke,2020-04-05,0,0
 Zuienkerke,2020-04-06,0,0
@@ -62079,6 +62653,7 @@ Zuienkerke,2020-07-23,0,9
 Zuienkerke,2020-07-24,0,9
 Zuienkerke,2020-07-25,0,9
 Zuienkerke,2020-07-26,0,9
+Zuienkerke,2020-07-27,0,9
 Trois-Ponts,2020-04-04,0,0
 Trois-Ponts,2020-04-05,0,0
 Trois-Ponts,2020-04-06,0,0
@@ -62184,6 +62759,7 @@ Trois-Ponts,2020-07-23,1,6
 Trois-Ponts,2020-07-24,0,6
 Trois-Ponts,2020-07-25,0,6
 Trois-Ponts,2020-07-26,0,6
+Trois-Ponts,2020-07-27,0,6
 Herstappe,2020-04-04,0,0
 Herstappe,2020-04-05,0,0
 Herstappe,2020-04-06,0,0
@@ -62289,6 +62865,7 @@ Herstappe,2020-07-23,0,0
 Herstappe,2020-07-24,0,0
 Herstappe,2020-07-25,0,0
 Herstappe,2020-07-26,0,0
+Herstappe,2020-07-27,0,0
 Martelange,2020-04-04,0,0
 Martelange,2020-04-05,0,0
 Martelange,2020-04-06,0,0
@@ -62394,6 +62971,7 @@ Martelange,2020-07-23,0,0
 Martelange,2020-07-24,0,0
 Martelange,2020-07-25,0,0
 Martelange,2020-07-26,0,0
+Martelange,2020-07-27,0,0
 Herbeumont,2020-04-04,0,0
 Herbeumont,2020-04-05,0,0
 Herbeumont,2020-04-06,0,0
@@ -62499,6 +63077,7 @@ Herbeumont,2020-07-23,0,0
 Herbeumont,2020-07-24,0,0
 Herbeumont,2020-07-25,0,0
 Herbeumont,2020-07-26,0,0
+Herbeumont,2020-07-27,0,0
 Florenville,2020-04-04,0,0
 Florenville,2020-04-05,0,0
 Florenville,2020-04-06,0,0
@@ -62604,6 +63183,7 @@ Florenville,2020-07-23,0,15
 Florenville,2020-07-24,0,15
 Florenville,2020-07-25,0,15
 Florenville,2020-07-26,0,15
+Florenville,2020-07-27,0,15
 Meix-devant-Virton,2020-04-04,0,0
 Meix-devant-Virton,2020-04-05,0,0
 Meix-devant-Virton,2020-04-06,0,0
@@ -62709,6 +63289,7 @@ Meix-devant-Virton,2020-07-23,0,5
 Meix-devant-Virton,2020-07-24,0,5
 Meix-devant-Virton,2020-07-25,0,5
 Meix-devant-Virton,2020-07-26,0,5
+Meix-devant-Virton,2020-07-27,0,5
 Vresse-sur-Semois,2020-04-04,0,0
 Vresse-sur-Semois,2020-04-05,0,0
 Vresse-sur-Semois,2020-04-06,0,0
@@ -62814,3 +63395,4 @@ Vresse-sur-Semois,2020-07-23,0,11
 Vresse-sur-Semois,2020-07-24,0,11
 Vresse-sur-Semois,2020-07-25,0,11
 Vresse-sur-Semois,2020-07-26,0,11
+Vresse-sur-Semois,2020-07-27,0,11
