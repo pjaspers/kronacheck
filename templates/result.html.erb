@@ -12,6 +12,9 @@
   <body>
     <header>
       <h1>🦠 <span>kronacheck</span></h1>
+      <div class="search">
+      <input type="search" class="citySearch" value="" name="">
+      </div>
       <div class="about">
         <input type="checkbox" id="about">
         <label class="open" for="about">About</label>
@@ -81,28 +84,50 @@
       <% end %>
     </table>
     <script type="text/javascript">
-     const cellValue = (tr, index) => tr.children[index].innerText || tr.children[index].textContent;
+      let timeout = null;
+      const searchInput = document.querySelector('.citySearch')
 
-     const comparer = (index, asc) => (a, b) => ((v1, v2) => {
-       if (v1 !== '' && v2 !== '' && !isNaN(v1) && !isNaN(v2)) {
-         return v1 - v2;
-       } else {
-         return v1.toString().localeCompare(v2);
-       }
-     })(cellValue(asc ? a : b, index), cellValue(asc ? b : a, index));
+      searchInput.addEventListener('input', function (e) {
+        clearTimeout(timeout);
 
-     document.querySelectorAll('th').forEach(th => th.addEventListener('click', (() => {
-       const table = th.closest('table');
-       const lastRow = table.querySelector("tr:last-child");
-       const trParent = lastRow.parentNode;
-       Array.from(th.parentNode.querySelectorAll("th")).map(e => e.classList.remove("sort", "sort--asc", "sort--desc"))
-       th.classList.add("sort", "sort", !!!this.asc ? "sort--asc" : "sort--desc")
-       trParent.removeChild(lastRow)
-       Array.from(table.querySelectorAll("tr:nth-child(n+2):not(last-child)"))
-            .sort(comparer(Array.from(th.parentNode.children).indexOf(th), this.asc = !this.asc))
-            .forEach(tr => trParent.appendChild(tr));
-       trParent.appendChild(lastRow)
-     })));
+        const inputValue = e.target.value;
+
+        timeout = setTimeout(function () {
+          document.querySelectorAll("tr").forEach( (r) => {
+            var cell = r.querySelector('td');
+            if(cell) {
+              let city = cell.innerHTML
+              if(!city.toLowerCase().includes(inputValue.toLowerCase())) {
+                r.classList.add('filtered')
+              } else {
+                r.classList.remove('filtered')
+              }
+            }
+          })
+        }, 200);
+      });
+      const cellValue = (tr, index) => tr.children[index].innerText || tr.children[index].textContent;
+
+      const comparer = (index, asc) => (a, b) => ((v1, v2) => {
+        if (v1 !== '' && v2 !== '' && !isNaN(v1) && !isNaN(v2)) {
+          return v1 - v2;
+        } else {
+          return v1.toString().localeCompare(v2);
+        }
+      })(cellValue(asc ? a : b, index), cellValue(asc ? b : a, index));
+
+      document.querySelectorAll('th').forEach(th => th.addEventListener('click', (() => {
+        const table = th.closest('table');
+        const lastRow = table.querySelector("tr:last-child");
+        const trParent = lastRow.parentNode;
+        Array.from(th.parentNode.querySelectorAll("th")).map(e => e.classList.remove("sort", "sort--asc", "sort--desc"))
+        th.classList.add("sort", "sort", !!!this.asc ? "sort--asc" : "sort--desc")
+        trParent.removeChild(lastRow)
+        Array.from(table.querySelectorAll("tr:nth-child(n+2):not(last-child)"))
+          .sort(comparer(Array.from(th.parentNode.children).indexOf(th), this.asc = !this.asc))
+          .forEach(tr => trParent.appendChild(tr));
+        trParent.appendChild(lastRow)
+      })));
     </script>
   </body>
 </html>
