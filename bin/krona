@@ -56,7 +56,8 @@ end
 case action
 when "cities"
   if options[:output] == "html"
-    html = Krona::HTMLPrinter.new(parser.cities, title: "Cities").html
+    today = Date.today.strftime("%a %d/%m")
+    html = Krona::HTMLPrinter.new(parser.cities, title: "Kronacheck on #{today}").html
     output_or_save(html, options[:file_name])
   else
     Krona::ShellPrinter.new(parser.cities, title: "Cities").overview
@@ -70,7 +71,8 @@ when "provinces"
   end
 when "twitterpp"
   if options[:output] == "html"
-    html = Krona::HTMLPrinter.new(parser.cities, limit_to: CITIES, title: "Kronacheck").html
+    today = Date.today.strftime("%a %d/%m")
+    html = Krona::HTMLPrinter.new(parser.cities, limit_to: CITIES, title: "Kronacheck on #{today}").html
     output_or_save(html, options[:file_name])
   else
     Krona::ShellPrinter.new(parser.cities, limit_to: CITIES, title: "Cities").overview
