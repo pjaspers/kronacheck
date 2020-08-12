@@ -11,7 +11,7 @@
         <meta name="viewport" content="user-scalable=no, initial-scale=1, width=device-width">
     <meta charset="UTF-8">
     <link rel="stylesheet" href="a-maxvoltar-special.css">
-    <!-- Generated on 2020-08-12 01:43:03 +0000 -->
+    <!-- Generated on 2020-08-12 17:45:05 +0200 -->
   </head>
   <body>
     <header>
@@ -549,6 +549,14 @@
                   </tr>
           </table>
     <script type="text/javascript">
+     const normalizer = (string) => {
+       return (string || "")
+         .normalize("NFD")
+         .replace(/[\u0300-\u036f]/g, "")
+         .trim()
+         .replace(/ /g,"-")
+         .toLowerCase();
+     }
      const cellValue = (tr, index) => tr.children[index].innerText || tr.children[index].textContent;
 
      const comparer = (index, asc) => (a, b) => ((v1, v2) => {
@@ -571,6 +579,23 @@
             .forEach(tr => trParent.appendChild(tr));
        trParent.appendChild(lastRow)
      })));
+
+     const params = new URLSearchParams(window.location.href.split("?")[1]);
+
+     const locations = (params.get("locations") || "").split(",").filter(e => e).map(e => e.toLowerCase()).map(e => e.trim());
+     if (locations.length > 0) {
+       document.querySelectorAll("tr:nth-child(n+2):not(:last-child)").forEach( r => {
+         const cell = r.querySelector('td');
+         if(cell) {
+           let city = normalizer(cell.innerHTML);
+           if(locations.includes(city)) {
+             r.classList.remove('filtered')
+           } else {
+             r.classList.add('filtered')
+           }
+         }
+       });
+     }
     </script>
   </body>
 </html>

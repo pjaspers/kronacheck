@@ -389,4 +389,8 @@ table tr:last-child td:not(:first-child) {
 .styled > :last-child {
   margin-bottom: 0;
 }
+
+.filtered {
+  display: none;
+}
 /*# sourceMappingURL=a-maxvoltar-special.css.map */
