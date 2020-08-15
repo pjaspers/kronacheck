@@ -3,7 +3,9 @@ use Rack::Static, :urls => { "/a-maxvoltar-special.css" => "a-maxvoltar-special.
 use Rack::Static, :urls => { "/a-maxvoltar-special.css.map" => "a-maxvoltar-special.css.map" }
 use Rack::Static, :urls => {"/" => 'today-all.html'}
 use Rack::Static, :urls => {"/tpp" => 'today-twitterpp.html'}
-use Rack::Static, :urls => {"/all.csv" => 'all-results.csv'}
+use Rack::Static, :urls => {"/all.csv" => 'all-results.csv'}, :header_rules => [
+      [:all, {'Access-Control-Allow-Origin' => '*'}]
+    ]
 
 run lambda { |env|
   [
