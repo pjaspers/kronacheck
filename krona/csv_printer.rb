@@ -12,11 +12,12 @@ module Krona
 
     def csv
       CSV.generate do |csv|
-        csv << %w(city date delta total)
-        data.each do |city, data|
+        csv << %w(city nis date delta total)
+        data.each do |city_with_nis, data|
+          city, nis = city_with_nis.split(",")
           next if city == Parser::TOTAL_KEY
           data.each do |(date, delta, total)|
-            csv << [city, date.to_s, delta, total]
+            csv << [city, nis, date.to_s, delta, total]
           end
         end
       end

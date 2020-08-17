@@ -11,6 +11,7 @@ module Krona
       @directory = directory
       @provinces = {}
       @cities = {}
+      @nis = {}
     end
 
     def csv_files
@@ -32,6 +33,19 @@ module Krona
         end
         result
       end
+    end
+
+    def cities_with_nis(last_n_days: 10)
+      result = cities(last_n_days: last_n_days)
+      result.inject({}) do |r, (city, data)|
+        new_name = [city, nis[city]].join(",")
+        r[new_name] = data
+        r
+      end
+    end
+
+    def nis
+      @nis
     end
 
     def provinces(last_n_days: 10)
@@ -61,6 +75,7 @@ module Krona
           cases = row["CASES"].to_i
           total_cases += cases
           province = row["TX_PROV_DESCR_NL"]
+          nis_number = row["NIS5"]
           @provinces[province] ||=  {}
           @provinces[province][date] ||= 0
           @provinces[province][date] += cases
@@ -68,6 +83,8 @@ module Krona
           @cities[city] ||= {}
           @cities[city][date] ||= 0
           @cities[city][date] += cases
+
+          @nis[city] ||= nis_number
         end
         @cities[TOTAL_KEY] ||= []
         @cities[TOTAL_KEY] << [date, total_cases]

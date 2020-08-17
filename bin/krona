@@ -78,7 +78,7 @@ when "twitterpp"
     Krona::ShellPrinter.new(parser.cities, limit_to: CITIES, title: "Cities").overview
   end
 when "csv"
-  csv =  Krona::CSVPrinter.new(parser.cities(last_n_days: 1000), title: "Cities").csv
+  csv =  Krona::CSVPrinter.new(parser.cities_with_nis(last_n_days: 1000), title: "Cities").csv
   output_or_save(csv, options[:file_name])
 when "fetch"
   Krona::Fetcher.new(Krona::START_DATE).call
