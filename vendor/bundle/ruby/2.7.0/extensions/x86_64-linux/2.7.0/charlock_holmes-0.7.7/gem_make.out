@@ -1,0 +1,23 @@
+current directory: /home/runner/work/kronacheck/kronacheck/vendor/bundle/ruby/2.7.0/gems/charlock_holmes-0.7.7/ext/charlock_holmes
+/home/runner/.rubies/ruby-2.7.1/bin/ruby -I /home/runner/.rubies/ruby-2.7.1/lib/ruby/2.7.0 -r ./siteconf20201029-2393-3pgqd6.rb extconf.rb
+checking for -licui18n... yes
+checking for unicode/ucnv.h... yes
+checking for -lz... yes
+checking for -licuuc... yes
+checking for -licudata... yes
+creating Makefile
+
+current directory: /home/runner/work/kronacheck/kronacheck/vendor/bundle/ruby/2.7.0/gems/charlock_holmes-0.7.7/ext/charlock_holmes
+make "DESTDIR=" clean
+
+current directory: /home/runner/work/kronacheck/kronacheck/vendor/bundle/ruby/2.7.0/gems/charlock_holmes-0.7.7/ext/charlock_holmes
+make "DESTDIR="
+compiling converter.c
+compiling encoding_detector.c
+compiling ext.c
+compiling transliterator.cpp
+linking shared-object charlock_holmes/charlock_holmes.so
+
+current directory: /home/runner/work/kronacheck/kronacheck/vendor/bundle/ruby/2.7.0/gems/charlock_holmes-0.7.7/ext/charlock_holmes
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 charlock_holmes.so ./.gem.20201029-2393-aam95j/charlock_holmes

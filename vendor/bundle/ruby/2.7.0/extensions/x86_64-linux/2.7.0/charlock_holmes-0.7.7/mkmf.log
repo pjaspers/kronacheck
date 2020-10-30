@@ -1,0 +1,197 @@
+"pkg-config --exists icu-i18n"
+| pkg-config --libs icu-i18n
+=> "-licui18n -licuuc -licudata\n"
+"gcc -o conftest -I/home/runner/.rubies/ruby-2.7.1/include/ruby-2.7.0/x86_64-linux -I/home/runner/.rubies/ruby-2.7.1/include/ruby-2.7.0/ruby/backward -I/home/runner/.rubies/ruby-2.7.1/include/ruby-2.7.0 -I. -DENABLE_PATH_CHECK=0   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC conftest.c  -L. -L/home/runner/.rubies/ruby-2.7.1/lib -Wl,-rpath,/home/runner/.rubies/ruby-2.7.1/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic     -Wl,-rpath,/home/runner/.rubies/ruby-2.7.1/lib -L/home/runner/.rubies/ruby-2.7.1/lib -lruby  -lm   -lc"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return !!argv[argc];
+6: }
+/* end */
+
+"gcc -o conftest -I/home/runner/.rubies/ruby-2.7.1/include/ruby-2.7.0/x86_64-linux -I/home/runner/.rubies/ruby-2.7.1/include/ruby-2.7.0/ruby/backward -I/home/runner/.rubies/ruby-2.7.1/include/ruby-2.7.0 -I. -DENABLE_PATH_CHECK=0   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC conftest.c  -L. -L/home/runner/.rubies/ruby-2.7.1/lib -Wl,-rpath,/home/runner/.rubies/ruby-2.7.1/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic     -Wl,-rpath,/home/runner/.rubies/ruby-2.7.1/lib -L/home/runner/.rubies/ruby-2.7.1/lib -lruby -licui18n -licuuc -licudata -lm   -lc"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return !!argv[argc];
+6: }
+/* end */
+
+| pkg-config --cflags-only-I icu-i18n
+=> "\n"
+| pkg-config --cflags-only-other icu-i18n
+=> "\n"
+| pkg-config --libs-only-l icu-i18n
+=> "-licui18n -licuuc -licudata\n"
+package configuration for icu-i18n
+incflags: 
+cflags: 
+ldflags: 
+libs: -licui18n -licuuc -licudata
+
+"pkg-config --exists icu-io"
+| pkg-config --libs icu-io
+=> "-licuio -licui18n -licuuc -licudata\n"
+"gcc -o conftest -I/home/runner/.rubies/ruby-2.7.1/include/ruby-2.7.0/x86_64-linux -I/home/runner/.rubies/ruby-2.7.1/include/ruby-2.7.0/ruby/backward -I/home/runner/.rubies/ruby-2.7.1/include/ruby-2.7.0 -I.  -DENABLE_PATH_CHECK=0   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c  -L. -L/home/runner/.rubies/ruby-2.7.1/lib -Wl,-rpath,/home/runner/.rubies/ruby-2.7.1/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic      -licui18n -licuuc -licudata -Wl,-rpath,/home/runner/.rubies/ruby-2.7.1/lib -L/home/runner/.rubies/ruby-2.7.1/lib -lruby -licuio -licui18n -licuuc -licudata -lm   -lc"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return !!argv[argc];
+6: }
+/* end */
+
+| pkg-config --cflags-only-I icu-io
+=> "\n"
+| pkg-config --cflags-only-other icu-io
+=> "\n"
+| pkg-config --libs-only-l icu-io
+=> "-licuio -licui18n -licuuc -licudata\n"
+package configuration for icu-io
+incflags: 
+cflags: 
+ldflags: 
+libs: -licuio -licui18n -licuuc -licudata
+
+"pkg-config --exists icu-uc"
+| pkg-config --libs icu-uc
+=> "-licuuc -licudata\n"
+"gcc -o conftest -I/home/runner/.rubies/ruby-2.7.1/include/ruby-2.7.0/x86_64-linux -I/home/runner/.rubies/ruby-2.7.1/include/ruby-2.7.0/ruby/backward -I/home/runner/.rubies/ruby-2.7.1/include/ruby-2.7.0 -I.   -DENABLE_PATH_CHECK=0   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC   conftest.c  -L. -L/home/runner/.rubies/ruby-2.7.1/lib -Wl,-rpath,/home/runner/.rubies/ruby-2.7.1/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic       -licui18n -licuuc -licudata -licuio -licui18n -licuuc -licudata -Wl,-rpath,/home/runner/.rubies/ruby-2.7.1/lib -L/home/runner/.rubies/ruby-2.7.1/lib -lruby -licuuc -licudata -lm   -lc"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: int main(int argc, char **argv)
+4: {
+5:   return !!argv[argc];
+6: }
+/* end */
+
+| pkg-config --cflags-only-I icu-uc
+=> "\n"
+| pkg-config --cflags-only-other icu-uc
+=> "\n"
+| pkg-config --libs-only-l icu-uc
+=> "-licuuc -licudata\n"
+package configuration for icu-uc
+incflags: 
+cflags: 
+ldflags: 
+libs: -licuuc -licudata
+
+have_library: checking for -licui18n... -------------------- yes
+
+"gcc -o conftest -I/home/runner/.rubies/ruby-2.7.1/include/ruby-2.7.0/x86_64-linux -I/home/runner/.rubies/ruby-2.7.1/include/ruby-2.7.0/ruby/backward -I/home/runner/.rubies/ruby-2.7.1/include/ruby-2.7.0 -I.    -DENABLE_PATH_CHECK=0   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC    conftest.c  -L. -L/home/runner/.rubies/ruby-2.7.1/lib -Wl,-rpath,/home/runner/.rubies/ruby-2.7.1/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic        -licui18n -licuuc -licudata -licuio -licui18n -licuuc -licudata -licuuc -licudata -Wl,-rpath,/home/runner/.rubies/ruby-2.7.1/lib -L/home/runner/.rubies/ruby-2.7.1/lib -lruby -licui18n  -licui18n -licuuc -licudata -licuio -licui18n -licuuc -licudata -licuuc -licudata -lm   -lc"
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return !!argv[argc];
+13: }
+14: 
+15: int t(void) { ; return 0; }
+/* end */
+
+--------------------
+
+have_header: checking for unicode/ucnv.h... -------------------- yes
+
+"gcc -E -I/home/runner/.rubies/ruby-2.7.1/include/ruby-2.7.0/x86_64-linux -I/home/runner/.rubies/ruby-2.7.1/include/ruby-2.7.0/ruby/backward -I/home/runner/.rubies/ruby-2.7.1/include/ruby-2.7.0 -I.    -DENABLE_PATH_CHECK=0   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC     conftest.c -o conftest.i"
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: 
+3: #include <unicode/ucnv.h>
+/* end */
+
+--------------------
+
+have_library: checking for -lz... -------------------- yes
+
+"gcc -o conftest -I/home/runner/.rubies/ruby-2.7.1/include/ruby-2.7.0/x86_64-linux -I/home/runner/.rubies/ruby-2.7.1/include/ruby-2.7.0/ruby/backward -I/home/runner/.rubies/ruby-2.7.1/include/ruby-2.7.0 -I.    -DENABLE_PATH_CHECK=0   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC    conftest.c  -L. -L/home/runner/.rubies/ruby-2.7.1/lib -Wl,-rpath,/home/runner/.rubies/ruby-2.7.1/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic       -licui18n  -licui18n -licuuc -licudata -licuio -licui18n -licuuc -licudata -licuuc -licudata -Wl,-rpath,/home/runner/.rubies/ruby-2.7.1/lib -L/home/runner/.rubies/ruby-2.7.1/lib -lruby -lz -licui18n  -licui18n -licuuc -licudata -licuio -licui18n -licuuc -licudata -licuuc -licudata -lm   -lc"
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return !!argv[argc];
+13: }
+14: 
+15: int t(void) { ; return 0; }
+/* end */
+
+--------------------
+
+have_library: checking for -licuuc... -------------------- yes
+
+"gcc -o conftest -I/home/runner/.rubies/ruby-2.7.1/include/ruby-2.7.0/x86_64-linux -I/home/runner/.rubies/ruby-2.7.1/include/ruby-2.7.0/ruby/backward -I/home/runner/.rubies/ruby-2.7.1/include/ruby-2.7.0 -I.    -DENABLE_PATH_CHECK=0   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC    conftest.c  -L. -L/home/runner/.rubies/ruby-2.7.1/lib -Wl,-rpath,/home/runner/.rubies/ruby-2.7.1/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic       -lz -licui18n  -licui18n -licuuc -licudata -licuio -licui18n -licuuc -licudata -licuuc -licudata -Wl,-rpath,/home/runner/.rubies/ruby-2.7.1/lib -L/home/runner/.rubies/ruby-2.7.1/lib -lruby -licuuc -lz -licui18n  -licui18n -licuuc -licudata -licuio -licui18n -licuuc -licudata -licuuc -licudata -lm   -lc"
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return !!argv[argc];
+13: }
+14: 
+15: int t(void) { ; return 0; }
+/* end */
+
+--------------------
+
+have_library: checking for -licudata... -------------------- yes
+
+"gcc -o conftest -I/home/runner/.rubies/ruby-2.7.1/include/ruby-2.7.0/x86_64-linux -I/home/runner/.rubies/ruby-2.7.1/include/ruby-2.7.0/ruby/backward -I/home/runner/.rubies/ruby-2.7.1/include/ruby-2.7.0 -I.    -DENABLE_PATH_CHECK=0   -O3 -ggdb3 -Wall -Wextra -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC    conftest.c  -L. -L/home/runner/.rubies/ruby-2.7.1/lib -Wl,-rpath,/home/runner/.rubies/ruby-2.7.1/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic       -licuuc -lz -licui18n  -licui18n -licuuc -licudata -licuio -licui18n -licuuc -licudata -licuuc -licudata -Wl,-rpath,/home/runner/.rubies/ruby-2.7.1/lib -L/home/runner/.rubies/ruby-2.7.1/lib -lruby -licudata -licuuc -lz -licui18n  -licui18n -licuuc -licudata -licuio -licui18n -licuuc -licudata -licuuc -licudata -lm   -lc"
+checked program was:
+/* begin */
+ 1: #include "ruby.h"
+ 2: 
+ 3: /*top*/
+ 4: extern int t(void);
+ 5: int main(int argc, char **argv)
+ 6: {
+ 7:   if (argc > 1000000) {
+ 8:     int (* volatile tp)(void)=(int (*)(void))&t;
+ 9:     printf("%d", (*tp)());
+10:   }
+11: 
+12:   return !!argv[argc];
+13: }
+14: 
+15: int t(void) { ; return 0; }
+/* end */
+
+--------------------
+
