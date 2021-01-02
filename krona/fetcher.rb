@@ -25,17 +25,19 @@ module Krona
 
     def url_for(date:)
       suffix = suffix_for(date: date)
-      "https://epistat.sciensano.be/Data/2020#{suffix}/COVID19BE_CASES_MUNI_CUM_2020#{suffix}.csv"
+      year = date.year
+      "https://epistat.sciensano.be/Data/#{year}#{suffix}/COVID19BE_CASES_MUNI_CUM_#{year}#{suffix}.csv"
     end
 
     def call
       dates.each do |date|
         suffix = suffix_for(date: date)
-        next if File.exist?("data/COVID19BE_CASES_MUNI_CUM_2020#{suffix}.csv")
+        year = date.year
+        next if File.exist?("data/COVID19BE_CASES_MUNI_CUM_#{year}#{suffix}.csv")
 
         puts "-> Downloading #{suffix}"
         command = <<~SHELL
-    curl --fail -o "data/COVID19BE_CASES_MUNI_CUM_2020#{suffix}.csv" "#{url_for(date: date)}"
+    curl --fail -o "data/COVID19BE_CASES_MUNI_CUM_#{year}#{suffix}.csv" "#{url_for(date: date)}"
 SHELL
         `#{command}`
       end
