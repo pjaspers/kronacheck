@@ -28,8 +28,6 @@ jobs:
     # Runs a single command using the runners shell
     - name: Check to see if we need to build
       run: |
-        gem install bundler
-        bundle install --jobs 4 --retry 3
         bin/krona check && (make && git add . && git commit -m "[bot] Adding new data. Run: ${GITHUB_RUN_NUMBER}" && git push -u origin) || echo "Maybe next time"
       env:
         GIT_AUTHOR_NAME: Github Bot
