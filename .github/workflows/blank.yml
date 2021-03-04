@@ -21,10 +21,10 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
-    - name: Set up Ruby 2.7.1
+    - name: Set up Ruby 2.7.2
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 2.7.1
+        ruby-version: 2.7.2
         bundler-cache: true
 
     # Runs a single command using the runners shell
