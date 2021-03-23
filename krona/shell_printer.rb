@@ -70,11 +70,17 @@ module Krona
         io.puts row_divider(header.length)
         @data.sort_by{|(i,j)| i}.each.with_index do |(city, data), index|
           next if should_skip?(city)
-          fr = data.collect do |(date, delta, total)|
+          fr = data.collect do |(date, delta, total, per_100_000, percentual)|
             options = {length: 6}
             options.merge!(class: "today") if date == Date.today
             if delta > 0
-              cell(delta, options)
+              cell(delta, options) +
+              cell(percentual.round(2), options) +
+              cell(per_100_000.round(2), options)
+cell(per_100_000.round(2), options)
+              # cell("#{delta} #{percentual.round(2)}% - #{per_100_000.round(2)}")
+              # cell("#{delta} #{percentual.round(2)}% - #{per_100_000.round(2)}")
+              # cell("#{delta} #{percentual.round(2)}% - #{per_100_000.round(2)}")
             elsif delta == 0
               options[:class] = [options[:class], "no-cases"].compact.join(" ")
               cell("", options)

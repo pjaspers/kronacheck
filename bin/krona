@@ -57,7 +57,7 @@ case action
 when "cities"
   if options[:output] == "html"
     today = Date.today.strftime("%a %d/%m")
-    html = Krona::HTMLPrinter.new(parser.cities, title: "Kronacheck on #{today}").html
+    html = Krona::HTMLPrinter.new(parser.cities(last_n_days: 10), title: "Kronacheck on #{today}").html
     output_or_save(html, options[:file_name])
   else
     Krona::ShellPrinter.new(parser.cities, title: "Cities").overview

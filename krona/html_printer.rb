@@ -61,7 +61,7 @@ module Krona
     end
 
     def headers
-      ["City", *dates.collect {|d| d.strftime("%a %d") }, "All Time"].flatten
+      ["City", *dates.collect {|d| d.strftime("%a %d%m") }, "All Time"].flatten
     end
 
     def rows

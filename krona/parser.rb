@@ -12,6 +12,7 @@ module Krona
       @provinces = {}
       @cities = {}
       @nis = {}
+      @population = {}
     end
 
     def csv_files
@@ -27,6 +28,15 @@ module Krona
           result[city] = rest.collect do |date, cases|
             cases = cases.to_i
             r = [date, cases - prev, cases]
+            delta = cases - prev
+            nis_number = nis[city]
+            if (pop =  @population[nis_number])
+              percentual = 100*1.0/(pop/delta)
+              per_100_000 = 100_000/100*percentual
+              r = [date, delta, cases, per_100_000, percentual ]
+            else
+              r = [date, delta, cases, 0, 0 ]
+            end
             prev = cases
             r
           end.sort_by(&:first)
@@ -46,6 +56,10 @@ module Krona
 
     def nis
       @nis
+    end
+
+    def population
+      @population_numbers ||= CSV.read("population-2020.csv", headers: true, col_sep: ";")
     end
 
     def provinces(last_n_days: 10)
@@ -84,6 +98,11 @@ module Krona
           @cities[city][date] ||= 0
           @cities[city][date] += cases
 
+          if (pop_row = population.detect {|r| r["NIS code"] == nis_number })
+            @population[nis_number] ||= pop_row.fetch("Totaal").gsub(".", "").to_f
+else
+binding.irb unless nis_number == "NA"
+          end
           @nis[city] ||= nis_number
         end
         @cities[TOTAL_KEY] ||= []
