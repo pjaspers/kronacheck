@@ -1,3 +1,5 @@
+require "net/http"
+
 module Krona
   class Fetcher
     def initialize(start_date)
@@ -41,11 +43,28 @@ module Krona
       "https://epistat.sciensano.be/Data/#{year}#{suffix}/COVID19BE_CASES_MUNI_CUM_#{year}#{suffix}.csv"
     end
 
+    def has_remote_file?(date:)
+      url = url_for(date: date)
+      uri = URI.parse(url)
+      request = Net::HTTP::Head.new(uri)
+      response = Net::HTTP.start(uri.hostname, uri.port, use_ssl: true) do |http|
+        http.request(request)
+      end
+
+      if response["content-length"].to_f > 30000
+        true
+      else
+        puts "-> Skipping #{date} because it doesn't seem to have content"
+        false
+      end
+    end
+
     def call
       dates.each do |date|
         suffix = suffix_for(date: date)
         year = date.year
-        next if File.exist?("data/COVID19BE_CASES_MUNI_CUM_#{year}#{suffix}.csv")
+        next if has_valid_csv?(path: "data/COVID19BE_CASES_MUNI_CUM_#{year}#{suffix}.csv")
+        next unless has_remote_file?(date: date)
 
         puts "-> Downloading #{suffix}"
         command = <<~SHELL
@@ -53,6 +72,10 @@ module Krona
 SHELL
         `#{command}`
       end
+    end
+
+    def has_valid_csv?(path:)
+      File.exist?(path)
     end
   end
 end
