@@ -44,10 +44,25 @@ module Krona
     end
 
     def has_remote_file?(date:)
+      has_remote_file_curl?(date: date)
+    end
+
+    def has_remote_file_curl?(date:)
+      url = url_for(date: date)
+      code = `curl -o /dev/null --head #{url} -s -w "%{http_code}"`.strip
+      if code == "200"
+        true
+      else
+        puts "-> Skipping #{date} because it maybe doesn't have data? #{code}"
+        false
+      end
+    end
+
+    def has_remote_file_nethttp?(date:)
       url = url_for(date: date)
       uri = URI.parse(url)
       request = Net::HTTP::Head.new(uri)
-      response = Net::HTTP.start(uri.hostname, uri.port, use_ssl: true) do |http|
+      response = Net::HTTP.start(uri.hostname, uri.port, use_ssl: true, read_timeout: 0.1, open_timeout: 0.1) do |http|
         http.request(request)
       end
 
@@ -57,7 +72,15 @@ module Krona
         puts "-> Skipping #{date} because it doesn't seem to have content"
         false
       end
+    rescue Net::OpenTimeout
+      # Well this is weird, if you run this request with a `curl
+      # --head` it will return the 404, but for some reason net/http
+      # will throw an open timeout.
+      #
+      puts "-> Skipping #{date} because it maybe doesn't have data? #{code}"
+      false
     end
+
 
     def call
       dates.each do |date|
