@@ -19,9 +19,9 @@ module Krona
       # Sciensano adds gaps to the data. To relieve some of the burden
       # of the hospitals for entering this data. Why they don't focus
       # on making entering the data really easy? ,,shrug
-      [1,2,3].any? do |i|
-        puts "Checking #{last_date_found + i}..."
-        exists_remotely?(url_for(date: last_date_found + i))
+      (last_date_found..Date.today).each do |date|
+        puts "Checking #{date}..."
+        exists_remotely?(url_for(date: date))
       end
     end
 
