@@ -3,7 +3,7 @@ GEM
   specs:
     charlock_holmes (0.7.7)
     minitest (5.14.1)
-    rack (2.2.3)
+    rack (2.2.6.4)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
 
@@ -13,7 +13,7 @@ PLATFORMS
 DEPENDENCIES
   charlock_holmes (~> 0.7.7)
   minitest (~> 5.14.1)
-  rack (~> 2.2.3)
+  rack (~> 2.2.6)
   rack-test (~> 1.1.0)
 
 RUBY VERSION
